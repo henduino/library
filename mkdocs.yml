@@ -15,3 +15,6 @@ copyright: 'Copyright &copy; 2018 - 2019 Dede Hendriono'
 # Configuration
 theme:
   name: 'material'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'

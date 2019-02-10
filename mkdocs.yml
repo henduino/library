@@ -1,1 +1,71 @@
-site_name: My Docs
+# Project information
+site_name: Henduino Library
+site_description: Libraries for Henduino Board Projects with core of Atmel and Espressif
+site_author: Dede Hendriono
+site_url: https://henduino.github.io/library/
+
+# Repository
+repo_name: henduino/library
+repo_url: https://github.com/henduino/library
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 Dede Hendriono'
+
+# Configuration
+theme:
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  name: 'material'
+  custom_dir: 'material'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'cloud'
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: http://google.com
+    - type: github-alt
+      link: https://github.com/dede.hendriono
+    - type: twitter
+      link: https://twitter.com/dedehendriono
+    - type: linkedin
+      link: https://linkedin.com/in/dedehendriono
+
+# Extensions
+
+# Page tree
+nav:
+
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto

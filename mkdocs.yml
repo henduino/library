@@ -15,9 +15,15 @@ copyright: 'Copyright &copy; 2018 - 2019 Dede Hendriono'
 # Configuration
 theme:
   name: 'material'
+  language: 'en'
   palette:
     primary: 'indigo'
     accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Navigation
 nav:
   - Home: index.md
   - About: about.md

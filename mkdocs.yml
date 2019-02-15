@@ -71,12 +71,12 @@ extra_javascript:
 
 # Navigation
 nav:
-    - Beranda: index.md
-    - Tentang: tentang.md
-    - Perpustakaan: 
-      - Sensor:
-        - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
-    - Blog:
-      - 2019: 
-        - Untrack Files: blog/2019/untrack-files.md
-        - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md
+  - Beranda: index.md
+  - Tentang: tentang.md
+  - Perpustakaan: 
+    - Sensor:
+      - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
+  - Blog:
+    - 2019: 
+      - Untrack Files: blog/2019/untrack-files.md
+      - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md

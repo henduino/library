@@ -3,7 +3,7 @@ description: Behind The Scene of Arduino
 hero: Untrack files already added to git repository based on .gitignore
 path: tree/master/docs/blog/2019
 source: untrack-files.md
-disqus: hendriono
+disqus: henduino
 
 # Untrack files already added to git repository based on .gitignore
 

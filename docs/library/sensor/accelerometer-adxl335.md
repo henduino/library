@@ -3,7 +3,7 @@ description: Arduino library to control Grove - 3-Axis Analog Accelerometer ADXL
 hero: Accelerometer ADXL335
 path: tree/master/docs/library/sensor
 source: accelerometer-adxl335.md
-disqus: 
+disqus: henduino
 
 # Accelerometer ADXL335
 

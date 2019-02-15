@@ -3,7 +3,7 @@ description: Behind The Scene of Arduino
 hero: The Untold History of Arduino
 path: tree/master/docs/blog/2019
 source: the-untold-history-of-arduino.md
-disqus: hendriono
+disqus: henduino
 
 # The Untold History of Arduino
 

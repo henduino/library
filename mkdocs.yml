@@ -4,39 +4,26 @@ site_description: Libraries for Henduino Board Projects with core of Atmel and E
 site_author: Dede Hendriono
 site_url: https://henduino.github.io/library/
 
-<<<<<<< HEAD
 # Repository
 repo_name: henduino/library
 repo_url: https://github.com/henduino/library
 edit_uri: ""
 
-=======
->>>>>>> gh-pages
 # Copyright
 copyright: 'Copyright &copy; 2018 - 2019 Dede Hendriono'
 
 # Configuration
 theme:
   name: 'material'
-<<<<<<< HEAD
   language: 'en'
-=======
   custom_dir: 'theme'
   language: 'id'
->>>>>>> gh-pages
   palette:
     primary: 'indigo'
     accent: 'indigo'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-<<<<<<< HEAD
-
-# Navigation
-nav:
-  - Home: index.md
-  - About: about.md
-=======
   favicon: 'img/favicon.ico'
   logo:
     icon: 'local_library'
@@ -93,4 +80,3 @@ nav:
       - 2019: 
         - Untrack Files: blog/2019/untrack-files.md
         - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md
->>>>>>> gh-pages

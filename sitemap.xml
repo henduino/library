@@ -16,6 +16,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://henduino.github.io/library/papan/mengenal-arduino-uno/</loc>
+     <lastmod>2019-02-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://henduino.github.io/library/library/sensor/accelerometer-adxl335/</loc>
      <lastmod>2019-02-16</lastmod>
      <changefreq>daily</changefreq>

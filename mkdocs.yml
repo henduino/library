@@ -36,7 +36,7 @@ repo_url: 'https://github.com/henduino/library'
 # Customization
 extra:
   manifest: 'manifest.webmanifest'
-  disqus: 'hendriono'
+  disqus: 'henduino'
   social:
     - type: 'github'
       link: 'https://github.com/henduino'

@@ -19,13 +19,13 @@ What is Acceleration and ADXL 335 Accelerometer?  Acceleration is a process in w
 
 Every ADXL 335 accelerometer consists of five pins which are used for different purposes. Its pin configuration is shown in below table and this ADXL 335 accelerometer is connected with any controller according to this table.
 
-| Number of Pin | Configuration                                                                                                                                                    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1             | This is VCC pin and is used for power on the ADLX 335 accelerometer. It is connected with 3.3V dc power source                                                   |
-| 2             | This is ground pin and is used for supplying ground to this ADLX 335 accelerometer. It is connected with source ground.                                          |
-| 3             | This is X pin and is used for analog input in x axis dimension. This pin provides analog input signal to controller which is measured by ADLX 335 accelerometer. |
-| 4             | This is Y pin and is used for analog input in y axis dimension. This pin provides analog input signal to controller which is measured by ADLX 335 accelerometer. |
-| 5             | This is Z pin and is used for analog input in Z axis dimension. This pin provides analog input signal to controller which is measured by ADLX 335 accelerometer. |
+| Pin | Configuration                                                                                                                                                   |
+|:---:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1  | This is VCC pin and is used for power on the ADLX 335 accelerometer. It is connected with 3.3V dc power source                                                  |
+|  2  | This is ground pin and is used for supplying ground to this ADLX 335 accelerometer. It is connected with source ground                                          |
+|  3  | This is X pin and is used for analog input in x axis dimension. This pin provides analog input signal to controller which is measured by ADLX 335 accelerometer |
+|  4  | This is Y pin and is used for analog input in y axis dimension. This pin provides analog input signal to controller which is measured by ADLX 335 accelerometer |
+|  5  | This is Z pin and is used for analog input in Z axis dimension. This pin provides analog input signal to controller which is measured by ADLX 335 accelerometer |
 
 * * *
 

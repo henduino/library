@@ -72,6 +72,9 @@ extra_javascript:
 nav:
   - Beranda: index.md
   - Tentang: tentang.md
+  - Papan:
+    - Mengenal Arduino: papan/apa-itu-arduino.md
+    - Mengenal Arduino Uno: papan/mengenal-arduino-uno.md
   - Perpustakaan: 
     - Sensor:
       - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md

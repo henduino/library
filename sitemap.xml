@@ -2,52 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://henduino.github.io/library/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/tentang/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/mikrokontroler-vs-mikroprosesor/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/apa-itu-arduino/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/mengenal-arduino-uno/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/mengenal-arduino-leonardo/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/papan/mengenal-arduino-nano/</loc>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/library/sensor/accelerometer-adxl335/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/memilih-arduino/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/the-untold-history-of-arduino/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/untrack-files/</loc>
-     <lastmod>2019-02-17</lastmod>
+     <lastmod>2019-02-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

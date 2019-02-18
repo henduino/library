@@ -73,12 +73,16 @@ nav:
   - Beranda: index.md
   - Tentang: tentang.md
   - Papan:
+    - Mengenal Mikrokontroler: papan/mikrokontroler.md
     - Mengenal Arduino: papan/apa-itu-arduino.md
     - Mengenal Arduino Uno: papan/mengenal-arduino-uno.md
+    - Mengenal Arduino Leonardo: papan/mengenal-arduino-leonardo.md
+    - Mengenal Arduino Nano: papan/mengenal-arduino-nano.md
   - Perpustakaan: 
     - Sensor:
       - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
   - Blog:
-    - 2019: 
-      - Untrack Files: blog/2019/untrack-files.md
+    - 2019:
+      - Memilih Arduino Uno: blog/2019/memilih-arduino.md
       - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md
+      - Untrack Files: blog/2019/untrack-files.md

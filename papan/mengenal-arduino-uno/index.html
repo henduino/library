@@ -291,6 +291,19 @@
   
 
       
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../extensions/admonition/" title="Blog Extensions" class="md-tabs__link">
+          Blog Extensions
+        </a>
+      
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -705,6 +718,102 @@
         
       </ul>
     </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Blog Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Blog Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extensions/admonition/" title="Admonition" class="md-nav__link">
+      Admonition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extensions/codehilite/" title="CodeHilite" class="md-nav__link">
+      CodeHilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extensions/footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extensions/metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extensions/permalinks/" title="Permalinks" class="md-nav__link">
+      Permalinks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extensions/pymdown/" title="PyMdown" class="md-nav__link">
+      PyMdown
+    </a>
   </li>
 
         
@@ -1135,7 +1244,35 @@ Pengaturan ini juga memiliki implikasi lain. Ketika Arduino Uno terhubung dengan
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
+        <script src="../../assets/javascripts/extra.js"></script>
+		<script>
+			window.addEventListener('load', function() {
+			  setTimeout(function() {
+				var progressBar = document.querySelector('.progress-bar');
+				function onProgress(x, y) {
+				  console.log(x, y)
+				  progressBar.style.width = y * 100 + '%';
+				}
+				self.progressObserver = new ScrollProgress(onProgress);
+			  }, 100)
+			});
+		</script>
+      
         <script src="../../assets/javascripts/scrollProgress.min.js"></script>
+		<script>
+			window.addEventListener('load', function() {
+			  setTimeout(function() {
+				var progressBar = document.querySelector('.progress-bar');
+				function onProgress(x, y) {
+				  console.log(x, y)
+				  progressBar.style.width = y * 100 + '%';
+				}
+				self.progressObserver = new ScrollProgress(onProgress);
+			  }, 100)
+			});
+		</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 		<script>
 			window.addEventListener('load', function() {
 			  setTimeout(function() {

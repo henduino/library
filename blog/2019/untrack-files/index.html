@@ -291,6 +291,19 @@
   
 
       
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../extensions/admonition/" title="Blog Extensions" class="md-tabs__link">
+          Blog Extensions
+        </a>
+      
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -666,6 +679,102 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Blog Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Blog Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/admonition/" title="Admonition" class="md-nav__link">
+      Admonition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/codehilite/" title="CodeHilite" class="md-nav__link">
+      CodeHilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/permalinks/" title="Permalinks" class="md-nav__link">
+      Permalinks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/pymdown/" title="PyMdown" class="md-nav__link">
+      PyMdown
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -753,27 +862,25 @@
 <h4 id="step-1-commit-all-your-changes">Step 1: Commit all your changes<a class="headerlink" href="#step-1-commit-all-your-changes" title="Permanent link">&para;</a></h4>
 <p>Before proceeding, make sure all your changes are committed, including your .gitignore file.</p>
 <h4 id="step-2-remove-everything-from-the-repository">Step 2: Remove everything from the repository<a class="headerlink" href="#step-2-remove-everything-from-the-repository" title="Permanent link">&para;</a></h4>
-<p>To clear your repo, use:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git rm -r --cached .
+<p>To clear your repo, use:
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git rm -r --cached .
 </pre></div>
 </td></tr></table>
-
-<p>rm is the remove command
+rm is the remove command
 -r will allow recursive removal
 –cached will only remove files from the index. Your files will still be there.
-The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt (thanks @amadeann).
+The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt (thanks <a class="magiclink magiclink-github magiclink-mention" href="https://github.com/amadeann" title="GitHub User: amadeann">@amadeann</a>).
 The rm command can be unforgiving. If you wish to try what it does beforehand, add the -n or --dry-run flag to test things out.</p>
 <h4 id="step-3-re-add-everything">Step 3: Re add everything<a class="headerlink" href="#step-3-re-add-everything" title="Permanent link">&para;</a></h4>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git add .
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git add .
 </pre></div>
 </td></tr></table>
 
 <h4 id="step-4-commit">Step 4: Commit<a class="headerlink" href="#step-4-commit" title="Permanent link">&para;</a></h4>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git commit -m <span class="s2">&quot;.gitignore fix&quot;</span>
+<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git commit -m <span class="s2">&quot;.gitignore fix&quot;</span>
 </pre></div>
 </td></tr></table>
-
-<p>Your repository is clean :)</p>
+Your repository is clean :)</p>
 <p>Push the changes to your remote to see the changes effective there as well.</p>
                 
                   
@@ -839,6 +946,20 @@ The rm command can be unforgiving. If you wish to try what it does beforehand, a
           </a>
         
         
+          <a href="../../../extensions/admonition/" title="Admonition" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Selanjutnya
+                </span>
+                Admonition
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
       </nav>
     </div>
   
@@ -882,7 +1003,35 @@ The rm command can be unforgiving. If you wish to try what it does beforehand, a
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
+        <script src="../../../assets/javascripts/extra.js"></script>
+		<script>
+			window.addEventListener('load', function() {
+			  setTimeout(function() {
+				var progressBar = document.querySelector('.progress-bar');
+				function onProgress(x, y) {
+				  console.log(x, y)
+				  progressBar.style.width = y * 100 + '%';
+				}
+				self.progressObserver = new ScrollProgress(onProgress);
+			  }, 100)
+			});
+		</script>
+      
         <script src="../../../assets/javascripts/scrollProgress.min.js"></script>
+		<script>
+			window.addEventListener('load', function() {
+			  setTimeout(function() {
+				var progressBar = document.querySelector('.progress-bar');
+				function onProgress(x, y) {
+				  console.log(x, y)
+				  progressBar.style.width = y * 100 + '%';
+				}
+				self.progressObserver = new ScrollProgress(onProgress);
+			  }, 100)
+			});
+		</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 		<script>
 			window.addEventListener('load', function() {
 			  setTimeout(function() {

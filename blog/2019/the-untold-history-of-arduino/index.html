@@ -291,6 +291,19 @@
   
 
       
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../extensions/admonition/" title="Blog Extensions" class="md-tabs__link">
+          Blog Extensions
+        </a>
+      
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -904,6 +917,102 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Blog Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Blog Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/admonition/" title="Admonition" class="md-nav__link">
+      Admonition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/codehilite/" title="CodeHilite" class="md-nav__link">
+      CodeHilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/permalinks/" title="Permalinks" class="md-nav__link">
+      Permalinks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../extensions/pymdown/" title="PyMdown" class="md-nav__link">
+      PyMdown
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -1263,13 +1372,13 @@
 <p>Have you ever wondered where those commands come from?</p>
 <p>Probably one of the most distinctive things, that is widely known and used today by Arduino users in their sketches, is the set of commands I created as the language definition for Wiring.</p>
 <ul>
-<li><code>pinMode()</code></li>
-<li><code>digitalRead()</code></li>
-<li><code>digitalWrite()</code></li>
-<li><code>analogRead()</code></li>
-<li><code>analogWrite()</code></li>
-<li><code>delay()</code></li>
-<li><code>millis()</code></li>
+<li><code class="codehilite">pinMode()</code></li>
+<li><code class="codehilite">digitalRead()</code></li>
+<li><code class="codehilite">digitalWrite()</code></li>
+<li><code class="codehilite">analogRead()</code></li>
+<li><code class="codehilite">analogWrite()</code></li>
+<li><code class="codehilite">delay()</code></li>
+<li><code class="codehilite">millis()</code></li>
 <li>etc...</li>
 </ul>
 <p>Abstracting the microcontroller pins as numbers was, without a doubt, a major decision, possible because the syntax was defined prior to implementation in any hardware platform. All the language command naming and syntax were the result of an exhaustive design process I conducted, which included user testing with students, observation, analysis, adjustment and iteration.</p>
@@ -1285,7 +1394,7 @@
 <p><em>Above: Cupcake indexer in progress</em></p>
 <p>For the next prototypes, microcontrollers were chosen on a basis of availability of open source tools for compiling, linking and uploading the user's code. This led to discarding the very popular Microchip PIC family of microcontrollers very early, because, at the time (circa 2003), Microchip did not have an open source toolchain.</p>
 <h4 id="prototype-2">Prototype 2<a class="headerlink" href="#prototype-2" title="Permanent link">&para;</a></h4>
-<p>For the second Wiring hardware prototype, the <a href="http://www.atmel.com/">Atmel</a> ARM-based <a href="http://www.atmel.com/devices/R40008.aspx">AT91R40008</a> microcontroller was selected, which lead to excellent results.  The first sketch examples were developed and command naming testing began. For example, <code>pinWrite()</code> used to be the name of the now ubiquitous <code>digitalWrite()</code>.</p>
+<p>For the second Wiring hardware prototype, the <a href="http://www.atmel.com/">Atmel</a> ARM-based <a href="http://www.atmel.com/devices/R40008.aspx">AT91R40008</a> microcontroller was selected, which lead to excellent results.  The first sketch examples were developed and command naming testing began. For example, <code class="codehilite">pinWrite()</code> used to be the name of the now ubiquitous <code class="codehilite">digitalWrite()</code>.</p>
 <p>The Atmel R40008 served as a test bed for the digital input/output API and the serial communications API, during my evaluation of its capabilities. The Atmel R40008 was a very powerful microcontroller, but was far too complex for a hands-on approach because it was almost impossible to solder by hand onto a printed circuit board.</p>
 <p>For more information on this prototype, see page 42 in the thesis document.</p>
 <p><img alt="Photo of Atmel AT91R40008 used for second Wiring hardware prototype" src="../../images/WiringPrototype2-AtmelAT91R40008.jpg" /></p>
@@ -1336,7 +1445,7 @@
 <li>Reto Wettach</li>
 </ul>
 <p>It turned out to be a resounding success for both the students as well as the professors and teachers.  Strangely Familiar demonstrated the potential of Wiring as an innovation platform for interaction design.</p>
-<p>On December 16th, 2004, Bill Verplank sent an email to me saying:</p>
+<p>On December 16<sup>th</sup>, 2004, Bill Verplank sent an email to me saying:</p>
 <blockquote>
 <p>[The projects] were wonderful.  Everyone had things working.  Five of the projects had motors in them!  The most advanced (from two MIT grads - architect and mathematician) allowed drawing a profile in Proce55ing and feeling it with a wheel/motor run by Wiring...</p>
 <p>It is clear that one of the elements of success was [the] use of the Wiring board.</p>
@@ -1371,7 +1480,7 @@
 <hr />
 <h2 id="when-did-arduino-begin-and-why-werent-you-a-member-of-the-arduino-team">When Did Arduino Begin and Why Weren't You a Member of the Arduino Team?<a class="headerlink" href="#when-did-arduino-begin-and-why-werent-you-a-member-of-the-arduino-team" title="Permanent link">&para;</a></h2>
 <h3 id="the-formation-of-arduino">The Formation of Arduino<a class="headerlink" href="#the-formation-of-arduino" title="Permanent link">&para;</a></h3>
-<p>When IDII manufactured the first set of Wiring boards, the cost was probably around USD$50 each. (I don't know what the actual cost was, as I wasn't involved in the process.  However, I was selling the boards from Colombia for about USD$60.)  This was a considerable drop in price from the boards that were currently available, but it was still a significant cost for most people.</p>
+<p>When IDII manufactured the first set of Wiring boards, the cost was probably around USD<span><span class="MathJax_Preview">50 each. (I don't know what the actual cost was, as I wasn't involved in the process.  However, I was selling the boards from Colombia for about USD</span><script type="math/tex">50 each. (I don't know what the actual cost was, as I wasn't involved in the process.  However, I was selling the boards from Colombia for about USD</script></span>60.)  This was a considerable drop in price from the boards that were currently available, but it was still a significant cost for most people.</p>
 <p>In 2005, Massimo Banzi, along with David Mellis (an IDII student at the time) and David Cuartielles, added support for the cheaper ATmega8 microcontroller to Wiring. Then they forked (or copied) the Wiring source code and started running it as a separate project, called Arduino.</p>
 <p>There was no need to create a separate project, as I would have gladly helped them and developed support for the ATmega8 and any other microcontrollers.  I had planned to do this all along.</p>
 <p><img alt="Future Plans for Wiring" src="../../images/FuturePlansForWiring.png" /></p>
@@ -1402,7 +1511,7 @@
 <p><strong><em>Two plug-in boards developed at IDII by David Cuartielles and his brother. Bluetooth shield on the left, and a motor controller shield on the right.</em></strong></p>
 <p>I showed early versions of Wiring to Tom Igoe during a visit to ITP in New York in 2003. At the time, he had no experience with Atmel hardware, as Tom was using PIC microcontrollers at ITP as an alternative to the costly platforms like Parallax Basic Stamp or Basic X. One of Tom's recommendations at this visit was: "well, do it for PIC, because this is what we use here."</p>
 <p>Years later, in 2007, Tom Igoe released the first edition of the "Making Things Talk" book published by O'Reilly<sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup>, which presents the use of both Wiring and Arduino.</p>
-<p>Gianluca Martino originally worked for SERP (the factory that made the first 25 Wiring circuit boards) and later he founded Smart Projects SRL (April 1st, 2004).  Smart Projects made the first batch of 100 Wiring boards for IDII to teach physical computing in 2004.</p>
+<p>Gianluca Martino originally worked for SERP (the factory that made the first 25 Wiring circuit boards) and later he founded Smart Projects SRL (April 1<sup>st</sup>, 2004).  Smart Projects made the first batch of 100 Wiring boards for IDII to teach physical computing in 2004.</p>
 <hr />
 <h2 id="what-is-programma2003-and-how-is-it-related-to-you-or-to-wiring">What is Programma2003 and How is it Related to You or to Wiring?<a class="headerlink" href="#what-is-programma2003-and-how-is-it-related-to-you-or-to-wiring" title="Permanent link">&para;</a></h2>
 <p>Programma2003 was a <a href="http://www.andreeachelaru.com/ThesisOther.htm">Microchip</a> PIC microcontroller board developed by Massimo Banzi in 2003. After using BasicX to teach Physical computing in the winter of 2002, Massimo decided to do a board using the PIC chip in 2003. The problem with the PIC microcontrollers was that there wasn't an open source toolchain available at the time, to use a language like C to program them.</p>
@@ -1735,7 +1844,35 @@
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
+        <script src="../../../assets/javascripts/extra.js"></script>
+		<script>
+			window.addEventListener('load', function() {
+			  setTimeout(function() {
+				var progressBar = document.querySelector('.progress-bar');
+				function onProgress(x, y) {
+				  console.log(x, y)
+				  progressBar.style.width = y * 100 + '%';
+				}
+				self.progressObserver = new ScrollProgress(onProgress);
+			  }, 100)
+			});
+		</script>
+      
         <script src="../../../assets/javascripts/scrollProgress.min.js"></script>
+		<script>
+			window.addEventListener('load', function() {
+			  setTimeout(function() {
+				var progressBar = document.querySelector('.progress-bar');
+				function onProgress(x, y) {
+				  console.log(x, y)
+				  progressBar.style.width = y * 100 + '%';
+				}
+				self.progressObserver = new ScrollProgress(onProgress);
+			  }, 100)
+			});
+		</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 		<script>
 			window.addEventListener('load', function() {
 			  setTimeout(function() {

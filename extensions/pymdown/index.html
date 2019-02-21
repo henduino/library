@@ -731,33 +731,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#arithmatex-mathjax" title="Arithmatex MathJax" class="md-nav__link">
-    Arithmatex MathJax
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#blocks" title="Blocks" class="md-nav__link">
-    Blocks
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#inline" title="Inline" class="md-nav__link">
-    Inline
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#betterem" title="BetterEm" class="md-nav__link">
     BetterEm
   </a>
@@ -904,33 +877,6 @@
   
     <nav class="md-nav">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#arithmatex-mathjax" title="Arithmatex MathJax" class="md-nav__link">
-    Arithmatex MathJax
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#blocks" title="Blocks" class="md-nav__link">
-    Blocks
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#inline" title="Inline" class="md-nav__link">
-    Inline
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#betterem" title="BetterEm" class="md-nav__link">
@@ -1098,105 +1044,6 @@ package are recommended to be used together with the Material theme:</p>
 </td></tr></table>
 
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
-<h3 id="arithmatex-mathjax">Arithmatex <small>MathJax</small><a class="headerlink" href="#arithmatex-mathjax" title="Permanent link">&para;</a></h3>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
-<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/">Arithmatex</a> integrates Material with <a href="https://www.mathjax.org/">MathJax</a> which parses
-block-style and inline equations written in TeX markup and outputs them in
-mathematical notation. See <a href="http://meta.math.stackexchange.com/questions/5020/">this thread</a> for a short introduction and quick
-reference on how to write equations in TeX syntax.</p>
-<p>Besides activating the extension in the <code class="codehilite">mkdocs.yml</code>, the MathJax JavaScript
-runtime needs to be included. This must be done with
-additional JavaScript:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">extra_javascript</span><span class="p">:</span>
-  <span class="p p-Indicator">-</span> <span class="s">&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML&#39;</span>
-</pre></div>
-</td></tr></table>
-
-<p>If you want to override the default MathJax configuration, you can do this by
-adding another JavaScript file <strong>before</strong> the MathJax runtime in
-<code class="codehilite">extra_javascript</code> which contains your MathJax configuration, e.g.:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nb">window</span><span class="p">.</span><span class="nx">MathJax</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">tex2jax</span><span class="o">:</span> <span class="p">{</span>
-    <span class="nx">inlineMath</span><span class="o">:</span> <span class="p">[</span> <span class="p">[</span><span class="s2">&quot;\\(&quot;</span><span class="p">,</span><span class="s2">&quot;\\)&quot;</span><span class="p">]</span> <span class="p">],</span>
-    <span class="nx">displayMath</span><span class="o">:</span> <span class="p">[</span> <span class="p">[</span><span class="s2">&quot;\\[&quot;</span><span class="p">,</span><span class="s2">&quot;\\]&quot;</span><span class="p">]</span> <span class="p">]</span>
-  <span class="p">},</span>
-  <span class="nx">TeX</span><span class="o">:</span> <span class="p">{</span>
-    <span class="nx">TagSide</span><span class="o">:</span> <span class="s2">&quot;right&quot;</span><span class="p">,</span>
-    <span class="nx">TagIndent</span><span class="o">:</span> <span class="s2">&quot;.8em&quot;</span><span class="p">,</span>
-    <span class="nx">MultLineWidth</span><span class="o">:</span> <span class="s2">&quot;85%&quot;</span><span class="p">,</span>
-    <span class="nx">equationNumbers</span><span class="o">:</span> <span class="p">{</span>
-      <span class="nx">autoNumber</span><span class="o">:</span> <span class="s2">&quot;AMS&quot;</span><span class="p">,</span>
-    <span class="p">},</span>
-    <span class="nx">unicode</span><span class="o">:</span> <span class="p">{</span>
-      <span class="nx">fonts</span><span class="o">:</span> <span class="s2">&quot;STIXGeneral,&#39;Arial Unicode MS&#39;&quot;</span>
-    <span class="p">}</span>
-  <span class="p">},</span>
-  <span class="nx">displayAlign</span><span class="o">:</span> <span class="s2">&quot;left&quot;</span><span class="p">,</span>
-  <span class="nx">showProcessingMessages</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-  <span class="nx">messageStyle</span><span class="o">:</span> <span class="s2">&quot;none&quot;</span>
-<span class="p">};</span>
-</pre></div>
-</td></tr></table>
-
-<p>In your <code class="codehilite">mkdocs.yml</code>, include it with:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">extra_javascript</span><span class="p">:</span>
-  <span class="p p-Indicator">-</span> <span class="s">&#39;javascripts/extra.js&#39;</span>
-  <span class="p p-Indicator">-</span> <span class="s">&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML&#39;</span>
-</pre></div>
-</td></tr></table>
-
-<h4 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h4>
-<p>Blocks are enclosed in <code class="codehilite"><span class="sb">$$</span><span class="nb">...</span><span class="s">$$</span></code> which are placed on separate lines.</p>
-<p>Example:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="sb">$$</span><span class="nb"></span>
-<span class="nv">\frac</span><span class="nb">{n</span><span class="o">!</span><span class="nb">}{k</span><span class="o">!(</span><span class="nb">n</span><span class="o">-</span><span class="nb">k</span><span class="o">)!</span><span class="nb">} </span><span class="o">=</span><span class="nb"> </span><span class="nv">\binom</span><span class="nb">{n}{k}</span>
-<span class="s">$$</span>
-</pre></div>
-</td></tr></table>
-
-<p>Result:</p>
-<div>
-<div class="MathJax_Preview">
-\frac{n!}{k!(n-k)!} = \binom{n}{k}
-</div>
-<script type="math/tex; mode=display">
-\frac{n!}{k!(n-k)!} = \binom{n}{k}
-</script>
-</div>
-<h4 id="inline">Inline<a class="headerlink" href="#inline" title="Permanent link">&para;</a></h4>
-<p>Inline equations need to be enclosed in <code class="codehilite"><span class="s">$</span><span class="nb">...</span><span class="s">$</span></code>:</p>
-<p>Example:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Lorem ipsum dolor sit amet: <span class="s">$</span><span class="nb">p</span><span class="o">(</span><span class="nb">x|y</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{p</span><span class="o">(</span><span class="nb">y|x</span><span class="o">)</span><span class="nb">p</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}{p</span><span class="o">(</span><span class="nb">y</span><span class="o">)</span><span class="nb">}</span><span class="s">$</span>
-</pre></div>
-</td></tr></table>
-
-<p>Result:</p>
-<p>Lorem ipsum dolor sit amet: <span><span class="MathJax_Preview">p(x|y) = \frac{p(y|x)p(x)}{p(y)}</span><script type="math/tex">p(x|y) = \frac{p(y|x)p(x)}{p(y)}</script></span></p>
 <h3 id="betterem">BetterEm<a class="headerlink" href="#betterem" title="Permanent link">&para;</a></h3>
 <p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/betterem/">BetterEm</a> improves the handling of emphasis markup (<strong>bold</strong> and <em>italic</em>)
 within Markdown by providing a more sophisticated parser for better detecting
@@ -1395,8 +1242,6 @@ The portion of text that should be erased must be enclosed in two tildes
         <script src="../../assets/javascripts/extra.js"></script>
       
         <script src="../../assets/javascripts/scrollProgress.min.js"></script>
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>

@@ -45,7 +45,7 @@ extra:
     - type: 'linkedin'
       link: 'https://linkedin.com/in/hendriono'
     - type: 'facebook'
-      link: 'https://www.facebook.com/dede.hendriono'
+      link: 'https://www.facebook.com/hendriono'
 
 # Extensions
 markdown_extensions:
@@ -86,3 +86,4 @@ nav:
       - Memilih Arduino Uno: blog/2019/memilih-arduino.md
       - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md
       - Untrack Files: blog/2019/untrack-files.md
+      - Menggunakan Submodule Git: blog/2019/submodule-git.md

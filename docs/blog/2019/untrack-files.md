@@ -1,39 +1,38 @@
-title: Untrack Files
-description: Behind The Scene of Arduino
-hero: Untrack files already added to git repository based on .gitignore
+title: Hapus Jejak File
+description: Hapus jejak file yang sudah ditambahkan ke repositori git berdasarkan .gitignore
+hero: Hapus jejak file yang sudah ditambahkan ke repositori git berdasarkan .gitignore
 path: tree/master/docs/blog/2019
 source: untrack-files.md
 disqus: henduino
 
-# Untrack files already added to git repository based on .gitignore
-
-Let’s say you have already added/committed some files to your git repository and you then add them to your .gitignore; these files will still be present in your repository index. This article we will see how to get rid of them.
+# Hapus jejak file yang sudah ditambahkan ke repositori git berdasarkan .gitignore
+Suatu saat Anda telah menambahkan / mengkomit beberapa file ke repositori git Anda dan kemudian ingin menambahkannya ke .gitignore; file-file ini akan tetap ada di indeks repositori Anda. Artikel ini akan membahas bagaimana cara menghilangkannya atau membersihkan repositori Anda.
 
 * * *
 
-#### Step 1: Commit all your changes
-Before proceeding, make sure all your changes are committed, including your .gitignore file.
+#### Step 1: Commit semua perubahan
+Sebelum melanjutkan, pastikan semua perubahan yang Anda lakukan telah di `commit`, termasuk file `.gitignore`.
 
-#### Step 2: Remove everything from the repository
-To clear your repo, use:
-``` sh
+#### Step 2: Buang segala sesuatu dari repositori
+Untuk membersihkan repositori Anda, gunakan perintah:
+```
 git rm -r --cached .
 ```
-rm is the remove command
--r will allow recursive removal
-–cached will only remove files from the index. Your files will still be there.
-The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt (thanks @amadeann).
-The rm command can be unforgiving. If you wish to try what it does beforehand, add the -n or --dry-run flag to test things out.
+* `rm` adalah perintah penghapusan
+* `-r` memungkinkan penghapusan secara rekursif (menyeluruh)
+* `–cached` hanya akan menghapus file dari indeks. Tetapi sebenarnya File Anda tetap ada di sana.
+* `.` menunjukkan bahwa semua file tidak akan dilacak. Anda dapat menghapus file tertentu dengan perintah `git rm --cached foo.txt`.
+* Perintah `rm` tanpa ampun dan tidak bisa dibatalkan. Jika Anda ingin mencoba apa yang dilakukan sebelumnya, tambahkan tanda `-n` atau `--dry-run` untuk menguji semuanya.
 
-#### Step 3: Re add everything
-``` sh
+#### Step 3: Tambahkan ulang segala sesuatu ke repositori
+```
 git add .
 ```
 
 #### Step 4: Commit
-``` sh
+```
 git commit -m ".gitignore fix"
 ```
-Your repository is clean :)
+Repositori Anda telah bersih :)
 
-Push the changes to your remote to see the changes effective there as well.
+Push perubahan ke repositori remote Anda untuk melihat perubahannya dan pastikan bahwa repositori Anda sekarang mengalami perubahan.

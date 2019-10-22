@@ -75,12 +75,15 @@ nav:
   - Papan:
     - Mengenal Mikrokontroler: papan/mikrokontroler.md
     - Mengenal Arduino: papan/apa-itu-arduino.md
+    - Mengenal Arduino IDE:
     - Mengenal Arduino Uno: papan/mengenal-arduino-uno.md
     - Mengenal Arduino Leonardo: papan/mengenal-arduino-leonardo.md
     - Mengenal Arduino Nano: papan/mengenal-arduino-nano.md
   - Perpustakaan: 
     - Sensor:
       - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
+    - Ototronik:
+      - Pendahuluan: oto/tronic/pendahuluan-ototronik.md
   - Blog:
     - 2019:
       - Memilih Arduino Uno: blog/2019/memilih-arduino.md

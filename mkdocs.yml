@@ -83,6 +83,10 @@ extra_javascript:
 nav:
   - Beranda: index.md
   - Tentang: tentang.md
+  - Otomotif:
+    - Ototronik:
+      - Pendahuluan: oto/tronik/pendahuluan-ototronik.md
+      - Dwell Sistem Pengapian: oto/tronik/dwell.md
   - Papan:
     - Mengenal Mikrokontroler: papan/mikrokontroler.md
     - Mengenal Arduino: papan/apa-itu-arduino.md
@@ -98,7 +102,6 @@ nav:
       - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md
       - Hapus Jejak File: blog/2019/untrack-files.md
       - Menggunakan Submodule Git: blog/2019/submodule-git.md
-      - Pendahuluan: blog/2019/pendahuluan-ototronik.md
     - Extensions:
       - Admonition: blog/ext/admonition.md
       - Codehilite: blog/ext/codehilite.md

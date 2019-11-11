@@ -1,7 +1,7 @@
 title: Pendahuluan Ototronik
 description: Pendahuluan Ototronik
 hero: Pendahuluan Ototronik
-path: tree/master/docs/blog/2019
+path: tree/master/docs/oto/tronik
 source: pendahuluan-ototronik.md
 disqus: henduino
 

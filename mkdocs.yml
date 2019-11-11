@@ -56,6 +56,16 @@ markdown_extensions:
   - meta
   - toc:
       permalink: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 # Google Analytics
 google_analytics:
@@ -79,7 +89,7 @@ nav:
     - Mengenal Arduino Uno: papan/mengenal-arduino-uno.md
     - Mengenal Arduino Leonardo: papan/mengenal-arduino-leonardo.md
     - Mengenal Arduino Nano: papan/mengenal-arduino-nano.md
-  - Perpustakaan: 
+  - Pustaka: 
     - Sensor:
       - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
   - Blog:
@@ -89,3 +99,10 @@ nav:
       - Hapus Jejak File: blog/2019/untrack-files.md
       - Menggunakan Submodule Git: blog/2019/submodule-git.md
       - Pendahuluan: blog/2019/pendahuluan-ototronik.md
+    - Extensions:
+      - Admonition: blog/ext/admonition.md
+      - Codehilite: blog/ext/codehilite.md
+      - Footnotes: blog/ext/footnotes.md
+      - Metadata: blog/ext/metadata.md
+      - Permalink: blog/ext/permalinks.md
+      - Pymdown: blog/ext/pymdown.md

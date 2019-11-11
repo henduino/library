@@ -111,6 +111,7 @@ nav:
   - Otomotif:
     - Ototronik:
       - Pendahuluan: ototronik/pendahuluan-ototronik.md
+      - Kedipan MIL Honda PGM-FI: ototronik/mil-pgmfi.md
       - Dwell Sistem Pengapian: ototronik/dwell.md
       - Sistem Starter Sepeda Motor: ototronik/starter-sepeda-motor.md
       - Identifikasi Regulator Mekanik: ototronik/id-regulator-mekanik.md

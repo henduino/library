@@ -1,5 +1,5 @@
 title: Kedipan MIL Honda PGM-FI
-description: 
+description: Malfunction Indicator Light atau disingkat MIL adalah lampu indikator dasbor yang berfungsi untuk memberitahu kepada pengguna atau mekanik tentang keadaan sepeda motor. MIL juga dikenal dengan istilah lain yaitu CEL atau Check Engine Lamp.
 hero: Kedipan MIL Honda PGM-FI
 path: tree/master/docs/ototronik
 source: mil-pgmfi.md
@@ -21,7 +21,7 @@ Perkembangan teknologi otomotif terutama sepeda motor semakin hari semakin cangg
 
 Honda memperkenalkan teknologi unggulannya pada hampir semua varian sepeda motor yang mereka buat yaitu teknologi PGM-FI. PGM-FI adalah singkatan dari **Programmed Fuel Injection** yang merupakan teknologi canggih dengan konsentrasi pada efisiensi penggunaan bahan bakar, sisa pembakaran dan tenaga mesin yang maksimal namun tetap ramah penggunaannya (*user-friendly*). Teknologi PGM-FI mampu menciptakan sepeda motor dengan beberapa keunggulan diantaranya:
 
-* Efisisensi mesin tinggi
+* Efisiensi mesin tinggi
 * Daya mesin tinggi
 * Hemat bahan bakar
 * Gas buang yang ramah lingkungan

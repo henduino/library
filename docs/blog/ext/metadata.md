@@ -55,9 +55,6 @@ Ketika sebuah dokumen terkait dengan kumpulan file sumber tertentu dan `repo_url
 source: file.js
 ```
 
-The filename is appended to the `repo_url` set in your `mkdocs.yml`, but can
-be prefixed with a `path` to ensure correct path resolving:
-
 Nama file ditambahkan ke setingan `repo_url` di dalam `mkdocs.yml`, tetapi dapat diawali dengan `path` untuk memastikan arah jalur yang benar:
 
 Contoh:

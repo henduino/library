@@ -87,6 +87,7 @@ nav:
     - Ototronik:
       - Pendahuluan: oto/tronik/pendahuluan-ototronik.md
       - Dwell Sistem Pengapian: oto/tronik/dwell.md
+      - Sistem Starter Sepeda Motor: oto/tronik/starter-sepeda-motor.md
   - Papan:
     - Mengenal Mikrokontroler: papan/mikrokontroler.md
     - Mengenal Arduino: papan/apa-itu-arduino.md
@@ -96,7 +97,7 @@ nav:
   - Pustaka: 
     - Sensor:
       - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
-  - Blog:
+  - Artikel:
     - 2019:
       - Internet Sumber Belajar: blog/2019/internet-sumber-belajar.md
       - Memilih Arduino Uno: blog/2019/memilih-arduino.md

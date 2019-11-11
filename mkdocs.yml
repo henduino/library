@@ -98,6 +98,7 @@ nav:
       - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
   - Blog:
     - 2019:
+      - Internet Sumber Belajar: blog/2019/internet-sumber-belajar.md
       - Memilih Arduino Uno: blog/2019/memilih-arduino.md
       - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md
       - Hapus Jejak File: blog/2019/untrack-files.md

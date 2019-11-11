@@ -11,10 +11,18 @@ Internet merupakan salah satu perkembangan teknologi informasi bukanlah sesuatu 
 
 ![Artikel Pendidikan - Pikiran Rakyat](../images/091210_Pendidikan.jpg)
 
+***
+
+## Perilaku Didepan Internet
+
 Kemudahan yang diberikan internet tidaklah serta merta membuat para pelaku pendidikan menjadikan internet ini sebagai salah satu sarana yang mampu mengakselerasi proses transfer ilmu kepada peserta didiknya tapi justru memunculkan masalah baru. Banyaknya waktu yang terbuang oleh guru, siswa dan pelaku pendidik justru membalikan fungsi internet yang sedianya sebagai sumber belajar menjadi hanya sebagai sarana hiburan semata. Sangatlah wajar jika kemudian badan statistik dunia menempatkan Indonesia sebagai negara yang paling boros bandwidth dan waktu hanya sekedar untuk mencari sesuatu hal yang tidaklah penting dan bahkan apa yang dilakukan didepan internet tidak ada kaitannya dengan profesi yang dimiliki.
 
 Perhatikan di sekitar kita ketika seorang guru tersenyum-senyum bahkan tertawa lepas didepan monitor tanpa ada seorang teman pun disampingnya. Atau perhatikanlah siswa-siswi kita yang justru sibuk membuat status dan membalas komentar-komentar yang sama sekali tidak ada hubungannya dengan pelajaran yang sedang dihadapi. Beberapa contoh inilah yang justru kemudian membuat internet menjadi tidaklah efektif dan efisien sebagai sumber belajar.
 Dalih sebagai hiburan menjadikan seseorang “*kebablasan*” tanpa disadarinya. Tingkah laku negatif didepan internet akan mempengaruhi tingkah laku yang aneh pula didunia nyata, bahkan mampu merubah cara berfikir seseorang.
+
+***
+
+## Tips Memanfaatkan Internet
 
 Dibawah ini beberapa tips bagi para pendidik agar tidak terjerumus dalam maraknya dunia internet dengan harapan akan mampu memanfaatkan internet secara maksimal sebagai sumber belajar.
 

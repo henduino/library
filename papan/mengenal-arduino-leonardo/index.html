@@ -264,8 +264,8 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../library/sensor/accelerometer-adxl335/" title="Perpustakaan" class="md-tabs__link">
-          Perpustakaan
+        <a href="../../library/sensor/accelerometer-adxl335/" title="Pustaka" class="md-tabs__link">
+          Pustaka
         </a>
       
     </li>
@@ -581,11 +581,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
-      Perpustakaan
+      Pustaka
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        Perpustakaan
+        Pustaka
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -725,6 +725,102 @@
   <li class="md-nav__item">
     <a href="../../blog/2019/pendahuluan-ototronik/" title="Pendahuluan" class="md-nav__link">
       Pendahuluan
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/admonition/" title="Admonition" class="md-nav__link">
+      Admonition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/codehilite/" title="Codehilite" class="md-nav__link">
+      Codehilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/permalinks/" title="Permalink" class="md-nav__link">
+      Permalink
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/pymdown/" title="Pymdown" class="md-nav__link">
+      Pymdown
     </a>
   </li>
 
@@ -978,7 +1074,7 @@ Pin tegangan yang tersedia pada papan Arduino Leonardo adalah sebagai berikut:</
 <p>ATmega32u4 memiliki memori sebesar 32 KB (4 KB digunakan untuk bootloader). Juga memiliki 2,5 KB SRAM dan 1 KB EEPROM (yang dapat dibaca dan ditulis dengan perpustakaan EEPROM).</p>
 <hr />
 <h2 id="input-dan-output">Input dan Output<a class="headerlink" href="#input-dan-output" title="Permanent link">&para;</a></h2>
-<p>20 pin digital I/O pada Leonardo dapat digunakan sebagai input atau output, menggunakan fungsi <code>pinMode()</code>, <code>digitalWrite()</code>, dan <code>digitalRead(</code>. Mereka beroperasi pada tegangan 5 volt. Setiap pin dapat memberikan atau menerima maksimum 40 mA dan memiliki resistor pull-up internal sebesar 20-50 kOhm yang terputus secara default. Selain itu, beberapa pin memiliki fungsi khusus, yaitu:</p>
+<p>20 pin digital I/O pada Leonardo dapat digunakan sebagai input atau output, menggunakan fungsi <code class="codehilite"><span class="n">pinMode</span><span class="p">()</span></code>, <code class="codehilite"><span class="n">digitalWrite</span><span class="p">()</span></code>, dan <code class="codehilite"><span class="n">digitalRead</span><span class="p">(</span></code>. Mereka beroperasi pada tegangan 5 volt. Setiap pin dapat memberikan atau menerima maksimum 40 mA dan memiliki resistor pull-up internal sebesar 20-50 kOhm yang terputus secara default. Selain itu, beberapa pin memiliki fungsi khusus, yaitu:</p>
 <ul>
 <li>
 <p>Serial : Pin 0 (RX) dan pin 1 (TX). Digunakan untuk menerima (RX) dan mengirimkan (TX) data serial TTL menggunakan hardware ATmega32U4 yang memiliki kemampuan serial didalamnya. Perhatikan bahwa pada Leonardo, kelas Serial mengacu pada komunikasi USB (CDC); untuk TTL serial pada pin 0 dan 1, menggunakan kelas Serial 1.</p>
@@ -990,7 +1086,7 @@ Pin tegangan yang tersedia pada papan Arduino Leonardo adalah sebagai berikut:</
 <p>Eksternal Interupsi : Pin 3 (interrupt 0), pin 2 (interrupt 1), pin 0 (interrupt 2), pin 1 (interrupt 3) dan pin 7 (interrupt 4). Pin ini dapat dikonfigurasi untuk memicu sebuah interupsi pada nilai yang rendah, meningkat atau menurun, atau merubah nilai.</p>
 </li>
 <li>
-<p>PWM : Pin 3, 5, 6, 9, 10, 11, dan 13. Menyediakan 8-bit output PWM dengan fungsi <code>analogWrite()</code>.</p>
+<p>PWM : Pin 3, 5, 6, 9, 10, 11, dan 13. Menyediakan 8-bit output PWM dengan fungsi <code class="codehilite"><span class="n">analogWrite</span><span class="p">()</span></code>.</p>
 </li>
 <li>
 <p>SPI : Pin pada header ICSP ini mendukung komunikasi SPI menggunakan perpustakaan SPI. Perhatikan bahwa pin SPI tidak terhubung ke salah satu pun pin digital I/O karena yang terhubung langsung hanya pada Arduino Uno, Mereka hanya menyediakan konektor ICSP. Ini berarti bahwa jika Anda memiliki shield yang menggunakan SPI, tetapi tidak terdapat 6 pin konektor ICSP yang terhubung ke 6 pin ICSP header Leonardo, maka shield tidak akan bekerja.</p>
@@ -999,13 +1095,13 @@ Pin tegangan yang tersedia pada papan Arduino Leonardo adalah sebagai berikut:</
 <p>LED : Pin 13. Tersedia secara built-in pada papan Arduino ATmega2560. LED terhubung ke pin digital 13. Ketika pin diset bernilai HIGH, maka LED menyala (ON), dan ketika pin diset bernilai LOW, maka LED padam (OFF).</p>
 </li>
 <li>
-<p>Input Analog : Pin A0-A5, Pin A6 - A11 (pada pin digital 4, 6, 8, 9, 10, dan 12). Leonardo memiliki 12 input analog, berlabel A0 sampai A11, yang semuanya juga dapat digunakan sebagai digital I/O. Pin A0-A5 terdapat di lokasi yang sama seperti pada Arduino Uno; Pin input A6-A11 masing-masing ada pada digital I/O pin 4, 6, 8, 9, 10, dan 12. Masing-masing pin menyediakan resolusi 10 bit (yaitu 1024 nilai yang berbeda). Secara default pin ini dapat diukur/diatur dari mulai Ground sampai dengan 5 Volt, juga memungkinkan untuk mengubah titik jangkauan tertinggi atau terendah mereka menggunakan pin AREF dan fungsi <code>analogReference()</code>.</p>
+<p>Input Analog : Pin A0-A5, Pin A6 - A11 (pada pin digital 4, 6, 8, 9, 10, dan 12). Leonardo memiliki 12 input analog, berlabel A0 sampai A11, yang semuanya juga dapat digunakan sebagai digital I/O. Pin A0-A5 terdapat di lokasi yang sama seperti pada Arduino Uno; Pin input A6-A11 masing-masing ada pada digital I/O pin 4, 6, 8, 9, 10, dan 12. Masing-masing pin menyediakan resolusi 10 bit (yaitu 1024 nilai yang berbeda). Secara default pin ini dapat diukur/diatur dari mulai Ground sampai dengan 5 Volt, juga memungkinkan untuk mengubah titik jangkauan tertinggi atau terendah mereka menggunakan pin AREF dan fungsi <code class="codehilite"><span class="n">analogReference</span><span class="p">()</span></code>.</p>
 </li>
 </ul>
 <p>Masih ada beberapa pin lainnya pada Arduino Leonardo, yaitu:</p>
 <ul>
 <li>
-<p>AREF : Referensi tegangan untuk input analog. Digunakan dengan fungsi <code>analogReference()</code>.</p>
+<p>AREF : Referensi tegangan untuk input analog. Digunakan dengan fungsi <code class="codehilite"><span class="n">analogReference</span><span class="p">()</span></code>.</p>
 </li>
 <li>
 <p>RESET : Jalur LOW ini digunakan untuk me-reset (menghidupkan ulang) mikrokontroler. Jalur ini biasanya digunakan untuk menambahkan tombol reset pada shield yang menghalangi papan utama Arduino.</p>

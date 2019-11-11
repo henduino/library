@@ -2,67 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://henduino.github.io/library/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/tentang/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/mikrokontroler/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/apa-itu-arduino/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/mengenal-arduino-uno/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/mengenal-arduino-leonardo/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/papan/mengenal-arduino-nano/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/library/sensor/accelerometer-adxl335/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/memilih-arduino/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/the-untold-history-of-arduino/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/untrack-files/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/submodule-git/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/blog/2019/pendahuluan-ototronik/</loc>
-     <lastmod>2019-11-10</lastmod>
+     <lastmod>2019-11-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/blog/ext/admonition/</loc>
+     <lastmod>2019-11-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/blog/ext/codehilite/</loc>
+     <lastmod>2019-11-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/blog/ext/footnotes/</loc>
+     <lastmod>2019-11-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/blog/ext/metadata/</loc>
+     <lastmod>2019-11-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/blog/ext/permalinks/</loc>
+     <lastmod>2019-11-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/blog/ext/pymdown/</loc>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

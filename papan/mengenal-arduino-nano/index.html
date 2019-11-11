@@ -264,8 +264,8 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../library/sensor/accelerometer-adxl335/" title="Perpustakaan" class="md-tabs__link">
-          Perpustakaan
+        <a href="../../library/sensor/accelerometer-adxl335/" title="Pustaka" class="md-tabs__link">
+          Pustaka
         </a>
       
     </li>
@@ -581,11 +581,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
-      Perpustakaan
+      Pustaka
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        Perpustakaan
+        Pustaka
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -725,6 +725,102 @@
   <li class="md-nav__item">
     <a href="../../blog/2019/pendahuluan-ototronik/" title="Pendahuluan" class="md-nav__link">
       Pendahuluan
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/admonition/" title="Admonition" class="md-nav__link">
+      Admonition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/codehilite/" title="Codehilite" class="md-nav__link">
+      Codehilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/permalinks/" title="Permalink" class="md-nav__link">
+      Permalink
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/ext/pymdown/" title="Pymdown" class="md-nav__link">
+      Pymdown
     </a>
   </li>
 
@@ -1174,14 +1270,14 @@
 <p>ATmega168 memiliki 16 KB flash memory untuk menyimpan kode (2 KB digunakan untuk bootloader); Sedangkan ATmega328 memiliki flash memory sebesar 32 KB, (juga dengan 2 KB digunakan untuk bootloader). ATmega168 memiliki 1 KB memory pada SRAM dan 512 byte pada EEPROM (yang dapat dibaca dan ditulis dengan perpustakaan EEPROM); Sedangkan ATmega328 memiliki 2 KB memory pada SRAM dan 1 KB pada EEPROM.</p>
 <hr />
 <h2 id="input-dan-output">Input dan Output<a class="headerlink" href="#input-dan-output" title="Permanent link">&para;</a></h2>
-<p>Masing-masing dari 14 pin digital pada Arduino Nano dapat digunakan sebagai input atau output, dengan menggunakan fungsi <code>pinMode()</code>, <code>digitalWrite()</code>, dan <code>digitalRead()</code>. Semua pin beroperasi pada tegangan 5 volt. Setiap pin dapat memberikan atau menerima arus maksimum 40 mA dan memiliki resistor pull-up internal (yang terputus secara default) sebesar 20-50 KOhm. Selain itu beberapa pin memiliki fungsi khusus, yaitu:</p>
+<p>Masing-masing dari 14 pin digital pada Arduino Nano dapat digunakan sebagai input atau output, dengan menggunakan fungsi <code class="codehilite"><span class="n">pinMode</span><span class="p">()</span></code>, <code class="codehilite"><span class="n">digitalWrite</span><span class="p">()</span></code>, dan <code class="codehilite"><span class="n">digitalRead</span><span class="p">()</span></code>. Semua pin beroperasi pada tegangan 5 volt. Setiap pin dapat memberikan atau menerima arus maksimum 40 mA dan memiliki resistor pull-up internal (yang terputus secara default) sebesar 20-50 KOhm. Selain itu beberapa pin memiliki fungsi khusus, yaitu:</p>
 <ul>
 <li>
 <p>Serial : 0 (RX) dan 1 (TX). Digunakan untuk menerima (RX) dan mengirimkan (TX) TTL data serial. Pin ini terhubung ke pin yang sesuai dari chip FTDI USB-to-TTL Serial.
 External Interrupt (Interupsi Eksternal): Pin 2 dan pin 3 ini dapat dikonfigurasi untuk memicu sebuah interupsi pada nilai yang rendah, meningkat atau menurun, atau perubahan nilai.</p>
 </li>
 <li>
-<p>PWM : Pin 3, 5, 6, 9, 10, dan 11. Menyediakan output PWM 8-bit dengan fungsi <code>analogWrite()</code>. Jika pada jenis papan berukuran lebih besar (misal: <a href="https://henduino.github.io/library/papan/mengenal-arduino-uno/">Arduino Uno</a>), pin PWM ini diberi simbol tilde atau "~" sedangkan pada Arduino Nano diberi tanda titik.</p>
+<p>PWM : Pin 3, 5, 6, 9, 10, dan 11. Menyediakan output PWM 8-bit dengan fungsi <code class="codehilite"><span class="n">analogWrite</span><span class="p">()</span></code>. Jika pada jenis papan berukuran lebih besar (misal: <a href="https://henduino.github.io/library/papan/mengenal-arduino-uno/">Arduino Uno</a>), pin PWM ini diberi simbol tilde atau "~" sedangkan pada Arduino Nano diberi tanda titik.</p>
 </li>
 <li>
 <p>SPI : Pin 10 (SS), 11 (MOSI), 12 (MISO), 13 (SCK). Pin ini mendukung komunikasi SPI. Sebenarnya komunikasi SPI ini tersedia pada hardware, tapi untuk saat belum didukung dalam bahasa Arduino.</p>
@@ -1190,14 +1286,14 @@ External Interrupt (Interupsi Eksternal): Pin 2 dan pin 3 ini dapat dikonfiguras
 <p>LED : Pin 13. Tersedia secara built-in pada papan Arduino Nano. LED terhubung ke pin digital 13. Ketika pin diset bernilai HIGH, maka LED menyala, dan ketika pin diset bernilai LOW, maka LED padam.</p>
 </li>
 </ul>
-<p>Arduino Nano memiliki 8 pin sebagai input analog, diberi label A0 sampai dengan A7, yang masing-masing menyediakan resolusi 10 bit (yaitu 1024 nilai yang berbeda). Secara default pin ini dapat diukur/diatur dari mulai Ground sampai dengan 5 Volt, juga memungkinkan untuk mengubah titik jangkauan tertinggi atau terendah mereka menggunakan fungsi <code>analogReference()</code>. Pin Analog 6 dan 7 tidak dapat digunakan sebagai pin digital. Selain itu juga, beberapa pin memiliki fungsi yang dikhususkan, yaitu:</p>
+<p>Arduino Nano memiliki 8 pin sebagai input analog, diberi label A0 sampai dengan A7, yang masing-masing menyediakan resolusi 10 bit (yaitu 1024 nilai yang berbeda). Secara default pin ini dapat diukur/diatur dari mulai Ground sampai dengan 5 Volt, juga memungkinkan untuk mengubah titik jangkauan tertinggi atau terendah mereka menggunakan fungsi <code class="codehilite"><span class="n">analogReference</span><span class="p">()</span></code>. Pin Analog 6 dan 7 tidak dapat digunakan sebagai pin digital. Selain itu juga, beberapa pin memiliki fungsi yang dikhususkan, yaitu:</p>
 <ul>
 <li>
 <p>I2C : Pin A4 (SDA) dan pin A5 (SCL). Yang mendukung komunikasi I2C (TWI) menggunakan perpustakaan Wire.
 Masih ada beberapa pin lainnya pada Arduino Nano, yaitu:</p>
 </li>
 <li>
-<p>AREF : Referensi tegangan untuk input analog. Digunakan dengan fungsi <code>analogReference()</code>.</p>
+<p>AREF : Referensi tegangan untuk input analog. Digunakan dengan fungsi <code class="codehilite"><span class="n">analogReference</span><span class="p">()</span></code>.</p>
 </li>
 <li>
 <p>RESET : Jalur LOW ini digunakan untuk me-reset (menghidupkan ulang) mikrokontroler. Biasanya digunakan untuk menambahkan tombol reset pada shield yang menghalangi papan utama Arduino.</p>

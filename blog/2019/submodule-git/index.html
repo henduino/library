@@ -264,8 +264,8 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../../library/sensor/accelerometer-adxl335/" title="Perpustakaan" class="md-tabs__link">
-          Perpustakaan
+        <a href="../../../library/sensor/accelerometer-adxl335/" title="Pustaka" class="md-tabs__link">
+          Pustaka
         </a>
       
     </li>
@@ -457,11 +457,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
-      Perpustakaan
+      Pustaka
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        Perpustakaan
+        Pustaka
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -694,6 +694,102 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ext/admonition/" title="Admonition" class="md-nav__link">
+      Admonition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ext/codehilite/" title="Codehilite" class="md-nav__link">
+      Codehilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ext/footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ext/metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ext/permalinks/" title="Permalink" class="md-nav__link">
+      Permalink
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ext/pymdown/" title="Pymdown" class="md-nav__link">
+      Pymdown
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -788,33 +884,33 @@
                 
                 
                 <h1 id="menggunakan-submodule-pada-git">Menggunakan Submodule pada Git<a class="headerlink" href="#menggunakan-submodule-pada-git" title="Permanent link">&para;</a></h1>
-<p>Pada umumnya, setiap proyek perangkat lunak yang dikembangkan oleh seseorang, biasanya akan membutuhkan dan atau bergantung pada proyek lain, perpustakaan, atau kerangka kerja lainnya. Git menyediakan <code>submodule</code> untuk membantu masalah ini. Submodule memungkinkan Kita untuk memasukkan atau menanamkan satu atau lebih repositori sebagai sub-folder di dalam repositori yang sedang kita buat atau kembangkan.</p>
+<p>Pada umumnya, setiap proyek perangkat lunak yang dikembangkan oleh seseorang, biasanya akan membutuhkan dan atau bergantung pada proyek lain, perpustakaan, atau kerangka kerja lainnya. Git menyediakan <code class="codehilite"><span class="n">submodule</span></code> untuk membantu masalah ini. Submodule memungkinkan Kita untuk memasukkan atau menanamkan satu atau lebih repositori sebagai sub-folder di dalam repositori yang sedang kita buat atau kembangkan.</p>
 <p>Untuk proyek yang komplek atau banyak, submodule bukanlah solusi terbaik, bekerja dengan submodule bisa saja menjadi sangat rumit, tetapi mari kita pelajari bagaimana menggunakan submodule pada Git terutama GitHub.</p>
 <hr />
 <h2 id="menambahkan-submodule">Menambahkan Submodule<a class="headerlink" href="#menambahkan-submodule" title="Permanent link">&para;</a></h2>
-<p>Sebagai contoh Anda sedang mengerjakan proyek yang disebut <code>ketapel</code>. Didalam proyek <code>ketapel</code> sudah tersedia folder kode <code>kayu-cagak</code> dan folder kode <code>karet-ban</code>.</p>
-<p>Disaat yang sama, di repositori yang lain, Anda punya proyek lain yang disebut <code>kerikil</code> dan itu hanya sebuah perpustakaan umum, tetapi Anda berpikir itu akan menjadi sempurna untuk proyek <code>ketapel</code>.</p>
-<p>Anda dapat menambahkan proyek <code>kerikil</code> sebagai submodule dari proyek <code>ketapel</code>. Gunakan perintah dibawah ini untuk menambahkan repositori proyek <code>kerikil</code> ke dalam repositori proyek <code>ketapel</code>:</p>
+<p>Sebagai contoh Anda sedang mengerjakan proyek yang disebut <code class="codehilite"><span class="n">ketapel</span></code>. Didalam proyek <code class="codehilite"><span class="n">ketapel</span></code> sudah tersedia folder kode <code class="codehilite"><span class="n">kayu</span><span class="o">-</span><span class="n">cagak</span></code> dan folder kode <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>.</p>
+<p>Disaat yang sama, di repositori yang lain, Anda punya proyek lain yang disebut <code class="codehilite"><span class="n">kerikil</span></code> dan itu hanya sebuah perpustakaan umum, tetapi Anda berpikir itu akan menjadi sempurna untuk proyek <code class="codehilite"><span class="n">ketapel</span></code>.</p>
+<p>Anda dapat menambahkan proyek <code class="codehilite"><span class="n">kerikil</span></code> sebagai submodule dari proyek <code class="codehilite"><span class="n">ketapel</span></code>. Gunakan perintah dibawah ini untuk menambahkan repositori proyek <code class="codehilite"><span class="n">kerikil</span></code> ke dalam repositori proyek <code class="codehilite"><span class="n">ketapel</span></code>:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git submodule add https://github.com/&lt;user&gt;/kerikil.git kerikil
 </pre></div>
 </td></tr></table>
 
-<p>Penggunaan perintah diatas ketika Anda berada di dalam repositori proyek <code>ketapel</code>.
+<p>Penggunaan perintah diatas ketika Anda berada di dalam repositori proyek <code class="codehilite"><span class="n">ketapel</span></code>.
 <img alt="Penggunaan Perintah Submodule Git" src="../../images/submodule-git.png" /></p>
 <p><em>Gambar 1. Penggunaan Perintah Submodule Git</em></p>
-<p>Setelah perintah tersebut digunakan, Anda akan memiliki folder <code>kerikil</code> di dalam repositori <code>ketapel</code>, tetapi jika Anda membuka folder <code>kerikil</code>, tetapi juga tergantung pada versi Git Anda, Anda mungkin tidak akan menemukan apa-apa.</p>
-<p>Versi Git yang yang terbaru akan mengunduh dan menempatkan <code>kerikil</code> secara otomatis, tetapi versi yang lebih lama akan meminta Anda untuk secara eksplisit memberitahu Git agar mengunduh konten dari <code>kerikil</code>. Gunakan perintah ini jika Anda menggunakan Git versi lama:</p>
+<p>Setelah perintah tersebut digunakan, Anda akan memiliki folder <code class="codehilite"><span class="n">kerikil</span></code> di dalam repositori <code class="codehilite"><span class="n">ketapel</span></code>, tetapi jika Anda membuka folder <code class="codehilite"><span class="n">kerikil</span></code>, tetapi juga tergantung pada versi Git Anda, Anda mungkin tidak akan menemukan apa-apa.</p>
+<p>Versi Git yang yang terbaru akan mengunduh dan menempatkan <code class="codehilite"><span class="n">kerikil</span></code> secara otomatis, tetapi versi yang lebih lama akan meminta Anda untuk secara eksplisit memberitahu Git agar mengunduh konten dari <code class="codehilite"><span class="n">kerikil</span></code>. Gunakan perintah ini jika Anda menggunakan Git versi lama:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git submodule update --init --recursive
 </pre></div>
 </td></tr></table>
 
-<p>Jika semuanya berjalan baik, Anda dapat menemukan perubahan dan Anda akan memiliki folder <code>kerikil</code> di dalam repositori <code>ketapel</code> dengan semua konten yang berasal dari repositori <code>kerikil</code>.</p>
-<p>Tampilan pada GitHub, ikon folder <code>kerikil</code> akan memiliki sedikit indikator yang menunjukkan bahwa itu adalah submodule:
+<p>Jika semuanya berjalan baik, Anda dapat menemukan perubahan dan Anda akan memiliki folder <code class="codehilite"><span class="n">kerikil</span></code> di dalam repositori <code class="codehilite"><span class="n">ketapel</span></code> dengan semua konten yang berasal dari repositori <code class="codehilite"><span class="n">kerikil</span></code>.</p>
+<p>Tampilan pada GitHub, ikon folder <code class="codehilite"><span class="n">kerikil</span></code> akan memiliki sedikit indikator yang menunjukkan bahwa itu adalah submodule:
 <img alt="Indikator Ikon Folder Submodule GitHub" src="../../images/submodule-indikator.png" /></p>
 <p><em>Gambar 2. Indikator Ikon Folder Submodule GitHub</em></p>
-<p>Dan ketika anda membuka folder <code>kerikil</code> maka Anda akan di bawa menuju repositori <code>kerikil</code>.</p>
-<p>Nah ini dia! Anda telah berhasil menyematkan repositori <code>kerikil</code> di dalam repositori <code>ketapel</code>. Anda dapat berinteraksi dengan semua konten dari <code>kerikil</code>, seolah-olah folder <code>kerikil</code> itu bagian terintegrasi di dalam repositori <code>ketapel</code> (dan karena memang begitu).</p>
-<p>Pada baris perintah (command-line), perintah Git yang digunakan didalam repositori <code>ketapel</code> (atau didalam folder lain, seperti karet-ban dan cagak-kayu) akan beroperasi pada "repositori induk" ketapel, tetapi perintah yang Anda gunakan pada folder <code>kerikil</code> hanya akan beroperasi pada repositori <code>kerikil</code>:</p>
+<p>Dan ketika anda membuka folder <code class="codehilite"><span class="n">kerikil</span></code> maka Anda akan di bawa menuju repositori <code class="codehilite"><span class="n">kerikil</span></code>.</p>
+<p>Nah ini dia! Anda telah berhasil menyematkan repositori <code class="codehilite"><span class="n">kerikil</span></code> di dalam repositori <code class="codehilite"><span class="n">ketapel</span></code>. Anda dapat berinteraksi dengan semua konten dari <code class="codehilite"><span class="n">kerikil</span></code>, seolah-olah folder <code class="codehilite"><span class="n">kerikil</span></code> itu bagian terintegrasi di dalam repositori <code class="codehilite"><span class="n">ketapel</span></code> (dan karena memang begitu).</p>
+<p>Pada baris perintah (command-line), perintah Git yang digunakan didalam repositori <code class="codehilite"><span class="n">ketapel</span></code> (atau didalam folder lain, seperti karet-ban dan cagak-kayu) akan beroperasi pada "repositori induk" ketapel, tetapi perintah yang Anda gunakan pada folder <code class="codehilite"><span class="n">kerikil</span></code> hanya akan beroperasi pada repositori <code class="codehilite"><span class="n">kerikil</span></code>:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
@@ -831,8 +927,8 @@ git log <span class="c1"># menampilkan commit dari Proyek Kerikil</span>
 
 <hr />
 <h2 id="bergabung-pada-sebuah-proyek-menggunakan-submodule">Bergabung pada Sebuah Proyek Menggunakan Submodule<a class="headerlink" href="#bergabung-pada-sebuah-proyek-menggunakan-submodule" title="Permanent link">&para;</a></h2>
-<p>Sekarang, misalkan Anda adalah seorang kolaborator baru yang akan bergabung dengan Proyek Ketapel. Tentunya Anda akan memulainya dengan menjalankan printah <code>git clone</code> untuk mengunduh konten dari repositori <code>ketapel</code>. Setelah itu, jika Anda membuka folder <code>kerikil</code>, Anda pasti tidak akan menemukan apa-apa.</p>
-<p>Sekali lagi, Git mengharuskan kita secara eksplisit untuk mengunduh konten submodule. Anda dapat menggunakan perintah <code>git submodule update --init --recursive</code>, tetapi jika Anda melakukan <code>clone</code> proyek <code>ketapel</code> untuk pertama kalinya, Anda dapat menggunakan perintah <code>clone</code> yang dimodifikasi untuk memastikan Anda mengunduh semuanya, termasuk submodule didalamnya. Gunakan perintah dibawah ini:</p>
+<p>Sekarang, misalkan Anda adalah seorang kolaborator baru yang akan bergabung dengan Proyek Ketapel. Tentunya Anda akan memulainya dengan menjalankan printah <code class="codehilite"><span class="n">git</span> <span class="n">clone</span></code> untuk mengunduh konten dari repositori <code class="codehilite"><span class="n">ketapel</span></code>. Setelah itu, jika Anda membuka folder <code class="codehilite"><span class="n">kerikil</span></code>, Anda pasti tidak akan menemukan apa-apa.</p>
+<p>Sekali lagi, Git mengharuskan kita secara eksplisit untuk mengunduh konten submodule. Anda dapat menggunakan perintah <code class="codehilite"><span class="n">git</span> <span class="n">submodule</span> <span class="k">update</span> <span class="c1">--init --recursive</span></code>, tetapi jika Anda melakukan <code class="codehilite"><span class="n">clone</span></code> proyek <code class="codehilite"><span class="n">ketapel</span></code> untuk pertama kalinya, Anda dapat menggunakan perintah <code class="codehilite"><span class="n">clone</span></code> yang dimodifikasi untuk memastikan Anda mengunduh semuanya, termasuk submodule didalamnya. Gunakan perintah dibawah ini:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git clone --recursive &lt;alamat url proyek&gt;
 </pre></div>
 </td></tr></table>
@@ -840,17 +936,17 @@ git log <span class="c1"># menampilkan commit dari Proyek Kerikil</span>
 <hr />
 <h2 id="alihkan-ke-submodule">Alihkan ke Submodule<a class="headerlink" href="#alihkan-ke-submodule" title="Permanent link">&para;</a></h2>
 <p>Mungkin agak sulit untuk mengambil subfolder yang ada didalam sebuah repositori dan kemudian mengubahnya menjadi <em>dependensi eksternal</em> (sesuatu yang bisa digunakan oleh proyek lain). Mari kita lihat sebuah contoh berikut.</p>
-<p>Misal Anda akan memulai proyek baru - kaleng ajaib - yang ternyata di dalam proyek tersebut membutuhkan <code>karet-ban</code>, sedangkan <code>karet-ban</code> adalah sub folder dari proyek <code>ketapel</code>. Mari kita ambil <code>karet-ban</code> yang sudah Anda buat untuk proyek <code>ketapel</code>, membaginya / memisahkannya menjadi repositori yang berdiri sendiri, dan kemudian menanamkannya ke dalam kedua proyek tersebut (proyek <code>ketapel</code> dan proyek <code>kaleng ajaib</code>) melalui submodule.</p>
-<p>Anda dapat mengambil semua dari folder <code>karet-ban</code> yang ada di dalam proyek <code>ketapel</code> dan mengekstraknya ke dalam repositori baru dengan tetap mempertahankan histori commit.</p>
-<p>Mari kita mulai dengan mengekstraksi isi folder <code>karet-ban</code> keluar dari proyek <code>ketapel</code>. Anda dapat menggunakan perintah <code>git filter-branch</code>, kemudian membiarkan apa saja kecuali hal-hal yang berhubungan dengan commit terkait <code>karet-ban</code>. Perintah <code>git filter-branch</code> akan menulis ulang histori repositori kita, sehingga terlihat seolah-olah folder <code>karet-ban</code> merupakan repositori yang berdiri sendiri selama ini. Untuk informasi lebih lanjut tentang git filter-branch, silahkan baca <a href="https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/">artikel ini</a>.</p>
-<p>Langkah pertama adalah membuat salinan <code>ketapel</code> untuk dikerjakan — tujuan akhirnya adalah membuat folder <code>karet-ban</code> sebagai repositori yang berdiri sendiri, jadi biarkan <code>ketapel</code> apa adanya. Anda dapat menggunakan <code>cp</code> dan <code>-r</code> untuk menyalin seluruh folder <code>ketapel</code> secara rekursif ke folder baru <code>karet-ban</code>.</p>
+<p>Misal Anda akan memulai proyek baru - kaleng ajaib - yang ternyata di dalam proyek tersebut membutuhkan <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>, sedangkan <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> adalah sub folder dari proyek <code class="codehilite"><span class="n">ketapel</span></code>. Mari kita ambil <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> yang sudah Anda buat untuk proyek <code class="codehilite"><span class="n">ketapel</span></code>, membaginya / memisahkannya menjadi repositori yang berdiri sendiri, dan kemudian menanamkannya ke dalam kedua proyek tersebut (proyek <code class="codehilite"><span class="n">ketapel</span></code> dan proyek <code class="codehilite"><span class="n">kaleng</span> <span class="n">ajaib</span></code>) melalui submodule.</p>
+<p>Anda dapat mengambil semua dari folder <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> yang ada di dalam proyek <code class="codehilite"><span class="n">ketapel</span></code> dan mengekstraknya ke dalam repositori baru dengan tetap mempertahankan histori commit.</p>
+<p>Mari kita mulai dengan mengekstraksi isi folder <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> keluar dari proyek <code class="codehilite"><span class="n">ketapel</span></code>. Anda dapat menggunakan perintah <code class="codehilite"><span class="n">git</span> <span class="n">filter</span><span class="o">-</span><span class="n">branch</span></code>, kemudian membiarkan apa saja kecuali hal-hal yang berhubungan dengan commit terkait <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>. Perintah <code class="codehilite"><span class="n">git</span> <span class="n">filter</span><span class="o">-</span><span class="n">branch</span></code> akan menulis ulang histori repositori kita, sehingga terlihat seolah-olah folder <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> merupakan repositori yang berdiri sendiri selama ini. Untuk informasi lebih lanjut tentang git filter-branch, silahkan baca <a href="https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/">artikel ini</a>.</p>
+<p>Langkah pertama adalah membuat salinan <code class="codehilite"><span class="n">ketapel</span></code> untuk dikerjakan — tujuan akhirnya adalah membuat folder <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> sebagai repositori yang berdiri sendiri, jadi biarkan <code class="codehilite"><span class="n">ketapel</span></code> apa adanya. Anda dapat menggunakan <code class="codehilite"><span class="n">cp</span></code> dan <code class="codehilite"><span class="o">-</span><span class="n">r</span></code> untuk menyalin seluruh folder <code class="codehilite"><span class="n">ketapel</span></code> secara rekursif ke folder baru <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>.</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nb">cd</span> ..
 cp -r ketapel karet-ban
 </pre></div>
 </td></tr></table>
 
-<p>Sekarang tampak <code>karet-ban</code> bagian lain dari <code>ketapel</code>, lalu sekarang, dari dalam repositori <code>karet-ban</code>, jalankan perintag <code>git filter-branch</code>:</p>
+<p>Sekarang tampak <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> bagian lain dari <code class="codehilite"><span class="n">ketapel</span></code>, lalu sekarang, dari dalam repositori <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>, jalankan perintag <code class="codehilite"><span class="n">git</span> <span class="n">filter</span><span class="o">-</span><span class="n">branch</span></code>:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nb">cd</span> karet-ban <span class="c1"># pindah ke direktori karet-ban</span>
@@ -859,36 +955,36 @@ git filter-branch --subdirectory-filter karet-ban -- --all
 </pre></div>
 </td></tr></table>
 
-<p>Sampai di sini, Anda akan memiliki folder karet-ban, yang merupakan repositori yang mirip dengan Proyek <code>ketapel</code>, tetapi hanya memiliki file dan sejarah (history) dari folder <code>karet-ban</code> tersebut.</p>
-<p>Karena Anda menyalinnya dari <code>ketapel</code>, repositori baru ini masih akan memiliki cabang pelacakan jarak jauh yang Anda siapkan saat di <code>ketapel</code>. Sedangkan Anda tidak ingin mengembalikan <code>karet-ban</code>kembali ke <code>ketapel</code>. Anda harus mengarahkannya ke repositori baru.</p>
-<p>Buat repositori baru untuk <code>karet-ban</code> di GitHub, lalu perbarui remote untuk <code>karet-ban</code>. Dengan asumsi Anda memanggil remote origin, Anda bisa menuliskan perintah:</p>
+<p>Sampai di sini, Anda akan memiliki folder karet-ban, yang merupakan repositori yang mirip dengan Proyek <code class="codehilite"><span class="n">ketapel</span></code>, tetapi hanya memiliki file dan sejarah (history) dari folder <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> tersebut.</p>
+<p>Karena Anda menyalinnya dari <code class="codehilite"><span class="n">ketapel</span></code>, repositori baru ini masih akan memiliki cabang pelacakan jarak jauh yang Anda siapkan saat di <code class="codehilite"><span class="n">ketapel</span></code>. Sedangkan Anda tidak ingin mengembalikan <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>kembali ke <code class="codehilite"><span class="n">ketapel</span></code>. Anda harus mengarahkannya ke repositori baru.</p>
+<p>Buat repositori baru untuk <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> di GitHub, lalu perbarui remote untuk <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>. Dengan asumsi Anda memanggil remote origin, Anda bisa menuliskan perintah:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git remote set-url origin https://github.com/&lt;user&gt;/karet-ban
 </pre></div>
 </td></tr></table>
 
-<p>Kemudian Anda dapat menerbitkan "modul karet-ban generik" yang baru dengan <code>git push</code>.</p>
-<p>Sekarang setelah Anda memisahkan <code>karet-ban</code> ke dalam repositori sendiri, Anda harus menghapus folder <code>karet-ban</code> lama dari repositori <code>ketapel</code> dengan perintah:</p>
+<p>Kemudian Anda dapat menerbitkan "modul karet-ban generik" yang baru dengan <code class="codehilite"><span class="n">git</span> <span class="n">push</span></code>.</p>
+<p>Sekarang setelah Anda memisahkan <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> ke dalam repositori sendiri, Anda harus menghapus folder <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> lama dari repositori <code class="codehilite"><span class="n">ketapel</span></code> dengan perintah:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git rm -r karet-ban
 git commit -m <span class="s2">&quot;Membuang karet-ban (persiapan untuk submodule)&quot;</span>
 </pre></div>
 </td></tr></table>
 
-<p>Untuk memperbarui proyek <code>ketapel</code> dengan menggunakan <code>karet-ban</code> sebagai submodule, gunakan perintah ini:</p>
+<p>Untuk memperbarui proyek <code class="codehilite"><span class="n">ketapel</span></code> dengan menggunakan <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> sebagai submodule, gunakan perintah ini:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git submodule add https://github.com/&lt;user&gt;/karet-ban karet-ban
 git commit -m <span class="s2">&quot;submodule karet-ban&quot;</span>
 </pre></div>
 </td></tr></table>
 
-<p>Seperti yang pernah kita lakukan sebelumnya ketika kita menambahkan <code>kerikil</code>, <em>nah</em> sekarang kita telah memiliki repositori-didalam-repositori. Tiga repositori telah terbentuk, yaitu: repositori "induk" <code>ketapel</code>, ditambah dua repositori "sub", <code>kerikil</code> dan <code>karet-ban</code>.</p>
-<p>Selain itu, jika kita melihat kembali sejarah <code>ketapel</code>, kita akan melihat commit awal yang telah kita buat pada <code>karet-ban</code> ketika itu masih sebagai folder - menghapus folder tidaklah menghapus history (sejarah). Terkadang hal ini bisa sedikit membingungkan - karena repositori <code>karet-ban</code> adalah "anak" yang merupakan versi lama yang telah disalin dan dimodifikasi dari commit <code>ketapel</code> yang lama, bahkan kita seperti mengalami <em>déja vu</em>.</p>
-<p>Sayangnya, setiap kolaborator yang telah melakukan <em>clone</em> <code>ketapel</code> pada saat ini hanya akan memiliki folder <code>karet-ban</code> kosong. Anda bisa mengingatkan kolaborator untuk menjalankan perintah ini untuk memastikan mereka memiliki semua konten submodule:</p>
+<p>Seperti yang pernah kita lakukan sebelumnya ketika kita menambahkan <code class="codehilite"><span class="n">kerikil</span></code>, <em>nah</em> sekarang kita telah memiliki repositori-didalam-repositori. Tiga repositori telah terbentuk, yaitu: repositori "induk" <code class="codehilite"><span class="n">ketapel</span></code>, ditambah dua repositori "sub", <code class="codehilite"><span class="n">kerikil</span></code> dan <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code>.</p>
+<p>Selain itu, jika kita melihat kembali sejarah <code class="codehilite"><span class="n">ketapel</span></code>, kita akan melihat commit awal yang telah kita buat pada <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> ketika itu masih sebagai folder - menghapus folder tidaklah menghapus history (sejarah). Terkadang hal ini bisa sedikit membingungkan - karena repositori <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> adalah "anak" yang merupakan versi lama yang telah disalin dan dimodifikasi dari commit <code class="codehilite"><span class="n">ketapel</span></code> yang lama, bahkan kita seperti mengalami <em>déja vu</em>.</p>
+<p>Sayangnya, setiap kolaborator yang telah melakukan <em>clone</em> <code class="codehilite"><span class="n">ketapel</span></code> pada saat ini hanya akan memiliki folder <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> kosong. Anda bisa mengingatkan kolaborator untuk menjalankan perintah ini untuk memastikan mereka memiliki semua konten submodule:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git submodule update --init --recursive
 </pre></div>
 </td></tr></table>
 
-<p>Jika Anda juga ingin menambahkan <code>karet-ban</code> sebagai submodule ke proyek <em>kaleng ajaib</em> Anda cukup mengikuti prosedur yang sama yang digunakan sebelumnya ketika Anda menambahkan <code>kerikil</code> ke ke dalam proyek <code>ketapel</code>:</p>
+<p>Jika Anda juga ingin menambahkan <code class="codehilite"><span class="n">karet</span><span class="o">-</span><span class="n">ban</span></code> sebagai submodule ke proyek <em>kaleng ajaib</em> Anda cukup mengikuti prosedur yang sama yang digunakan sebelumnya ketika Anda menambahkan <code class="codehilite"><span class="n">kerikil</span></code> ke ke dalam proyek <code class="codehilite"><span class="n">ketapel</span></code>:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
@@ -904,9 +1000,9 @@ git submodule update --init --recursive
 <h2 id="kesimpulan">Kesimpulan<a class="headerlink" href="#kesimpulan" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Sebelum Anda menambahkan repositori sebagai submodule, periksa terlebih dahulu untuk memperhatikan apakah Anda memiliki alternatif yang lebih baik. Submodule Git bekerja cukup baik untuk kasus-kasus sederhana, tetapi akhir-akhir ini ada peralatan yang lebih baik untuk mengelola dependensi daripada yang dapat ditawarkan oleh submodule Git. Bahasa modern seperti Go memiliki sistem pengelolaan dependensi didalam Git sejak awal dibuat. Yang lain, seperti Ruby rubygems, Node.js, npm , atau Cocoa's CocoaPods dan Carthage, telah ditambahkan fungsi terintegrasi oleh komunitas pemrograman. Bahkan pengembang front-end memiliki alat seperti Bower untuk mengelola perpustakaan dan kerangka kerja untuk sisi klien JavaScript dan CSS.</li>
-<li>Ingat bahwa Git tidak mengunduh konten submodule secara default. Jika Anda menambahkan submodule ke proyek yang ada, pastikan siapa pun yang bekerja di proyek tersebut tahu bahwa mereka perlu menjalankan perintah seperti <code>git submodule update</code> dan <code>git clone --recursive</code> untuk memastikan mereka mendapatkan keseluruhan isi proyeknya - ini termasuk penyebaran otomatis atau layanan pengujian yang mungkin terlibat dalam proyek! Kami menyarankan Anda menggunakan sesuatu seperti "Scripts to Rule Them All" untuk memastikan bahwa semua kolaborator dan layanan memiliki akses ke konten repositori yang sama di mana pun.</li>
+<li>Ingat bahwa Git tidak mengunduh konten submodule secara default. Jika Anda menambahkan submodule ke proyek yang ada, pastikan siapa pun yang bekerja di proyek tersebut tahu bahwa mereka perlu menjalankan perintah seperti <code class="codehilite"><span class="n">git</span> <span class="n">submodule</span> <span class="k">update</span></code> dan <code class="codehilite"><span class="n">git</span> <span class="n">clone</span> <span class="c1">--recursive</span></code> untuk memastikan mereka mendapatkan keseluruhan isi proyeknya - ini termasuk penyebaran otomatis atau layanan pengujian yang mungkin terlibat dalam proyek! Kami menyarankan Anda menggunakan sesuatu seperti "Scripts to Rule Them All" untuk memastikan bahwa semua kolaborator dan layanan memiliki akses ke konten repositori yang sama di mana pun.</li>
 <li>Submodules mengharuskan Anda untuk menyeimbangkan konsistensi dan kenyamanan dengan cermat. Pengaturan yang digunakan di sini sangat mengutamakan konsistensi, dengan mengorbankan sedikit kenyamanan. Biasanya yang terbaik untuk mengelola proyek dengan submodule dengan dikunci menggunakan SHA tertentu, sehingga semua kolaborator menerima konten yang sama. Tetapi pengaturan ini juga menyulitkan pengembang di repositori "induk" untuk menyumbangkan perubahan kembali ke repositori submodule.</li>
-<li>Ingat bahwa kolaborator tidak akan secara otomatis melihat pembaruan pada submodul — jika Anda memperbarui submodule, Anda mungkin perlu mengingatkan teman Anda untuk menjalankan <code>git submodule update</code> atau mereka mungkin akan melihat perilaku yang tidak biasanya pada proyek tersebut.</li>
+<li>Ingat bahwa kolaborator tidak akan secara otomatis melihat pembaruan pada submodul — jika Anda memperbarui submodule, Anda mungkin perlu mengingatkan teman Anda untuk menjalankan <code class="codehilite"><span class="n">git</span> <span class="n">submodule</span> <span class="k">update</span></code> atau mereka mungkin akan melihat perilaku yang tidak biasanya pada proyek tersebut.</li>
 <li>Mengelola repositori yang dinamis, berkembang dengan cepat pada submodul dapat dengan cepat memunculkan frustasi. Artikel ini difokuskan pada hubungan repositori sederhana antara orang tua dan anak. Artikel selanjutnya di masa depan akan merinci beberapa strategi untuk membantu mengelola alur kerja submodule yang lebih kompleks.</li>
 <li>Selamat belajar dan belajar lagi!</li>
 </ul>

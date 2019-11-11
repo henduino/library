@@ -1,7 +1,7 @@
 title: The Untold History of Arduino
 description: Behind The Scene of Arduino
 hero: The Untold History of Arduino
-path: tree/master/docs/blog/2019
+path: tree/master/docs/tnt
 source: the-untold-history-of-arduino.md
 disqus: henduino
 
@@ -95,7 +95,7 @@ The first prototype for Wiring used the [Parallax][9] Javelin Stamp microcontrol
 
 Problem: as described in the thesis document on page 40, compiling, linking and uploading of user's programs relied on Parallax's proprietary tools. Since Wiring was planned as open source software, the Javelin Stamp was simply not a viable option.
 
-![Photo of Javelin Stamp used for first prototype for Wiring hardware.](../images/WiringPrototype1-JavelinStamp.jpg)
+![Photo of Javelin Stamp used for first prototype for Wiring hardware.](./images/WiringPrototype1-JavelinStamp.jpg)
 
 *Above: Cupcake indexer in progress*
 
@@ -110,27 +110,27 @@ The Atmel R40008 served as a test bed for the digital input/output API and the s
 
 For more information on this prototype, see page 42 in the thesis document.
 
-![Photo of Atmel AT91R40008 used for second Wiring hardware prototype](../images/WiringPrototype2-AtmelAT91R40008.jpg)
+![Photo of Atmel AT91R40008 used for second Wiring hardware prototype](./images/WiringPrototype2-AtmelAT91R40008.jpg)
 
 #### Prototype 3
 
 The previous prototype experiments led to the third prototype, where the microcontroller was downscaled to one still powerful, yet with the possibility of tinkering with it without the requirements of specialized equipment or on-board extra peripherals.
 
 I selected the Atmel [ATmega128][12] microcontroller and bought an Atmel [STK500][13]evaluation board with a special socket for the ATmega128.
-![Photo of Atmel STK500 with ATmega128 expansion](../images/WiringPrototype3-AtmelATmega128.jpg)
+![Photo of Atmel STK500 with ATmega128 expansion](./images/WiringPrototype3-AtmelATmega128.jpg)
 ***Photo of Atmel STK500 with ATmega128 expansion.***
 
 Tests with the STK500 were immediately successful, so I bought a [MAVRIC][14] board from [BDMICRO][15] with the ATmega128 soldered.  Brian Dean's work on his MAVRIC boards were unparalleled at that time, and his work drove him to build a software tool to easily upload new programs to his board.  It is still used today in the Arduino software, and is called "avrdude".
 
 As traditional COM ports were disappearing from computers, I selected [FTDI][16] hardware for communication through a USB port on the host computer. FTDI provided drivers for Windows, Mac OS X and Linux which was required for the Wiring environment to work on all platforms.
-![Photo of BDMICRO MAVRIC-II used for the third Wiring hardware prototype](../images/BDMICRO-MAVRIC-II.jpg)
+![Photo of BDMICRO MAVRIC-II used for the third Wiring hardware prototype](./images/BDMICRO-MAVRIC-II.jpg)
 ***Photo of BDMICRO MAVRIC-II used for the third Wiring hardware prototype.***
-![Photo of an FTDI FT232BM evaluation board used in the third Wiring hardware prototype](../images/FTDI-FT232BM.jpg)
+![Photo of an FTDI FT232BM evaluation board used in the third Wiring hardware prototype](./images/FTDI-FT232BM.jpg)
 ***Photo of an FTDI FT232BM evaluation board used in the third Wiring hardware prototype.***
 
 The FTDI evaluation board was interfaced with the MAVRIC board and tested with the third Wiring prototype.
-![Wiring Prototype 3 - BDMICRO and FTDI - 1](../images/WiringPrototype3-BDMICROandFTDI1.jpg)
-![Wiring Prototype 3 - BDMICRO and FTDI - 2](../images/WiringPrototype3-BDMICROandFTDI2.jpg)
+![Wiring Prototype 3 - BDMICRO and FTDI - 1](./images/WiringPrototype3-BDMICROandFTDI1.jpg)
+![Wiring Prototype 3 - BDMICRO and FTDI - 2](./images/WiringPrototype3-BDMICROandFTDI2.jpg)
 ***Testing with the BDMICRO MAVRIC-II board and FTDI-FT232BM.***
 
 In early 2004, based on the prototype using the MAVRIC board (Prototype 3), I used Brian Dean's and Pascal Stang's schematic designs as a reference to create the first Wiring board design.  It had the following features:
@@ -142,11 +142,11 @@ In early 2004, based on the prototype using the MAVRIC board (Prototype 3), I us
 
 I used [Eagle PCB from Cadsoft][17] to design the schematic and printed circuit board.
 
-![Wiring board schematic](../images/Wiring-schematic.png)
+![Wiring board schematic](./images/Wiring-schematic.png)
 
 ***Wiring board schematic.***
 
-![Wiring board PCB](../images/Wiring-pcb.png)
+![Wiring board PCB](./images/Wiring-pcb.png)
 
 ***Wiring board printed circuit board layout.***
 
@@ -158,10 +158,10 @@ In March 2004, 25 Wiring printed circuit boards were ordered and manufactured at
 
 I hand-soldered these 25 boards and started to conduct usability tests with some of my classmates at IDII. It was an exciting time!
 
-![Wiring PCB first article](../images/WiringBoard-Assembled.jpg)
-![Showing Off Wiring Board](../images/WiringBoard-ShowingOff.jpg)
-![Working with the first Wiring Boards](../images/WorkingWithFirstWiring-1.jpg)
-![Working with the first Wiring Boards](../images/WorkingWithFirstWiring-2.jpg)
+![Wiring PCB first article](./images/WiringBoard-Assembled.jpg)
+![Showing Off Wiring Board](./images/WiringBoard-ShowingOff.jpg)
+![Working with the first Wiring Boards](./images/WorkingWithFirstWiring-1.jpg)
+![Working with the first Wiring Boards](./images/WorkingWithFirstWiring-2.jpg)
 
 ***Photos of the first Wiring board***
 
@@ -196,28 +196,28 @@ Here is a booklet with the resulting projects:
 
 * [http://wiring.org.co/exhibition/images/book01.pdf][23]
 
-![Working on Tug Tug (Haiyan Zhang)](../images/TugTug-Testing.jpg)
-![Tug Tug phones by Haiyan Zhang (with Aram Armstrong)](../images/TugTug.jpg)
+![Working on Tug Tug (Haiyan Zhang)](./images/TugTug-Testing.jpg)
+![Tug Tug phones by Haiyan Zhang (with Aram Armstrong)](./images/TugTug.jpg)
 
 ***Tug Tug phones by Haiyan Zhang (with Aram Armstrong)***
 
-![Working on Commitment Radio](../images/CommitmentRadio-Testing.jpg)
-![Commitment Radio](../images/CommitmentRadio.jpg)
+![Working on Commitment Radio](./images/CommitmentRadio-Testing.jpg)
+![Commitment Radio](./images/CommitmentRadio.jpg)
 
 ***[Commitment Radio][24] by David Chiu and Alexandra Deschamps-Sonsino***
 
-![Working on Speak Out](../images/SpeakOut-Testing.jpg)
-![Speak Out by Tristam Sparks and Andreea Cherlaru (with Ana Camila Amorim)](../images/SpeakOut.jpg)
+![Working on Speak Out](./images/SpeakOut-Testing.jpg)
+![Speak Out by Tristam Sparks and Andreea Cherlaru (with Ana Camila Amorim)](./images/SpeakOut.jpg)
 
 ***[Speak Out][25] by Tristam Sparks and Andreea Cherlaru (with Ana Camila Amorim)***
 
-![Working on Feel the Music I](../images/FeelTheMusicI-Testing.jpg)
-![Feel the Music I](../images/FeelTheMusicI.jpg)
+![Working on Feel the Music I](./images/FeelTheMusicI-Testing.jpg)
+![Feel the Music I](./images/FeelTheMusicI.jpg)
 
 ***Feel the Music I by James Tichenor and David A. Mellis***
 
-![Working on The Amazing All Band Radio](../images/TheAmazingAllBandRadio-Testing.jpg)
-![The Amazing All Band Radio](../images/TheAmazingAllBandRadio.jpg)
+![Working on The Amazing All Band Radio](./images/TheAmazingAllBandRadio-Testing.jpg)
+![The Amazing All Band Radio](./images/TheAmazingAllBandRadio.jpg)
 
 ***[The Amazing All Band Radio][26] by Oren Horev & Myriel Milicevic (with Marcos Weskamp)***
 
@@ -225,7 +225,7 @@ Here is a booklet with the resulting projects:
 
 In May 2005, I contracted [Advanced Circuits][27] in the USA to print the first 200 printed circuit boards outside of IDII, and assembled them in Colombia.  I began selling and shipping boards to various schools and universities, and by the end of 2005, Wiring was being used around the world.
 
-![Wiring's Reach by 2005](../images/WiringsReachBy2005.png)
+![Wiring's Reach by 2005](./images/WiringsReachBy2005.png)
 
 ***"Wiring's Reach by 2005" graphic, provided by [Collin Reisdorf][28]***
 
@@ -241,7 +241,7 @@ In 2005, Massimo Banzi, along with David Mellis (an IDII student at the time) an
 
 There was no need to create a separate project, as I would have gladly helped them and developed support for the ATmega8 and any other microcontrollers.  I had planned to do this all along.
 
-![Future Plans for Wiring](../images/FuturePlansForWiring.png)
+![Future Plans for Wiring](./images/FuturePlansForWiring.png)
 
 ***I had inadvertantly taken a photo of some notes about my plans for Wiring, in the photo of Karmen Franinovic (former IDII student from 2002 to 2004) testing a stretch sensor for a lamp in March 2004.***
 
@@ -249,11 +249,11 @@ Wiring and Arduino shared many of the early development done by [Nicholas Zambet
 
 Around the same time, Gianluca Martino (he was a consultant at SERP, the printed circuit board factory at Ivrea where the first Wiring boards were made), joined the Arduino Team to help with manufacturing and hardware development. So, to reduce the cost of their boards, Gianluca, with some help from David Cuartielles, developed cheaper hardware by using the ATmega8.
 
-![Arduino's First Prototype: Wiring Lite](../images/ArduinoPrototype1.jpg)
+![Arduino's First Prototype: Wiring Lite](./images/ArduinoPrototype1.jpg)
 
 ***Apparently this is [the first "Arduino" prototype][30] - dubbed Wiring Lite. I think Massimo Banzi designed this one, but I'm unsure.***
 
-![Second production version of the Arduino USB boards](../images/ArduinoExtremeV2.jpg)
+![Second production version of the Arduino USB boards](./images/ArduinoExtremeV2.jpg)
 
 ***[Arduino Extreme v2][31] - "Second production version of the Arduino USB boards. This has been properly engineered by Gianluca Martino."***
 
@@ -275,21 +275,21 @@ Yes, each of them had experience with Wiring before creating Arduino.
 
 Massimo Banzi taught with Wiring at IDII from 2004.
 
-![Massimo Banzi Teaching with Wiring](../images/WiringBoardsWithMassimo.jpg)
+![Massimo Banzi Teaching with Wiring](./images/WiringBoardsWithMassimo.jpg)
 
 ***Massimo Banzi teaching interaction design at IDII with Wiring boards in 2004.***
 
 David Mellis was a student at IDII from 2004 to 2005.
 
-![David Mellis at IDII](../images/DavidMellisAtIDII.jpg)
+![David Mellis at IDII](./images/DavidMellisAtIDII.jpg)
 
 ***A blurry version of David Mellis learning physical computing with Wiring in 2004.***
 
 In January 2005, IDII hired David Cuartielles to develop a couple of plug-in boards for the Wiring board, for motor control and bluetooth connectivity.
 
-![Wiring Bluetooth Plugin](../images/WiringBluetoothPlugin.jpg)
+![Wiring Bluetooth Plugin](./images/WiringBluetoothPlugin.jpg)
 
-![Wiring Motor Controller Plugin](../images/WiringMotorControllerPlugin.jpg)
+![Wiring Motor Controller Plugin](./images/WiringMotorControllerPlugin.jpg)
 
 ***Two plug-in boards developed at IDII by David Cuartielles and his brother. Bluetooth shield on the left, and a motor controller shield on the right.***
 
@@ -305,7 +305,7 @@ Gianluca Martino originally worked for SERP (the factory that made the first 25 
 
 Programma2003 was a [Microchip][25] PIC microcontroller board developed by Massimo Banzi in 2003\. After using BasicX to teach Physical computing in the winter of 2002, Massimo decided to do a board using the PIC chip in 2003\. The problem with the PIC microcontrollers was that there wasn't an open source toolchain available at the time, to use a language like C to program them.
 
-![Programma2003](../images/Programma2003.jpg)
+![Programma2003](./images/Programma2003.jpg)
 
 ***[Programma2003][36] board designed by Massimo Banzi in 2003***
 
@@ -327,7 +327,7 @@ It was impossible to know if it was powered or not (frustrating/dangerous in a l
 
 As a gesture to help Massimo's Programma2003 project, I also wrote something I called Programma2003 Interface, which basically interfaced any serial communication between a microcontroller and a computer with the network. This expanded the prototyping toolbox at IDII. It allowed students to use software like Adobe Flash (formerly Macromedia) to communicate with a microcontroller.
 
-![Programma2003 Interface Code](../images/Programma2003InterfaceCode.jpg)
+![Programma2003 Interface Code](./images/Programma2003InterfaceCode.jpg)
 
 ***Programma2003 Interface Code***
 
@@ -339,7 +339,7 @@ I don't know.
 
 The reference to Wiring on the Arduino.cc website, although it has improved slightly over time, is misleading as it tries to attribute Wiring to Programma2003.
 
-![Arduino.cc Credits Page Excerpt - 2016-02-23](../images/ArduinoCCCredits-2016-02-23.jpg)
+![Arduino.cc Credits Page Excerpt - 2016-02-23](./images/ArduinoCCCredits-2016-02-23.jpg)
 
 ***Arduino.cc website version of Arduino's History from [https://www.arduino.cc/en/Main/Credits][38]***
 
@@ -395,7 +395,7 @@ Here are a couple of mainstream examples of misleading information.
 
 ### The Infamous Diagram
 
-![Interaction Ivrea (Weird) Diagram](../images/InteractionIvreaDiagram.jpg)
+![Interaction Ivrea (Weird) Diagram](./images/InteractionIvreaDiagram.jpg)
 
 ***[http://blog.experientia.com/uploads/2013/10/Interaction_Ivrea_arduino.pdf][44]***
 
@@ -451,13 +451,13 @@ To which Massimo Banzi responded:
 
 >Sorry JC but you had nothing to do.with  this.... You can't possibly try to get credit for.something you hadn't been involved with
 
-![Celebration Email Thread Posting](../images/JCEmailThread1.jpg)
+![Celebration Email Thread Posting](./images/JCEmailThread1.jpg)
 
-![Celebration Email Thread Response](../images/JCEmailThread2.jpg)
+![Celebration Email Thread Response](./images/JCEmailThread2.jpg)
 
 It was nice, however, to get this a few days later in the same email thread:
 
-![Celebration Email Thread Follow-up](../images/JCEmailThread3.jpg)
+![Celebration Email Thread Follow-up](./images/JCEmailThread3.jpg)
 
 * * *
 

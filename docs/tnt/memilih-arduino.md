@@ -1,7 +1,7 @@
 title: Memilih Arduino Uno Untuk Pemula
 description: Arduino Uno Original, Arduino Compatible dan Arduino Clone menjadi sangat membingungkan bagi para pemula yang hendak belajar tentang pemrograman Arduino
 hero: Memilih Arduino Uno Untuk Pemula
-path: tree/master/docs/blog/2019
+path: tree/master/docs/tnt
 source: memilih-arduino.md
 disqus: henduino
 
@@ -23,7 +23,7 @@ Beberapa pertanyaan akan muncul dalam benak para pengguna pemula, diantaranya:
 
 Arduino Uno Original adalah papan Arduino Uno yang dibuat oleh perusahaan yang ditunjuk oleh perusahaan Arduino dan dijual pada situs resmi Arduino dan atau pada toko yang telah menjalin kerjasama secara resmi dengan perusahaan Arduino.
 
-![Arduino Uno Original](../images/01_original.jpg)
+![Arduino Uno Original](./images/01_original.jpg)
 
 *Gambar 1. Arduino Uno Original*
 
@@ -57,7 +57,7 @@ Namun, kita bisa saja menemukan papan Arduino original di toko-toko yang tidak s
 
 Sedangkan Arduino Uno Compatible adalah papan Arduino Uno yang dibuat dan dikembangkan oleh perusahaan rekanan yang bukan bagian atau bawahan perusahaan Arduino. Perusahaan ini membuat papan yang memiliki fungsi sama dengan Arduino Uno tetapi tidak menggunakan nama "Arduino Uno". Hal ini karena sifat Arduino yang open hardware sehingga siapapun bisa membuat dan menjual papan Arduino-nya dengan syarat "tidak menggunakan nama yang sama dengan merk dagang produk yang dibuat oleh perusahaan Arduino" kecuali perusahaan tersebut telah mendapat ijin dari pihak Arduino untuk menggunakan nama merk dagang tersebut. Beberapa perusahaan membuat papan Arduino Compatible dengan melakukan beberapa perubahan rangkaian dan komponen namun tetap memiliki fungsi dan perlakukan yang sama dengan Ardiuno Uno asli.
 
-![Arduino Uno Compatible](../images/02_compatible.jpg)
+![Arduino Uno Compatible](./images/02_compatible.jpg)
 
 *Gambar 2. Arduino Uno Compatible*
 
@@ -70,7 +70,7 @@ Namun sebenarnya pihak Arduino tidak pernah menyatakan bahwa papan-papan Arduino
 
 Arduino Uno Palsu atau dikenal dipasaran dengan nama Arduino Uno Clone adalah papan Arduino Uno yang dibuat oleh orang atau perusahaan tanpa nama dengan segala halnya sama persis dengan papan Arduino Uno original. Menggunakan merk dagang "Arduino Uno", dengan warna yang hampir sama, dengan tata letak yang sama, dengan komponen yang hampir sama, segala halnya disamakan dengan Arduino Uno original.
 
-![Arduino Uno Palsu](../images/03_palsu.jpg)
+![Arduino Uno Palsu](./images/03_palsu.jpg)
 
 *Gambar 3. Arduino Uno Palsu*
 
@@ -88,7 +88,7 @@ Kita sebagai konsumen diharapkan bijak dan jeli dalam merencakan pembelian papan
 
 	Warna otentik papan Arduino adalah percampuran antara warna hijau dengan biru atau warna klasik lebut dan seperti warna pudar. Sedangkan papan Arduino palsu biasanya berwarna biru hingga warna biru tajam (dominan warna biru).
 
-![Warna Papan Arduino Original dan Bajakan](../images/04_warna.jpg)
+![Warna Papan Arduino Original dan Bajakan](./images/04_warna.jpg)
 
 *Gambar 4. Warna Papan Arduino Original dan Bajakan*
 
@@ -96,7 +96,7 @@ Kita sebagai konsumen diharapkan bijak dan jeli dalam merencakan pembelian papan
 
 	Pada bagian logo Arduino, kita akan menemukan perbedaan yang cukup jelas. Perhatikan logo asli Arduino, dan bandingkan dengan yang palsu. Logo pada papan palsu tercetak kurang tajam, lubang pada huruf "A" menghilang, bagian tepi garis logo bergelombang dan kurang rapi terutama pada bagian lengkungan logo.
 
-![Logo Huruf Arduino Original dan Bajakan](../images/05_font_logo.jpg)
+![Logo Huruf Arduino Original dan Bajakan](./images/05_font_logo.jpg)
 
 *Gambar 5. Logo Huruf Arduino Original dan Bajakan*
 
@@ -108,7 +108,7 @@ Kita sebagai konsumen diharapkan bijak dan jeli dalam merencakan pembelian papan
 
 	Perhatikan juga bagian peta. Pada papan asli tampak dengan jelas peta negara Itali hal ini untuk menghormati tempat kelahiran Arduino. Sedangkan pada papan Arduino palsu peta tidak begitu jelas bahkan seperti layang-layang terbang.
 
-![Peta Arduino Original dan Bajakan](../images/06_map.jpg)
+![Peta Arduino Original dan Bajakan](./images/06_map.jpg)
 
 *Gambar 6. Peta Arduino Original dan Bajakan*
 
@@ -116,7 +116,7 @@ Kita sebagai konsumen diharapkan bijak dan jeli dalam merencakan pembelian papan
 
 	Pada papan Arduino Asli terlihat jalur dan konektor antar komponen tampak rapi dan teranyam dengan indah. Sedangkan pada papan Arduino Palsu tampak berantakan dan jelek.
 
-![Jalur Komponen Arduino Original dan Bajakan](../images/07_komponen.jpg)
+![Jalur Komponen Arduino Original dan Bajakan](./images/07_komponen.jpg)
 
 *Gambar 7. Jalur Komponen Arduino Original dan Bajakan*
 
@@ -138,7 +138,7 @@ Kita sebagai konsumen diharapkan bijak dan jeli dalam merencakan pembelian papan
 
 Pihak Arduino telah mengembangkan 2 versi Arduino Uno, yaitu Arduino Uno dengan mikrokontroller ATmega328 tipe DIP (Dual-Inline Package) dan Arduino Uno dengan mikrokontroller ATmega328 tipe SMD (Small Mount Device). Tipe DIP merupakan papan Arduino yang paling banyak kita temukan dipasaran. Chip mikrokontroller dipasang pada sebuah socket untuk memudahkan penggantian jika suatu hari mikrokontroller tersebut sudah habis masa guna-nya. Tipe DIP sangat cocok untuk para pemula yang sedang belajar dan sering melakukan upload kode.
 
-![Arduino Uno SMD dan Arduino Uno DIP](../images/08_dip_smd.jpg)
+![Arduino Uno SMD dan Arduino Uno DIP](./images/08_dip_smd.jpg)
 
 *Gambar 8. Arduino Uno SMD dan Arduino Uno DIP*
 
@@ -151,7 +151,7 @@ Dari sisi harga, tipe SMD lebih murah dibandingkan dengan tipe DIP. Jika anda se
 
 USB-to-Serial Chip yang digunakan pada Arduino Uno ada beberapa jenis, yaitu; ATmega16U2, FTDI dan CH340. Arduino Uno yang menggunakan USB-to-Serial dengan chip ATmega16U2 biasanya dibandrol dengan harga tertinggi. Sedangkan papan Arduino Uno yang menggunakan USB-to-Serial dengan chip FTDI dijual lebih murah.
 
-![USB-to-Serial Chip pada Arduino Uno](../images/09_usb_to_serial.jpg)
+![USB-to-Serial Chip pada Arduino Uno](./images/09_usb_to_serial.jpg)
 
 *Gambar 9. USB-to-Serial Chip pada Arduino Uno*
 

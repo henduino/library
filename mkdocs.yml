@@ -83,25 +83,10 @@ extra_javascript:
 nav:
   - Beranda: index.md
   - Tentang: tentang.md
-  - Otomotif:
-    - Ototronik:
-      - Pendahuluan: oto/tronik/pendahuluan-ototronik.md
-      - Dwell Sistem Pengapian: oto/tronik/dwell.md
-      - Sistem Starter Sepeda Motor: oto/tronik/starter-sepeda-motor.md
-  - Papan:
-    - Mengenal Mikrokontroler: papan/mikrokontroler.md
-    - Mengenal Arduino: papan/apa-itu-arduino.md
-    - Mengenal Arduino Uno: papan/mengenal-arduino-uno.md
-    - Mengenal Arduino Leonardo: papan/mengenal-arduino-leonardo.md
-    - Mengenal Arduino Nano: papan/mengenal-arduino-nano.md
-  - Pustaka: 
-    - Sensor:
-      - Accelerometer ADXL335: library/sensor/accelerometer-adxl335.md
   - Artikel:
     - 2019:
+      - Prinsip ATM Belajar: blog/2019/prinsip-atm-belajar.md
       - Internet Sumber Belajar: blog/2019/internet-sumber-belajar.md
-      - Memilih Arduino Uno: blog/2019/memilih-arduino.md
-      - The Untold History of Arduino: blog/2019/the-untold-history-of-arduino.md
       - Hapus Jejak File: blog/2019/untrack-files.md
       - Menggunakan Submodule Git: blog/2019/submodule-git.md
     - Extensions:
@@ -111,3 +96,24 @@ nav:
       - Metadata: blog/ext/metadata.md
       - Permalink: blog/ext/permalinks.md
       - Pymdown: blog/ext/pymdown.md
+  - MCU:
+    - Papan:
+      - Mengenal Mikrokontroler: papan/mikrokontroler.md
+      - Mengenal Arduino: papan/apa-itu-arduino.md
+      - Mengenal Arduino Uno: papan/mengenal-arduino-uno.md
+      - Mengenal Arduino Leonardo: papan/mengenal-arduino-leonardo.md
+      - Mengenal Arduino Nano: papan/mengenal-arduino-nano.md
+    - Sensor:
+      - Accelerometer ADXL335: sensor/accelerometer-adxl335.md
+    - Tips Trik:
+      - Memilih Arduino Uno: tnt/memilih-arduino.md
+      - The Untold History of Arduino: tnt/the-untold-history-of-arduino.md
+  - Otomotif:
+    - Ototronik:
+      - Pendahuluan: ototronik/pendahuluan-ototronik.md
+      - Dwell Sistem Pengapian: ototronik/dwell.md
+      - Sistem Starter Sepeda Motor: ototronik/starter-sepeda-motor.md
+      - Identifikasi Regulator Mekanik: ototronik/id-regulator-mekanik.md
+      - Prinsip Regulator Mekanik: ototronik/prinsip-regulator-mekanik.md
+    - Mesin:
+      - Penyebab Overheating: engine/overheating-mesin.md

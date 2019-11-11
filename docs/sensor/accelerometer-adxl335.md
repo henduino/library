@@ -1,7 +1,7 @@
 title: Accelerometer ADXL335
 description: Arduino library to control Grove - 3-Axis Analog Accelerometer ADXL335
 hero: Accelerometer ADXL335
-path: tree/master/docs/library/sensor
+path: tree/master/docs/sensor
 source: accelerometer-adxl335.md
 disqus: henduino
 
@@ -11,7 +11,7 @@ disqus: henduino
 
 What is Acceleration and ADXL 335 Accelerometer?  Acceleration is a process in which velocity is changed with respect to time and it is a vector quantity. Similarly, velocity is a speed and direction. There are two ways for explaining acceleration of anything  first one is change in speed and second one is change in direction. Sometimes both are changed simultaneously. If we talk about ADXL 335 accelerometer, then this accelerometer is a device that is used for measuring acceleration of any object. It measures the acceleration in the form of analog inputs,  in three dimension direction such as X,Y and Z. It is low noise and less power consume device. When it is used for acceleration measure purposes then it  is interfaced with any type of controller such as microcontroller or Arduino etc. It is mostly used in construction working machines such as drilling ,driving piles and demolition etc., human activities machines such running, walking, dancing and skipping etc. It is easily available in market or online shop.
 
-![About ADXL 335 Accelerometer](../images/ADXL-335-Accelerometer.jpg)
+![About ADXL 335 Accelerometer](./images/ADXL-335-Accelerometer.jpg)
 
 * * *
 
@@ -38,7 +38,7 @@ Currently different types of  accelerometers are available in market which are u
 ## Interfacing Diagram
 For gaining proper result form ADXL 335 accelerometer, a controller is necessary for interfacing purposes. We can interface with it any type of controller but here we shell only tell the user how interface the Arduino board with ADXL 335 accelerometer.
 
-![Interfacing ADXL335 Accelerometer Module With Arduino UNO](../images/Accelerometer_Interfacing_Diagram.png)
+![Interfacing ADXL335 Accelerometer Module With Arduino UNO](./images/Accelerometer_Interfacing_Diagram.png)
 
 * * *
 

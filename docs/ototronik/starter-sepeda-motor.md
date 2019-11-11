@@ -1,7 +1,7 @@
 title: Sistem Starter Sepeda Motor
 description: Sistem Starter Sepeda Motor menggunakan motor listrik arus searah yang mengubah energi listrik menjadi energi mekanik untuk memberikan gerak mula pada poros engkol.
 hero: Sistem Starter Sepeda Motor
-path: tree/master/docs/oto/tronik
+path: tree/master/docs/ototronik
 source: starter-sepeda-motor.md
 disqus: henduino
 
@@ -85,9 +85,9 @@ Lilitan selenoid pada Starter Relay juga mendapat asupan listrik dari kunci kont
 
 Pada saat Starter Switch dihubungkan (ON) maka aliran listrik dari selenoid akan diteruskan ke massa dan terbentuklah sifat kemagnetan pada selenoid.
 
-![Gambar 3. Sistem Starter Saat Saklar Starter OFF](./images/Wiring-03.jpg)
+![Gambar 4. Sistem Starter Saat Saklar Starter OFF](./images/Wiring-03.jpg)
 
-*Gambar 3. Sistem Starter Saat Saklar Starter OFF*
+*Gambar 4. Sistem Starter Saat Saklar Starter OFF*
 
 Aliran listrik positif (Warna Merah):
 

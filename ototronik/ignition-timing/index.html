@@ -10,10 +10,10 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Pendahuluan Ototronik">
+        <meta name="description" content="Libraries for Henduino Board Projects with core of Atmel and Espressif">
       
       
-        <link rel="canonical" href="https://henduino.github.io/library/ototronik/pendahuluan-ototronik/">
+        <link rel="canonical" href="https://henduino.github.io/library/ototronik/ignition-timing/">
       
       
         <meta name="author" content="Dede Hendriono">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Pendahuluan Ototronik</title>
+        <title>Menyetel Waktu Pengapian</title>
       
     
     
@@ -117,7 +117,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#engine-management-system-ems" tabindex="1" class="md-skip">
+      <a href="#menyetel-waktu-pengapian-mesin" tabindex="1" class="md-skip">
         Lewati ke isi
       </a>
     
@@ -143,7 +143,7 @@
                 Henduino Library
               </span>
               <span class="md-header-nav__topic">
-                Pendahuluan
+                Menyetel Waktu Pengapian
               </span>
             
           
@@ -216,7 +216,7 @@
 
 <div class="md-hero" data-md-component="hero">
   <div class="md-hero__inner md-grid">
-    Pendahuluan Ototronik
+    Menyetel Waktu Pengapian
   </div>
 </div>
         
@@ -289,7 +289,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="./" title="Otomotif" class="md-tabs__link md-tabs__link--active">
+        <a href="../pendahuluan-ototronik/" title="Otomotif" class="md-tabs__link md-tabs__link--active">
           Otomotif
         </a>
       
@@ -811,20 +811,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Pendahuluan" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../pendahuluan-ototronik/" title="Pendahuluan" class="md-nav__link">
       Pendahuluan
     </a>
-    
   </li>
 
         
@@ -856,11 +847,153 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../ignition-timing/" title="Menyetel Waktu Pengapian" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Menyetel Waktu Pengapian
+      </label>
+    
+    <a href="./" title="Menyetel Waktu Pengapian" class="md-nav__link md-nav__link--active">
       Menyetel Waktu Pengapian
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Daftar isi</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#peranan-waktu-pengapian" title="Peranan Waktu Pengapian" class="md-nav__link">
+    Peranan Waktu Pengapian
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#penyetelan-waktu-pengapian" title="Penyetelan Waktu Pengapian" class="md-nav__link">
+    Penyetelan Waktu Pengapian
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#langkah-1-siapkan-timing-light" title="Langkah 1 : Siapkan Timing Light" class="md-nav__link">
+    Langkah 1 : Siapkan Timing Light
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-2-panaskan-mesin" title="Langkah 2 : Panaskan Mesin" class="md-nav__link">
+    Langkah 2 : Panaskan Mesin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-3-lepas-selang-vacuum-advancer" title="Langkah 3 : Lepas Selang Vacuum Advancer" class="md-nav__link">
+    Langkah 3 : Lepas Selang Vacuum Advancer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-4-pasang-sumber-tegangan-timing-light" title="Langkah 4 : Pasang Sumber Tegangan Timing Light" class="md-nav__link">
+    Langkah 4 : Pasang Sumber Tegangan Timing Light
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-5-pasang-trigger-clamp" title="Langkah 5 : Pasang Trigger Clamp" class="md-nav__link">
+    Langkah 5 : Pasang Trigger Clamp
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-6-kendurkan-pengunci-distributor" title="Langkah 6 : Kendurkan Pengunci Distributor" class="md-nav__link">
+    Langkah 6 : Kendurkan Pengunci Distributor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-7-arahkan-timing-light" title="Langkah 7 : Arahkan Timing Light" class="md-nav__link">
+    Langkah 7 : Arahkan Timing Light
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-8-sesuaikan-waktu-pengapian" title="Langkah 8 : Sesuaikan Waktu Pengapian" class="md-nav__link">
+    Langkah 8 : Sesuaikan Waktu Pengapian
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-9-kencangkan-baut-distributor" title="Langkah 9 : Kencangkan Baut Distributor" class="md-nav__link">
+    Langkah 9 : Kencangkan Baut Distributor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-penyetelan-waktu-pengapian" title="Video Penyetelan Waktu Pengapian" class="md-nav__link">
+    Video Penyetelan Waktu Pengapian
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#daftar-pustaka" title="Daftar Pustaka" class="md-nav__link">
+    Daftar Pustaka
+  </a>
+  
+</li>
+      
+      
+        <li class="md-nav__item">
+          <a href="#__source" title="Sumber" class="md-nav__link md-nav__link--active">
+            Sumber
+          </a>
+        </li>
+      
+      
+      
+        
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Komentar" class="md-nav__link md-nav__link--active">
+            Komentar
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -975,6 +1108,126 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Daftar isi</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#peranan-waktu-pengapian" title="Peranan Waktu Pengapian" class="md-nav__link">
+    Peranan Waktu Pengapian
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#penyetelan-waktu-pengapian" title="Penyetelan Waktu Pengapian" class="md-nav__link">
+    Penyetelan Waktu Pengapian
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#langkah-1-siapkan-timing-light" title="Langkah 1 : Siapkan Timing Light" class="md-nav__link">
+    Langkah 1 : Siapkan Timing Light
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-2-panaskan-mesin" title="Langkah 2 : Panaskan Mesin" class="md-nav__link">
+    Langkah 2 : Panaskan Mesin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-3-lepas-selang-vacuum-advancer" title="Langkah 3 : Lepas Selang Vacuum Advancer" class="md-nav__link">
+    Langkah 3 : Lepas Selang Vacuum Advancer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-4-pasang-sumber-tegangan-timing-light" title="Langkah 4 : Pasang Sumber Tegangan Timing Light" class="md-nav__link">
+    Langkah 4 : Pasang Sumber Tegangan Timing Light
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-5-pasang-trigger-clamp" title="Langkah 5 : Pasang Trigger Clamp" class="md-nav__link">
+    Langkah 5 : Pasang Trigger Clamp
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-6-kendurkan-pengunci-distributor" title="Langkah 6 : Kendurkan Pengunci Distributor" class="md-nav__link">
+    Langkah 6 : Kendurkan Pengunci Distributor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-7-arahkan-timing-light" title="Langkah 7 : Arahkan Timing Light" class="md-nav__link">
+    Langkah 7 : Arahkan Timing Light
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-8-sesuaikan-waktu-pengapian" title="Langkah 8 : Sesuaikan Waktu Pengapian" class="md-nav__link">
+    Langkah 8 : Sesuaikan Waktu Pengapian
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-9-kencangkan-baut-distributor" title="Langkah 9 : Kencangkan Baut Distributor" class="md-nav__link">
+    Langkah 9 : Kencangkan Baut Distributor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-penyetelan-waktu-pengapian" title="Video Penyetelan Waktu Pengapian" class="md-nav__link">
+    Video Penyetelan Waktu Pengapian
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#daftar-pustaka" title="Daftar Pustaka" class="md-nav__link">
+    Daftar Pustaka
+  </a>
+  
+</li>
+      
+      
+        <li class="md-nav__item">
+          <a href="#__source" title="Sumber" class="md-nav__link md-nav__link--active">
+            Sumber
+          </a>
+        </li>
+      
+      
+      
+        
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Komentar" class="md-nav__link md-nav__link--active">
+            Komentar
+          </a>
+        </li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -985,36 +1238,72 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/henduino/library/edit/master/docs/ototronik/pendahuluan-ototronik.md" title="Ubah halaman ini" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/henduino/library/edit/master/docs/ototronik/ignition-timing.md" title="Ubah halaman ini" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="engine-management-system-ems">Engine Management System (EMS)<a class="headerlink" href="#engine-management-system-ems" title="Permanent link">&para;</a></h1>
-<p>Gasoline Engine atau mesin bensin merupakan salah satu mesin yang menghasilkan tenaga dari hasil pembakaran campuran udara dan bahan bakar. Proses pembakaran campuran udara dan bahan bakar terjadi didalam ruang pembakaran (<em>Combustion Chamber</em>) sehingga dikenal juga sebagai mesin pembakaran dalam (<em>Internal Combustion Engine</em>). Besarnya tenaga yang dihasilkan tergantung beberapa faktor, yaitu:</p>
-<ol>
-<li>
-<p>Kualitas campuran udara dan bahan bakar</p>
-<ul>
-<li>Campuran udara dan bahar bakar yang homogen</li>
-<li>Perbandingan campuran yang ideal yaitu 1 : 14,7 (1 bagian bahan bakar dan 14,7 bagian udara)</li>
-</ul>
-</li>
-<li>
-<p>Kualitas percikan bunga api</p>
-<ul>
-<li>Menghasilkan cukup tenaga listrik, sekitar 3 miliJoule</li>
-<li>Waktu penyalaan (percikan bunga api busi) yang tepat</li>
-</ul>
-</li>
-<li>
-<p>Kualitas kompresi</p>
-<ul>
-<li>Perbandingan kompresi yang ideal, yaitu 8 - 12</li>
-<li>Tekanan kompresi yang ideal, yaitu 10 - 16 bar</li>
-<li>Tekanan pembakaran yang maksimal, yaitu 40 - 60 bar</li>
-</ul>
-</li>
-</ol>
+                <h1 id="menyetel-waktu-pengapian-mesin">Menyetel Waktu Pengapian Mesin<a class="headerlink" href="#menyetel-waktu-pengapian-mesin" title="Permanent link">&para;</a></h1>
+<h2 id="peranan-waktu-pengapian">Peranan Waktu Pengapian<a class="headerlink" href="#peranan-waktu-pengapian" title="Permanent link">&para;</a></h2>
+<p>Waktu pengapian pada mesin pembakaran dalam (<em>Internal Combustion Engine</em>) adalah proses pengaturan sudut relatif posisi piston dan sudut kecepatan (<em>angular velocity</em>) poros engkol untuk memicu pembakaran yang terjadi didalam ruang bakar sebelum akhir langkah kompresi. Waktu pengapian dibutuhkan karena campuran udara dan bahan bakar yang dimampatkan (dikompresikan) tidak sekaligus terbakar secara keseluruhan oleh percikan bunga api dari busi, gas-gas pembakaran membutuhkan periode waktu tertentu untuk mampu terbakar sempurna didalam ruang bakar, dan kecepatan rotasi mesin berpengaruh langsung dalam memperpendek atau memperpanjang waktu yang dibutuhkan untuk menyelesaikan proses pembakaran dan ekspansi (langkah kerja) yang terjadi. </p>
+<p>Selanjutnya sudut waktu pengapian yang ditempatkan lebih maju sebelum titik mati atas disebut sebagai <strong>STMA</strong> (Sebelum Titik Mati Atas) atau sering disebut pula <strong>BTDC</strong> (<em>Before Top Dead Center</em>). Memajukan waktu pengapian pada posisi STMA berarti percikan diberikan sebelum titik dimana ruang pembakaran mencapai ukuran minimum, karena tujuan langkah kerja pada mesin pembakaran dalam adalah memaksa torak turun ke bawah atau untuk memperluas ruang pembakaran. Percikan api yang terjadi setelah titik mati atas atau <strong>ATDC</strong> (<em>After Top Dead Center</em>) biasanya kontra-produktif (menghasilkan percikan terbuang, ledakan ulang atau detonasi, ketukan mesin dan lain-lain) kecuali percikan tersebut dibutuhkan sebagai percikan tambahan atau sebagai pembakaran lanjutan sebelum langkah buang.</p>
+<p>Pengaturan waktu pengapian yang tepat merupakan hal penting agar kinerja mesin bisa maksimal. Percikan yang terlalu cepat atau terlalu lambat dalam siklus mesin sangat mempengaruhi performa mesin, menimbulkan getaran yang berlebihan, dan bahkan merusak mesin. Waktu pengapian juga mempengaruhi umur mesin, konsumsi bahan bakar, dan tenaga mesin. Waktu pengapian pada mesin modern dikontrol secara terus menerus (<em>realtime</em>) menggunakan unit kontrol mesin dengan komputer sesuai dengan putaran mesin dan beban. Sedangkan pada mesin generasi lama yang masih menggunakan distributor masih menggunakan pemicu mekanik (<em>centrifugal advacer</em>) dengan memanfaatkan gaya inersia (dengan menggunakan bobot putar dan pegas) dan kevakuman pada manifold untuk mengatur waktu pengapian yang disesuaikan dengan putaran mesin dan beban (<em>vacuum advancer</em>).</p>
+<p>Banyak faktor yang mempengaruhi waktu pengapian yang tepat. Diantaranya waktu buka tutup katup atau injeksi bahan bakar, tipe sistem pengapian yang digunakan, jenis dan kondisi busi, kualitas bahan bakar, suhu dan tekanan bahan bakar, kecepatan mesin dan beban, udara dan temperatur mesin, turbo boost pressure atau tekanan asupan udara, komponen yang digunakan oleh sistem pengapian, dan pengaturan masin-masing komponen sistem pengapian. Biasanya, setiap dilakukan perubahan dan peningkatan kualitas mesin maka diperlukan perubahan pengarutan waktu pengapian.</p>
+<p>Waktu percikan pengapian untuk membakar campuran udara dan bahan bakar pada mesin generasi lama dikendalikan oleh perangkat mekanik yang terkumpul pada komponen sistem pembagi pengapian yang dikenal dengan nama distributor, digunakan untuk memicu percikan bunga api dan mendistribusikannya kepada setiap silinder yang disesuaikan dengan posisi piston atau derajat relatif poros engkol terhadap Titik Mati Atas (TMA).</p>
+<p>Waktu pengapian, relatif terhadap posisi piston yang didasarkan pada waktu asal (awal atau dasar) sebelum sentrifugal maju. <em>Centrifugal Advancer</em> yang terdapat pada distributor adalah mekanisme mekanik untuk memajukan waktu percikan (yang menyesuaikan derajat poros engkol) sesuai dengan peningkatan putaran mesin. Selain sentrifugal sebagai cara untuk memajukan waktu pengapian, ada juga sistem lain yang memanfaatkan kevakuman intake manifold untuk memajukan waktu pengapian yang kemudian di kenal dengan Vacuum Advancer. </p>
 <hr />
+<h2 id="penyetelan-waktu-pengapian">Penyetelan Waktu Pengapian<a class="headerlink" href="#penyetelan-waktu-pengapian" title="Permanent link">&para;</a></h2>
+<p>Seperti telah dijelaskan diatas, bahwa waktu pengapian sangatlah penting yang berpengaruh langsung terhadap kinerja mesin, konsumsi bahan bakar dan emisi gas buang. Di bawah ini akan dijelaskan cara melakukan penyetelan waktu pengapian untuk sistem pengapian konvensional.</p>
+<h3 id="langkah-1-siapkan-timing-light">Langkah 1 : Siapkan Timing Light<a class="headerlink" href="#langkah-1-siapkan-timing-light" title="Permanent link">&para;</a></h3>
+<p>Siapkan Timing Light yang biasanya tersedia satu paket dalam Tune-Up Kit seperti gambar dibawah ini.</p>
+<p><img alt="Gambar 1. Tune-Up Kit" src="../images/01_timing_light.jpg" /></p>
+<p><em>Gambar 1. Tune-Up Kit</em></p>
+<h3 id="langkah-2-panaskan-mesin">Langkah 2 : Panaskan Mesin<a class="headerlink" href="#langkah-2-panaskan-mesin" title="Permanent link">&para;</a></h3>
+<p>Hidupkan mesin sampai mencapai temperatur normal, jika sudah mencapai suhu normal, kemudian stel putaran mesin sampai mencapai putaran normal idle atau stationer (langsam). Gunakan Tachometer untuk mengetahui putaran mesin saat dilakukan penyetelan pada karburator. Putaran mesin normal idle adalah berkisar 800 - 1200 RPM (<em>Revolution Per Minutes</em>). Hal ini dimaksudkan agar sistem pengajuan pengapian yang sesuai dengan putaran mesin (centrifugal advance) belum bekerja, jika putaran idle lebih dari 1200 RPM maka sistem pengajuan pengapian sudah bekerja untuk memajukan waktu pengapian. Kemudian matikan mesin.</p>
+<p><img alt="Gambar 2. Penyetal Putaran Mesin Pada Karburator" src="../images/02_set_rpm_carburetor.jpg" /></p>
+<p><em>Gambar 2. Penyetal Putaran Mesin Pada Karburator</em></p>
+<h3 id="langkah-3-lepas-selang-vacuum-advancer">Langkah 3 : Lepas Selang Vacuum Advancer<a class="headerlink" href="#langkah-3-lepas-selang-vacuum-advancer" title="Permanent link">&para;</a></h3>
+<p>Lepas selang vacuum dari vacuum advancer (sistem pengajuan pengapian sesuai dengan kevacuuman) pada distributor yang menuju ke karburator. Hal ini agar waktu pengapian tidak dipengaruhi oleh vacuum advancer.</p>
+<p><img alt="Gambar 3. Lepas Selang Vacuum Advancer" src="../images/03_lose_vacuum_pipe.jpg" /></p>
+<p><em>Gambar 3. Lepas Selang Vacuum Advancer</em></p>
+<h3 id="langkah-4-pasang-sumber-tegangan-timing-light">Langkah 4 : Pasang Sumber Tegangan Timing Light<a class="headerlink" href="#langkah-4-pasang-sumber-tegangan-timing-light" title="Permanent link">&para;</a></h3>
+<p>Pasang kabel postif negatif Timing Light ke sumber tegangan (baterei)</p>
+<p><img alt="Gambar 4. Pemasangan Kabel Tegangan Timing Light" src="../images/04_plus_min_timing_light.jpg" /></p>
+<p><em>Gambar 4. Pemasangan Kabel Tegangan Timing Light</em></p>
+<h3 id="langkah-5-pasang-trigger-clamp">Langkah 5 : Pasang Trigger Clamp<a class="headerlink" href="#langkah-5-pasang-trigger-clamp" title="Permanent link">&para;</a></h3>
+<p>Pasang trigger clamp Timing Light ke busi nomor satu sesuai dengan aliran tegangan. Perhatikan tanda panah yang ada pada trigger clamp dan arahkan tanda panah sesuai dengan arah aliran tegangan dari distributor menuju ke busi (spark plug).</p>
+<p><img alt="Gambar 5. Pemasangan Trigger Clamp Timing Light" src="../images/05_clamp_trigger.jpg" /></p>
+<p><em>Gambar 5. Pemasangan Trigger Clamp Timing Light</em></p>
+<h3 id="langkah-6-kendurkan-pengunci-distributor">Langkah 6 : Kendurkan Pengunci Distributor<a class="headerlink" href="#langkah-6-kendurkan-pengunci-distributor" title="Permanent link">&para;</a></h3>
+<p>Kendurkan pengunci distributor (<em>distributor lock</em>) agar rumah distributor bisa digeser/diputar ke kiri dan ke kanan tapi jangan pula terlalu kendur. Kemudian hidupkan mesin.</p>
+<p><img alt="Gambar 6. Kendurkan Baut Pengunci Distributor" src="../images/06_losen_distributor.jpg" /></p>
+<p><em>Gambar 6. Kendurkan Baut Pengunci Distributor</em></p>
+<h3 id="langkah-7-arahkan-timing-light">Langkah 7 : Arahkan Timing Light<a class="headerlink" href="#langkah-7-arahkan-timing-light" title="Permanent link">&para;</a></h3>
+<p>Arahkan timing light pada timing mark (tanda waktu pengapian). Dan perhatikan waktu pengapian yang terjadi sesuai yang ditunjukan oleh tanda waktu pengapian. Jika waktu pengapian tidak tepat, geserlah waktu pengapian.</p>
+<p><img alt="Gambar 7. Timing Mark" src="../images/07_timing_mark.jpg" /></p>
+<p><em>Gambar 7. Timing Mark</em></p>
+<h3 id="langkah-8-sesuaikan-waktu-pengapian">Langkah 8 : Sesuaikan Waktu Pengapian<a class="headerlink" href="#langkah-8-sesuaikan-waktu-pengapian" title="Permanent link">&para;</a></h3>
+<p>Sesuaikan waktu pengapian dengan spesifikasi kendaraan (standar umum waktu pengapian adalah 8<sup>o</sup> - 12<sup>o</sup> STMA/BTDC). Pada sistem pengapian konvensional untuk menggeser waktu pengapian cukup dengan menggeser/memutar distributor. Jika diputar berlawanan arah putaran rotor maka waktu pengapian akan lebih cepat/awal. Jika di putar searah dengan putaran rotor maka waktu pengapian akan lebih lambat/akhir.</p>
+<p><img alt="Gambar 8. Memutar Distributor" src="../images/08_ignition_timing.jpg" /></p>
+<p><em>Gambar 8. Memutar Distributor</em></p>
+<h3 id="langkah-9-kencangkan-baut-distributor">Langkah 9 : Kencangkan Baut Distributor<a class="headerlink" href="#langkah-9-kencangkan-baut-distributor" title="Permanent link">&para;</a></h3>
+<p>Kencangkan baut distributor jika waktu pengapian sudah tepat.</p>
+<hr />
+<h2 id="video-penyetelan-waktu-pengapian">Video Penyetelan Waktu Pengapian<a class="headerlink" href="#video-penyetelan-waktu-pengapian" title="Permanent link">&para;</a></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UYGU7mTwsZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr />
+<h2 id="daftar-pustaka">Daftar Pustaka<a class="headerlink" href="#daftar-pustaka" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="http://www.weldmart.com/technical/Continentaltiming.html">Continental Ignition Timing</a></li>
+<li><a href="http://autospeed.com/cms/title_Getting-the-Ignition-Timing-Right/A_109132/article.html">Getting the Ignition Timing Right</a></li>
+<li><a href="http://www.centuryperformance.com/ignition-and-timing-settings-spg-219.html">Your Engine's Ignition System and Timing Settings</a></li>
+<li><a href="http://www.chevyhiperformance.com/howto/97438/index.html">Setting Ignition Timing Curves</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ignition_timing">Ignition timing</a></li>
+<li><a href="http://www.bristoldyno.com/tech/ignitiontiming.htm">Ignition Timing</a></li>
+<li><a href="http://www.howstuffworks.com/ignition-system.htm">How Automobile Ignition Systems Work</a></li>
+<li><a href="http://www.cdxetextbook.com/electrical/ignition/ignition/igntime.html">Checking ignition timing</a></li>
+<li><a href="http://www.certifiedmastertech.com/wordpress/2010/08/18/improper-ignition-timing/">Improper Ignition Timing</a></li>
+<li><a href="http://msdignition.com">Video made by MSD Ignition</a></li>
+</ul>
                 
                   
                     <h2 id="__source">Sumber</h2>
@@ -1024,8 +1313,8 @@
                     
                     
                     
-                    <a href="https://github.com/henduino/library/tree/master/docs/ototronik/pendahuluan-ototronik.md" title="pendahuluan-ototronik.md" class="md-source-file">
-                      pendahuluan-ototronik.md
+                    <a href="https://github.com/henduino/library/tree/master/docs/ototronik/ignition-timing.md" title="ignition-timing.md" class="md-source-file">
+                      ignition-timing.md
                     </a>
                   
                 
@@ -1040,9 +1329,9 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = "https://henduino.github.io/library/ototronik/pendahuluan-ototronik/";
+      this.page.url = "https://henduino.github.io/library/ototronik/ignition-timing/";
       this.page.identifier =
-        "ototronik/pendahuluan-ototronik/";
+        "ototronik/ignition-timing/";
     };
     (function() {
       var d = document, s = d.createElement("script");
@@ -1064,7 +1353,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../tnt/the-untold-history-of-arduino/" title="The Untold History of Arduino" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../dwell/" title="Dwell Sistem Pengapian" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1073,19 +1362,19 @@
                 <span class="md-footer-nav__direction">
                   Sebelumnya
                 </span>
-                The Untold History of Arduino
+                Dwell Sistem Pengapian
               </span>
             </div>
           </a>
         
         
-          <a href="../mil-pgmfi/" title="Kedipan MIL Honda PGM-FI" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../starter-sepeda-motor/" title="Sistem Starter Sepeda Motor" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Selanjutnya
                 </span>
-                Kedipan MIL Honda PGM-FI
+                Sistem Starter Sepeda Motor
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

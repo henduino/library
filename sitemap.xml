@@ -116,17 +116,17 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://henduino.github.io/library/ototronik/starter-sepeda-motor/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://henduino.github.io/library/ototronik/dwell/</loc>
      <lastmod>2019-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://henduino.github.io/library/ototronik/ignition-timing/</loc>
-     <lastmod>2019-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://henduino.github.io/library/ototronik/starter-sepeda-motor/</loc>
      <lastmod>2019-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>

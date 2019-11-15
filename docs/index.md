@@ -11,7 +11,7 @@ disqus:
 
 Ketika anda membuka halaman situs ini mungkin dalam hati bertanya-tanya, apa itu Henduino? [Henduino][1] adalah produk mikrokontroler yang dikembangkan oleh **Dede Hendriono** dengan dikhususkan pada chip mikrokontroler yang diproduksi oleh perusahaan [Atmel][2] dan perusahaan [Espressif][3]. Sedangkan konsentrasinya lebih ke turunan [Arduino][4], hal ini agar para Artis Elektronika terbiasa dengan perangkat lunak Arduino IDE. Selain berbasis Arduino, Henduino juga membuat beberapa papan mikrokontroler dengan basis ESP baik [ESP8266][5] maupun [ESP32][6] yang terkenal murah, mudah dan berdaya guna. Namun ada beberapa proyek yang dibuat oleh tim Henduino keluar dari 2 basis mikrokontroler tersebut.
 
-Sedangkan situs ini merupakan arsip atau perpustakaan tim Henduino, jadi apa yang tertulis disini bisa berupa ide, rencana, yang sedang dikembangkan atau bahkan produk yang siap untuk digunakan. Apa saja? Ikuti saja perkembangannya disitus ini. :D
+Sedangkan situs ini merupakan arsip atau perpustakaan tim Henduino, jadi apa yang tertulis disini bisa berupa ide, rencana, yang sedang dikembangkan atau bahkan produk yang siap untuk digunakan. Apa saja? Ikuti saja perkembangannya disitus ini.
 
 [1]: http://henduino.github.io
 [2]: https://www.microchip.com/

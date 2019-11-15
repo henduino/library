@@ -214,19 +214,19 @@
       <script>app.initialize({version:"{{ mkdocs_version }}",url:{base:"{{ base_url }}"}})</script>
       {% for path in config["extra_javascript"] %}
         <script src="{{ path | url }}"></script>
-		<script>
-			window.addEventListener('load', function() {
-			  setTimeout(function() {
-				var progressBar = document.querySelector('.progress-bar');
-				function onProgress(x, y) {
-				  console.log(x, y)
-				  progressBar.style.width = y * 100 + '%';
-				}
-				self.progressObserver = new ScrollProgress(onProgress);
-			  }, 100)
-			});
-		</script>
       {% endfor %}
+      <script>
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+          var progressBar = document.querySelector('.progress-bar');
+          function onProgress(x, y) {
+            console.log(x, y)
+            progressBar.style.width = y * 100 + '%';
+          }
+          self.progressObserver = new ScrollProgress(onProgress);
+          }, 100)
+        });
+      </script>
     {% endblock %}
   </body>
 </html>

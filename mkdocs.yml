@@ -4,10 +4,6 @@ site_description: Libraries for Henduino Board Projects with core of Atmel and E
 site_author: Dede Hendriono
 site_url: https://henduino.github.io/library/
 
-# Repository
-# repo_name: henduino/library
-# repo_url: https://github.com/henduino/library
-
 # Copyright
 copyright: 'Copyright &copy; 2018 - 2019 Dede Hendriono'
 
@@ -66,18 +62,21 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
-# Google Analytics
-google_analytics:
-  - 'UA-9289123-14'
-  - 'auto'
+  - pymdownx.arithmatex
 
 # Extra CSS & Javascript
 extra_css:
   - 'assets/stylesheets/scrollProgress.css'
   - 'assets/stylesheets/pinout.css'
 extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML'
   - 'assets/javascripts/scrollProgress.min.js'
+
+# Minify
+plugins:
+  - search
+  - minify:
+      minify_html: true
 
 # Navigation
 nav:
@@ -122,3 +121,9 @@ nav:
     - Mesin:
       - Penyebab Overheating: engine/overheating-mesin.md
       - Memeriksa Tutup Radiator: engine/periksa-radiator-cap.md
+      - Pehitungan Roda Gigi: engine/hitung-roda-gigi.md
+
+# Google Analytics
+google_analytics:
+  - 'UA-9289123-14'
+  - 'auto'

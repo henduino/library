@@ -24,3 +24,9 @@ Gasoline Engine atau mesin bensin merupakan salah satu mesin yang menghasilkan t
 
 * * *
 
+## Rumus
+
+!!! note "RUMUS"
+	$$
+	Gear Ratio = \frac{ω1}{ω2}=\frac{n1}{n2}=\frac{d2}{d1}=\frac{T2}{T1}
+	$$

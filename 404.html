@@ -930,6 +930,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/library/engine/hitung-roda-gigi/" title="Pehitungan Roda Gigi" class="md-nav__link">
+      Pehitungan Roda Gigi
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1022,20 +1034,22 @@
       
       <script>app.initialize({version:"1.0.4",url:{base:"/library/"}})</script>
       
-        <script src="/library/assets/javascripts/scrollProgress.min.js"></script>
-		<script>
-			window.addEventListener('load', function() {
-			  setTimeout(function() {
-				var progressBar = document.querySelector('.progress-bar');
-				function onProgress(x, y) {
-				  console.log(x, y)
-				  progressBar.style.width = y * 100 + '%';
-				}
-				self.progressObserver = new ScrollProgress(onProgress);
-			  }, 100)
-			});
-		</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
+        <script src="/library/assets/javascripts/scrollProgress.min.js"></script>
+      
+      <script>
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+          var progressBar = document.querySelector('.progress-bar');
+          function onProgress(x, y) {
+            console.log(x, y)
+            progressBar.style.width = y * 100 + '%';
+          }
+          self.progressObserver = new ScrollProgress(onProgress);
+          }, 100)
+        });
+      </script>
     
   </body>
 </html>

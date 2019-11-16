@@ -1,5 +1,5 @@
 title: Roda Gigi - Rasio Torsi dan Kecepatan
-description: 
+description: Hukum roda gigi menyatakan bahwa angular velocity rasio ata rasio kecepatan sudut antara gigi yang berkaitan selalu konstan. 
 hero: Roda Gigi : Rasio, Torsi dan Kecepatan
 path: tree/master/docs/ototronik
 source: hitung-roda-gigi.md
@@ -127,7 +127,7 @@ maka:
 
 !!! info "Hasil Perhitungan Gear Ratio"
 	$$
-	\mathbf{GearRatio} = \frac{T2}{T1} = \frac{20}{40} = 0.5
+	\mathbf{GearRatio} = \frac{T2}{T1} = \frac{20}{40} = 0,5
 	$$
 
 ##### Perhitungan Kecepatan Roda Gigi
@@ -141,7 +141,7 @@ maka:
 
 !!! info "Hasil Perhitungan Kecepatan Roda Gigi"
 	$$
-	\mathbf{n2} = \frac{n1}{GearRatio} = \frac{100}{0.5} = 200 rpm
+	\mathbf{n2} = \frac{n1}{GearRatio} = \frac{100}{0,5} = 200 rpm
 	$$
 
 ##### Perhitungan Torsi Roda Gigi
@@ -155,7 +155,7 @@ maka:
 
 !!! info "Hasil Perhitungan Torsi Roda Gigi"
 	$$
-	\mathbf{TorsiOuput} = {GearRatio} \times {TorsiInput} = {0.5} \times {10} = 5N-m
+	\mathbf{TorsiOuput} = {GearRatio} \times {TorsiInput} = {0,5} \times {10} = 5N-m
 	$$
 
 #### - Multi Roda Gigi
@@ -176,21 +176,21 @@ Langkah 1:
 
 !!! info "Gear Ratio T1 dan T2"
 	$$
-	GearRatio (1) = \frac{T2}{T1} = \frac{20}{40} = 0.5
+	GearRatio (1) = \frac{T2}{T1} = \frac{20}{40} = 0,5
 	$$
 
 Langkah 2:
 
 !!! info "Gear Ratio T2 dan T3"
 	$$
-	GearRatio (2) = \frac{T3}{T2} = \frac{10}{20} = 0.5
+	GearRatio (2) = \frac{T3}{T2} = \frac{10}{20} = 0,5
 	$$
 
 Langkah-3: 
 
 !!! info "Hasil Akhir Gear Ratio"
 	$$
-	GearRatio (Akhir) = {0.5} \times {0.5} = 0.25
+	GearRatio (Akhir) = {0,5} \times {0,5} = 0,25
 	$$
 
 ***
@@ -216,21 +216,21 @@ Langkah 1:
 
 !!! info "Gear Ratio T1 dan T2"
 	$$
-	GearRatio (1) = \frac{T2}{T1} = \frac{30}{40} = 0.75
+	GearRatio (1) = \frac{T2}{T1} = \frac{30}{40} = 0,75
 	$$
 
 Langkah 2:
 
 !!! info "Gear Ratio T3 dan T4"
 	$$
-	GearRatio (2) = \frac{T4}{T3} = \frac{10}{20} = 0.5
+	GearRatio (2) = \frac{T4}{T3} = \frac{10}{20} = 0,5
 	$$
 
 Langkah 3:
 
 !!! info "Hasil Akhir Gear Ratio"
 	$$
-	GearRatio (Akhir) = {0.75} \times {0.5} = 0.375
+	GearRatio (Akhir) = {0.75} \times {0.5} = 0,375
 	$$
 
 ***

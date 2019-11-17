@@ -105,8 +105,10 @@ nav:
       - Mengenal Mikrokontroler: papan/mikrokontroler.md
       - Mengenal Arduino: papan/apa-itu-arduino.md
       - Mengenal Arduino Uno: papan/mengenal-arduino-uno.md
+      - Mengenal Arduino Mega2560: papan/mengenal-arduino-mega2560.md
       - Mengenal Arduino Leonardo: papan/mengenal-arduino-leonardo.md
       - Mengenal Arduino Nano: papan/mengenal-arduino-nano.md
+      - Mengenal Arduino Pro Mini: papan/mengenal-arduino-pro-mini.md
     - Sensor:
       - Accelerometer ADXL335: sensor/accelerometer-adxl335.md
   - Otomotif:

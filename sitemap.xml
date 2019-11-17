@@ -66,6 +66,21 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://henduino.github.io/library/tnt/breadboard-prototyping/</loc>
+     <lastmod>2019-11-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/tnt/memilih-arduino/</loc>
+     <lastmod>2019-11-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://henduino.github.io/library/tnt/the-untold-history-of-arduino/</loc>
+     <lastmod>2019-11-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://henduino.github.io/library/papan/mikrokontroler/</loc>
      <lastmod>2019-11-17</lastmod>
      <changefreq>daily</changefreq>
@@ -92,16 +107,6 @@
     </url>
     <url>
      <loc>https://henduino.github.io/library/sensor/accelerometer-adxl335/</loc>
-     <lastmod>2019-11-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://henduino.github.io/library/tnt/memilih-arduino/</loc>
-     <lastmod>2019-11-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://henduino.github.io/library/tnt/the-untold-history-of-arduino/</loc>
      <lastmod>2019-11-17</lastmod>
      <changefreq>daily</changefreq>
     </url>

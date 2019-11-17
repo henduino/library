@@ -97,6 +97,10 @@ nav:
       - Permalink: blog/ext/permalinks.md
       - Pymdown: blog/ext/pymdown.md
   - MCU:
+    - Tips Trik:
+      - Breadboard Prototyping: tnt/breadboard-prototyping.md
+      - Memilih Arduino Uno: tnt/memilih-arduino.md
+      - The Untold History of Arduino: tnt/the-untold-history-of-arduino.md
     - Papan:
       - Mengenal Mikrokontroler: papan/mikrokontroler.md
       - Mengenal Arduino: papan/apa-itu-arduino.md
@@ -105,9 +109,6 @@ nav:
       - Mengenal Arduino Nano: papan/mengenal-arduino-nano.md
     - Sensor:
       - Accelerometer ADXL335: sensor/accelerometer-adxl335.md
-    - Tips Trik:
-      - Memilih Arduino Uno: tnt/memilih-arduino.md
-      - The Untold History of Arduino: tnt/the-untold-history-of-arduino.md
   - Otomotif:
     - Ototronik:
       - Pendahuluan: ototronik/pendahuluan-ototronik.md

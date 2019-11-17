@@ -1,8 +1,6 @@
 title: Tentang Henduino Library
 description: Halaman Situs Henduino yang membahas tentang Arduino dan ESP serta perpustakaan yang digunakannya.
 hero: Tentang Henduino Library
-path: tree/master/docs
-source: tentang.md
 disqus: 
 
 # Tentang Henduino Library

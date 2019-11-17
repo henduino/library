@@ -1,8 +1,6 @@
 title: Dwell Sistem Pengapian
 description: Dwell Angle adalah jumlah derajat poros cam distributor ketika kontak poin tertutup. Dwell Time adalah sejumlah waktu yang diperlukan untuk mengisi tegangan pada kumparan induktif hingga mencapai tingkat energi maksimum.
 hero: Dwell Sistem Pengapian
-path: tree/master/docs/ototronik
-source: dwell.md
 disqus: henduino
 
 # Dwell Sistem Pengapian

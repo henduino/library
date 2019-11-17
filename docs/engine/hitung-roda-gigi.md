@@ -1,8 +1,6 @@
 title: Roda Gigi - Rasio Torsi dan Kecepatan
 description: Hukum roda gigi menyatakan bahwa angular velocity rasio ata rasio kecepatan sudut antara gigi yang berkaitan selalu konstan. 
 hero: Roda Gigi : Rasio, Torsi dan Kecepatan
-path: tree/master/docs/ototronik
-source: hitung-roda-gigi.md
 disqus: henduino
 
 # Roda Gigi: Rasio, Torsi dan Kecepatan

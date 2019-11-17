@@ -1,8 +1,6 @@
 title: Mengenal Arduino Leonardo
 description: Arduino Leonardo adalah papan mikrokontroler berbasis ATmega32U4 yang dikembangkan oleh Tim Arduino Italia
 hero: Mengenal Arduino Leonardo
-path: tree/master/docs/papan
-source: mengenal-arduino-leonardo.md
 disqus: henduino
 
 # Mengenal Arduino Leonardo

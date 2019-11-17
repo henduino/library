@@ -1,8 +1,6 @@
 title: Memilih Arduino Uno Untuk Pemula
 description: Arduino Uno Original, Arduino Compatible dan Arduino Clone menjadi sangat membingungkan bagi para pemula yang hendak belajar tentang pemrograman Arduino
 hero: Memilih Arduino Uno Untuk Pemula
-path: tree/master/docs/tnt
-source: memilih-arduino.md
 disqus: henduino
 
 # Memilih Arduino Uno Untuk Pemula

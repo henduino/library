@@ -1,8 +1,6 @@
 title: The Untold History of Arduino
 description: Behind The Scene of Arduino
 hero: The Untold History of Arduino
-path: tree/master/docs/tnt
-source: the-untold-history-of-arduino.md
 disqus: henduino
 
 # The Untold History of Arduino

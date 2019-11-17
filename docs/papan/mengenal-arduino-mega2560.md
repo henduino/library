@@ -1,8 +1,6 @@
 title: Mengenal Arduino Mega2560
 description: Arduino Mega2560 adalah papan mikrokontroler berbasiskan ATmega2560. Arduino Mega2560 memiliki 54 pin digital input output, dimana 15 pin dapat digunakan sebagai output PWM, 16 pin sebagai input analog, dan 4 pin sebagai UART , 16 MHz kristal osilator, koneksi USB, jack power, header ICSP, dan tombol reset.
 hero: Mengenal Arduino Mega2560
-path: tree/master/docs/papan
-source: mengenal-arduino-mega2560.md
 disqus: henduino
 
 # Mengenal Arduino Mega2560

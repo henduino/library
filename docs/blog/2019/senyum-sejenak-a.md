@@ -1,8 +1,6 @@
 title: Senyum Sejenak Volume 1
 description: Saat tertawa, hormon endorfin akan dilepaskan sehingga Anda akan merasa lebih baik. Selain bermanfaat untuk kesehatan mental, tertawa juga berpengaruh positif terhadap banyak organ tubuh.
 hero: Senyum Sejenak Volume 1
-path: tree/master/docs/blog/2019
-source: senyum-sejenak-a.md
 disqus: henduino
 
 # Senyum Sejenak

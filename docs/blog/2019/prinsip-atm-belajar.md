@@ -1,8 +1,6 @@
 title: Prinsip ATM Dalam Pembelajaran
 description: Prinsip ATM atau Amati Tiru Modifikasi merupakan salah satu teknik pembelajaran yang cukup menantang sekarang ini terutama pada dunia teknologi yang terus berkembang sangat pesat.
 hero: Prinsip ATM Dalam Pembelajaran
-path: tree/master/docs/blog/2019
-source: prinsip-atm-belajar.md
 disqus: henduino
 
 # Prinsip ATM Dalam Pembelajaran

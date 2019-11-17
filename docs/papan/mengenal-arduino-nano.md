@@ -1,8 +1,6 @@
 title: Mengenal Arduino Nano
 description: Arduino Nano adalah papan mikrokontroler berbasis ATmega328 dikembangkan oleh Gravitech
 hero: Mengenal Arduino Nano
-path: tree/master/docs/papan
-source: mengenal-arduino-nano.md
 disqus: henduino
 
 # Mengenal Arduino Nano

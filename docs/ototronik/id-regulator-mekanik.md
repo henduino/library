@@ -1,8 +1,6 @@
 title: Identifikasi Regulator Mekanik
 description: Cara mudah mengidentifikasi terminal Regulator mekanik pada sistem pengisian kendaraan ringan maupun kendaraan berat adalah dengan melihat bagian belakang terminal kabel. Bagaimana caranya?
 hero: Identifikasi Regulator Mekanik
-path: tree/master/docs/ototronik
-source: id-regulator-mekanik.md
 disqus: henduino
 
 # Identifikasi Terminal Regulator Mekanik

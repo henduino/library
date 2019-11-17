@@ -26,8 +26,8 @@ theme:
     tabs: true
 
 # Repository
-repo_name: 'Henduino Library'
-repo_url: 'https://github.com/henduino/library'
+# repo_name: 'Henduino Library'
+# repo_url: 'https://github.com/henduino/library'
 
 # Customization
 extra:

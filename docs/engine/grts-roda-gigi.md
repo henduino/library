@@ -1,8 +1,6 @@
 title: Rasio Roda Gigi, Torsi dan Kecepatan
 description: Gear Ratio adalah jumlah rasio output dan input roda gigi pada porosnya. Torsi adalah ukuran dari kecenderungan gaya untuk memutar objek terhadap beberapa sumbu.
 hero: Rasio Roda Gigi, Torsi dan Kecepatan
-path: tree/master/docs/ototronik
-source: grts-roda-gigi.md
 disqus: henduino
 
 # Rasio Roda Gigi, Torsi dan Kecepatan

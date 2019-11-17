@@ -1,8 +1,6 @@
 title: Mengenal Arduino Uno
 description: Arduino Uno adalah papan mikrokontroler berbasis ATmega328 dikembangkan oleh Tim Arduino Italia
 hero: Mengenal Arduino Uno
-path: tree/master/docs/papan
-source: mengenal-arduino-uno.md
 disqus: henduino
 
 # Mengenal Arduino Uno

@@ -1,8 +1,6 @@
 title: Menggunakan Submodule Git
 description: Submodules adalah repositori Git yang ditanamkan di dalam repositori induk, melalui jalur tertentu di direktori kerja repositori induk.
 hero: Menggunakan Submodule Git
-path: tree/master/docs/blog/2019
-source: submodule-git.md
 disqus: henduino
 
 # Menggunakan Submodule pada Git

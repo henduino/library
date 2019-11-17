@@ -1,8 +1,6 @@
 title: Sistem Starter Sepeda Motor
 description: Sistem Starter Sepeda Motor menggunakan motor listrik arus searah yang mengubah energi listrik menjadi energi mekanik untuk memberikan gerak mula pada poros engkol.
 hero: Sistem Starter Sepeda Motor
-path: tree/master/docs/ototronik
-source: starter-sepeda-motor.md
 disqus: henduino
 
 # Sistem Starter Sepeda Motor

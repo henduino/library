@@ -1,8 +1,6 @@
 title: Apa itu Arduino
 description: Arduino merupakan salah satu platform mikrokontroler dengan chip produksi Atmel dan dikembangkan oleh Tim Arduino Italia
 hero: Apa itu Arduino
-path: tree/master/docs/papan
-source: apa-itu-arduino.md
 disqus: henduino
 
 # Mengenal Arduino

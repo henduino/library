@@ -1,8 +1,6 @@
 title: Prinsip Kerja Regulator Mekanik
 description: Regulator mekanik yang digunakan pada sistem pengisian kendaraan menggunakan prinsip sederhana, yang bekerja untuk memantau kenaikan tegangan dan memanfaatkannya untuk membetuk sifat kemagnetan yang dapat mengatur posisi kontak poin.
 hero: Prinsip Kerja Regulator Mekanik
-path: tree/master/docs/ototronik
-source: prinsip-regulator-mekanik.md
 disqus: henduino
 
 # Prinsip Kerja Regulator Mekanik - Alternator

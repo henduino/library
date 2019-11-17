@@ -1,8 +1,6 @@
 title: Memeriksa Rectifier Alternator
 description: 
 hero: Memeriksa Rectifier Alternator
-path: tree/master/docs/ototronik
-source: periksa-rectifier-alt.md
 disqus: henduino
 
 # Memeriksa Rectifier Alternator

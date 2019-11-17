@@ -1,8 +1,6 @@
 title: Mengenal Mikrokontroler
 description: Mikrokontroler atau MCU (singkatan dari Microcontroller Unit) atau ada juga yang menyebut Mikrokomputer adalah komputer kecil pada sirkuit terpadu (IC) tunggal yang didalamnya berisi inti prosesor, memori, dan periferal Input/Output terprogram
 hero: Mengenal Mikrokontroler
-path: tree/master/docs/papan
-source: mikrokontroler.md
 disqus: henduino
 
 # Mengenal Mikrokontroler

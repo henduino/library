@@ -1,8 +1,6 @@
 title: Mengenal Arduino Pro Mini
 description: Arduino Pro Mini merupakan keluarga Arduino yang murah, sederhana dan ukurannya yang kecil membuat popularitasnya hampir mengalahkan Arduino Uno. Selain itu, Arduino Pro Mini hadir dalam 2 versi yaitu versi 3,3 Volt 8 Mhz dan versi 5 Volt 16 MHz yang membuatnya mudah untuk dipilih sesuai kebutuhan
 hero: Mengenal Arduino Pro Mini
-path: tree/master/docs/papan
-source: mengenal-arduino-pro-mini.md
 disqus: henduino
 
 # Mengenal Arduino Pro Mini

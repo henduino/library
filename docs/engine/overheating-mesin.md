@@ -1,8 +1,6 @@
 title: Penyebab Overheating Mesin
 description: Overheating bisa mengakibatkan kegagalan kinerja mesin, bahkan lebih fatal lagi yaitu kerusakan komponen-komponen vital mesin akibat tumbukan, gesekan dan atau benturan yang disebabkan pemuaian komponen yang melebihi batas normal.
 hero: Penyebab Overheating Mesin
-path: tree/master/docs/engine
-source: overheating-mesin.md
 disqus: henduino
 
 # Penyebab Overheating Mesin

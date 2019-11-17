@@ -1,8 +1,6 @@
 title: Breadboard Prototyping
 description: Breadboard adalah salah satu bagian yang paling mendasar ketika belajar bagaimana membuat sirkuit dalam elektronika. Kita akan belajar tentang apa breadboard, mengapa disebut breadboard, dan bagaimana menggunakan breadboard untuk prototyping.
 hero: Breadboard Prototyping
-path: tree/master/docs/tnt
-source: breadboard-prototyping.md
 disqus: henduino
 
 # Breadboard Elektronika untuk Prototyping

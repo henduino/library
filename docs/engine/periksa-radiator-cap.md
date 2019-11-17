@@ -1,8 +1,6 @@
 title: Memeriksa Tutup Radiator
 description: Tutup radiator berfungsi untuk mengatur tekanan dan volume air pendingin didalam radiator.
 hero: Memeriksa Tutup Radiator
-path: tree/master/docs/engine
-source: periksa-radiator-cap.md
 disqus: henduino
 
 # Memeriksa Tutup Radiator (Radiator Cap Test)

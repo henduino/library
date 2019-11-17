@@ -1,8 +1,6 @@
 title: Memanfaatkan Internet Sebagai Sumber Belajar
 description: Memanfaatkan Internet Sebagai Sumber Belajar
 hero: Memanfaatkan Internet Sebagai Sumber Belajar
-path: tree/master/docs/blog/2019
-source: internet-sumber-belajar.md
 disqus: henduino
 
 # Internet Sebagai Sumber Belajar

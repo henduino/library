@@ -1,8 +1,6 @@
 title: Hapus Jejak File
 description: Hapus jejak file yang sudah ditambahkan ke repositori git berdasarkan .gitignore
 hero: Hapus jejak file yang sudah ditambahkan ke repositori git berdasarkan .gitignore
-path: tree/master/docs/blog/2019
-source: untrack-files.md
 disqus: henduino
 
 # Hapus jejak file yang sudah ditambahkan ke repositori git berdasarkan .gitignore

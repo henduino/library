@@ -87,8 +87,6 @@ nav:
       - Senyum Sejenak Vol 1: blog/2019/senyum-sejenak-a.md
       - Prinsip ATM Belajar: blog/2019/prinsip-atm-belajar.md
       - Internet Sumber Belajar: blog/2019/internet-sumber-belajar.md
-      - Hapus Jejak File: blog/2019/untrack-files.md
-      - Menggunakan Submodule Git: blog/2019/submodule-git.md
     - Extensions:
       - Admonition: blog/ext/admonition.md
       - Codehilite: blog/ext/codehilite.md
@@ -96,6 +94,9 @@ nav:
       - Metadata: blog/ext/metadata.md
       - Permalink: blog/ext/permalinks.md
       - Pymdown: blog/ext/pymdown.md
+  - IT:
+    - Hapus Jejak File: it/untrack-files.md
+    - Menggunakan Submodule Git: it/submodule-git.md
   - MCU:
     - Tips Trik:
       - Breadboard Prototyping: tnt/breadboard-prototyping.md

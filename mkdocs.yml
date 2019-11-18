@@ -98,6 +98,8 @@ nav:
     - Git:
       - Hapus Jejak File: it/untrack-files.md
       - Menggunakan Submodule Git: it/submodule-git.md
+    - Network:
+      - Bit v.s. Byte: it/bit-vs-byte.md
   - MCU:
     - Tips Trik:
       - Breadboard Prototyping: tnt/breadboard-prototyping.md

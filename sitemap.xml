@@ -66,6 +66,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://henduino.github.io/library/it/bit-vs-byte/</loc>
+     <lastmod>2019-11-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://henduino.github.io/library/tnt/breadboard-prototyping/</loc>
      <lastmod>2019-11-18</lastmod>
      <changefreq>daily</changefreq>

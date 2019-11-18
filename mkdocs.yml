@@ -95,8 +95,9 @@ nav:
       - Permalink: blog/ext/permalinks.md
       - Pymdown: blog/ext/pymdown.md
   - IT:
-    - Hapus Jejak File: it/untrack-files.md
-    - Menggunakan Submodule Git: it/submodule-git.md
+    - Git:
+      - Hapus Jejak File: it/untrack-files.md
+      - Menggunakan Submodule Git: it/submodule-git.md
   - MCU:
     - Tips Trik:
       - Breadboard Prototyping: tnt/breadboard-prototyping.md

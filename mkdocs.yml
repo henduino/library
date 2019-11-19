@@ -102,6 +102,7 @@ nav:
       - Bit v.s. Byte: it/bit-vs-byte.md
   - MCU:
     - Tips Trik:
+      - Resistor : tnt/resistor.md
       - Breadboard Prototyping: tnt/breadboard-prototyping.md
       - Memilih Arduino Uno: tnt/memilih-arduino.md
       - The Untold History of Arduino: tnt/the-untold-history-of-arduino.md

@@ -1,5 +1,5 @@
 title: Memahami Bit dan Byte
-description: 
+description: Pernahkah anda bertanya-tanya, sebenarnya berapa kecepatan Internet Service Provider (ISP) yang anda sewa? Dikontrak kerjasama antara konsumen dengan ISP tertera demikian, namun pada informasi yang tertera saat melakukan unduhan berbeda dengan isi kontrak kerjasama.
 hero: Memahami Bit dan Byte
 disqus: henduino
 
@@ -35,7 +35,7 @@ Byte adalah unit informasi digital yang umum digunakan pada komputasi dan teleko
 
 ## Sejarah Byte
 
-Istilah byte diciptakan oleh Werner Buchholz pada bulan Juli tahun 1956, selama fase awal desain untuk Komputer IBM Stretch. Ini adalah pengeja ulang bite untuk menghindari kesalahan mutasi ke bit. Komputer awal menggunakan sebuah variasi representasi 4-bit binary coded decimal (BCD) dan 6-bit kode untuk pencetakan pola grafis umum di Angkatan Darat dan Angkatan Laut Amerika. Ini termasuk representasi karakter alfanumerik dan simbol grafis khusus. Set ini kemudian diperluas pada tahun 1963 untuk penulisan kode 7-bit, yang disebut American Standard Code for Information Interchange (ASCII) sebagai Federal Information Processing Standard menggantikan kode teleprinter yang tidak kompatibel untuk digunakan oleh cabang-cabang yang berbeda pada pemerintah Amerika.
+Istilah byte diciptakan oleh Werner Buchholz pada bulan Juli tahun 1956, selama fase awal desain untuk Komputer IBM Stretch. Ini adalah pengeja ulang byte untuk menghindari kesalahan mutasi ke bit. Komputer awal menggunakan sebuah variasi representasi 4-bit binary coded decimal (BCD) dan 6-bit kode untuk pencetakan pola grafis umum di Angkatan Darat dan Angkatan Laut Amerika. Ini termasuk representasi karakter alfanumerik dan simbol grafis khusus. Set ini kemudian diperluas pada tahun 1963 untuk penulisan kode 7-bit, yang disebut American Standard Code for Information Interchange (ASCII) sebagai Federal Information Processing Standard menggantikan kode teleprinter yang tidak kompatibel untuk digunakan oleh cabang-cabang yang berbeda pada pemerintah Amerika.
 
 ASCII termasuk didalamnya perbedaan huruf besar dan huruf kecil dan sebuah set karakter kontrol untuk memfasilitasi transmisi bahasa tertulis serta fungsi perangkat pencetak, seperti pemindah halaman dan pemindah baris, dan kontrol fisik atau logis dari aliran data melalui transmisi media. Selama awal tahun 1960-an, yang juga aktif dalam standarisasi ASCII, IBM secara bersamaan memperkenalkan pada lini produk dari System/360 dengan 8-bit Extended Binary Coded Decimal Interchange Code (EBCDIC), yang merupakan reprenstasi pengembangan dari  6-bit binary-coded decimal (BCDIC) yang digunakan pada punched card. Keunggulan System/360 ini membuat penggunaan ukuran penyimpanan 8-bit digunakan dimana-mana, sedangkan secara rinci skema encoding EBCDIC dan ASCII berbeda.
 

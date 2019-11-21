@@ -117,6 +117,9 @@ nav:
     - Sensor:
       - Accelerometer ADXL335: sensor/accelerometer-adxl335.md
   - Otomotif:
+    - Alat:
+      - Vernier Caliper: tools/vernier-caliper.md
+      - Secure Key Shutter: tools/secure-key-shutter.md
     - Ototronik:
       - Pendahuluan: ototronik/pendahuluan-ototronik.md
       - Kedipan MIL Honda PGM-FI: ototronik/mil-pgmfi.md
@@ -127,6 +130,8 @@ nav:
       - Prinsip Regulator Mekanik: ototronik/prinsip-regulator-mekanik.md
       - Memeriksa Rectifier Alternator: ototronik/periksa-rectifier-alt.md
     - Mesin:
+      - Overhead Valve: engine/overhead-valve.md
+      - Overhead Cam: engine/overhead-cam.md
       - Penyebab Overheating: engine/overheating-mesin.md
       - Memeriksa Tutup Radiator: engine/periksa-radiator-cap.md
       - Pehitungan Roda Gigi: engine/hitung-roda-gigi.md

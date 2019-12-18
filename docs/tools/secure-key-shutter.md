@@ -33,7 +33,7 @@ Pada dasarnya Secure Key Shutter adalah pengaman kunci utama. Dari namanya dapat
 
 Prinsip kerja Secure Key Shutter sebenarnya sederhana hanya dengan memanfaatkan sifat-sifat kemagnetan. Magnet yang kutubnya senama akan saling tolak menolak dan kutub yang tidak senama akan saling tarik menarik (pelajaran IPA waktu di SD). Prinsip "Kutub Senama" inilah yang digunakan pada Secure Key Shutter. Perhatikan Video Animasi Secure Key Shutter dibawah ini.
 
-Video 1. Prinsip Kerja Secure Key Shutter
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZrTs7FmtzKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Secure Key Shutter memiliki empat lubang pin. 3 lubang di isi pin magnet dan 1 lubang dibiarkan kosong. Kekosongan 1 lubang pin ini untuk menciptakan kombinasi urutan peletakan pin magnet. Sehingga setiap sepeda motor memiliki urutan peletakan pin magnet yang berbeda. Setiap pin magnet memiliki dua kutub medan magnet yaitu kutub utara magnet (disingkat U), dan kutub selatan magnet (disingkat S).
 

@@ -3,9 +3,7 @@ site_name: Henduino Library
 site_description: Libraries for Henduino Board Projects with core of Atmel and Espressif
 site_author: Dede Hendriono
 site_url: https://henduino.github.io/library/
-
-# Copyright
-copyright: 'Copyright &copy; 2018 - 2019 Dede Hendriono'
+copyright: 'Copyright &copy; 2018 - 2019 <a href="https://henduino.github.io/library/">Dede Hendriono</a>'
 
 # Configuration
 theme:
@@ -63,6 +61,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.arithmatex
+  - markdown_blockdiag:
+    format: svg
 
 # Extra CSS & Javascript
 extra_css:

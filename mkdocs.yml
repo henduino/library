@@ -61,8 +61,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.arithmatex
-  - markdown_blockdiag:
-    format: svg
 
 # Extra CSS & Javascript
 extra_css:

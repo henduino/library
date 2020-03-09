@@ -13,7 +13,7 @@ Sebelum melanjutkan, pastikan semua perubahan yang Anda lakukan telah di `commit
 
 #### Step 2: Buang segala sesuatu dari repositori
 Untuk membersihkan repositori Anda, gunakan perintah:
-```
+``` sh
 git rm -r --cached .
 ```
 * `rm` adalah perintah penghapusan
@@ -23,7 +23,7 @@ git rm -r --cached .
 * Perintah `rm` tanpa ampun dan tidak bisa dibatalkan. Jika Anda ingin mencoba apa yang dilakukan sebelumnya, tambahkan tanda `-n` atau `--dry-run` untuk menguji semuanya.
 
 #### Step 3: Tambahkan ulang segala sesuatu ke repositori
-```
+``` sh
 git add .
 ```
 

@@ -104,6 +104,7 @@ nav:
       - Resistor: tnt/resistor.md
       - Breadboard: tnt/breadboard-prototyping.md
       - Memilih Arduino Uno: tnt/memilih-arduino.md
+      - Driver Signature Enforcement: tnt/dse.md
       - The Untold History of Arduino: tnt/the-untold-history-of-arduino.md
     - Papan:
       - Mengenal Mikrokontroler: papan/mikrokontroler.md

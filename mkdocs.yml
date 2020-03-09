@@ -99,9 +99,10 @@ nav:
     - Network:
       - Bit v.s. Byte: it/bit-vs-byte.md
   - MCU:
-    - Tips Trik:
-      - Resistor : tnt/resistor.md
-      - Breadboard Prototyping: tnt/breadboard-prototyping.md
+    - Dasar:
+      - Baterai: tnt/baterai.md
+      - Resistor: tnt/resistor.md
+      - Breadboard: tnt/breadboard-prototyping.md
       - Memilih Arduino Uno: tnt/memilih-arduino.md
       - The Untold History of Arduino: tnt/the-untold-history-of-arduino.md
     - Papan:

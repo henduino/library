@@ -91,6 +91,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://henduino.github.io/library/tnt/dse/</loc>
+     <lastmod>2020-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://henduino.github.io/library/tnt/the-untold-history-of-arduino/</loc>
      <lastmod>2020-03-09</lastmod>
      <changefreq>daily</changefreq>

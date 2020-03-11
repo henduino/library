@@ -34,7 +34,7 @@ Hubungkan ST-Link ke pin Blue Pill dengan benar, jangan sampai tertukar, karena 
 ## Texane/ST-Link Open Source
 
 Untuk perangkat lunaknya saya menggunakan [Texane/ST-Link][7] untuk menyesuaikan sistem operasi yang digunakan yaitu Linux. Karena keluarga linux maka perangkat lunak Texane/ST-Link sudah jelas open source sebagai pengganti STLink STMicroelectronics yang hanya berjalan di Windows. Selain itu Texane/ST-Link ini lintas-platform jadi bisa berjalan di Mac dan Linux.
-Setelah Blue Pill terhubung dengan ST-Link, hubungkan ST-Link ke port USB. Buka terminal pada Linux dan masukan perintah 'st-info --probe' dan apa yang terjadi? Ternyata muncul pesan kesalahan bahwa Blue Pill "Unknown Device" atau tidak dikenali dengan isi pesan sebagai berikut:
+Setelah Blue Pill terhubung dengan ST-Link, hubungkan ST-Link ke port USB. Buka terminal pada Linux dan masukan perintah `st-info --probe` dan apa yang terjadi? Ternyata muncul pesan kesalahan bahwa Blue Pill "Unknown Device" atau tidak dikenali dengan isi pesan sebagai berikut:
 ``` sh
 $ st-info --probe
 Found 1 stlink programmers
@@ -105,6 +105,7 @@ Metode kedua ini dilakukan jika ternyata setelah tombol Reset di lepas keadaan k
 
 * Lepaskan ST-Link dari port USB komputer
 * Pindahkah jumper Boot0 ke posisi angka 1 (HIGH), hal ini bertujuan agar ST-Link dapat mengakses System Memory
+* Hubungkan ST-Link ke port USB komputer
 * Ketikan perintah `st-info --probe` pada terminal, jika hasilnya seperti dibawah ini, berarti kita berhasil mengakses System Memory
 ``` sh
 $ st-info --probe

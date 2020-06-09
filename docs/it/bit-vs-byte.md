@@ -188,8 +188,6 @@ Lalu bagaimana dengan ISP yang ada di sekitar kita? Apakah mereka cukup transpar
 * [International Electrotechnical Commission][8]
 * [ASCII][9]
 
-***
-
 [1]: http://en.wikipedia.org/wiki/Bit
 [2]: http://en.wikipedia.org/wiki/Byte
 [3]: http://innovationzen.com/blog/2006/07/28/the-broadband-speed-guide/
@@ -199,3 +197,7 @@ Lalu bagaimana dengan ISP yang ada di sekitar kita? Apakah mereka cukup transpar
 [7]: http://people.csail.mit.edu/jaffer/MIXF/
 [8]: http://id.wikipedia.org/wiki/International_Electrotechnical_Commission
 [9]: http://en.wikipedia.org/wiki/ASCII
+
+***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

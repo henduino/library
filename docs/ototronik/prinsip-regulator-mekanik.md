@@ -178,3 +178,7 @@ Ketika arus medan rotor ini dibuang ke massa, maka hilang kemagnetan pada rotor 
 Pada dasarnya regulator apapun jenisnya, baik mekanik maupun elektronik mempunya tugas untuk membatasi, menjaga, menstabilkan tegangan listrik yang dihasilkan oleh generator listrik. Hal ini karena kemampuan baterai dan komponen kelistrikan otomotif lainnya telah dibatasi kemampuannya dalam menerima tegangan listrik. Secara umum, kemampuan baterai dan komponen sistem kelistrikan otomotif hanya mampu menerima tegangan maksimal sebesar 15 Volt.
 
 Salam hangat dari Banjarsari - Ciamis - Jawa Barat - Indonesia - Bumi - Galaksi Bima Sakti...
+
+***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

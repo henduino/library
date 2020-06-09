@@ -145,3 +145,7 @@ Dibawah ini adalah tabel indeks DTC yang digunakan sebagai acuan untuk mengambil
 * ANF125 Service Manual, American Honda Motor Co., Inc.
 * Buku Pedoman Reparasi CV-Matic, PT Astra Honda Motor
 * MIL Trouble Code Honda, Al Tech
+
+***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

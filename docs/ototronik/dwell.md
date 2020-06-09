@@ -141,3 +141,5 @@ Demikian artikel yang cukup panjang membahas tentang dwell pada sistem pengapian
 [4]: http://spdispark.com/pages/frequently-asked-questions-dwell
 
 ***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

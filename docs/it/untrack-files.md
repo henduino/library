@@ -34,3 +34,7 @@ git commit -m ".gitignore fix"
 Repositori Anda telah bersih :)
 
 Push perubahan ke repositori remote Anda untuk melihat perubahannya dan pastikan bahwa repositori Anda sekarang mengalami perubahan.
+
+***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

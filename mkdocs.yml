@@ -3,12 +3,12 @@ site_name: Henduino Library
 site_description: Libraries for Henduino Board Projects with core of Atmel and Espressif
 site_author: Dede Hendriono
 site_url: https://henduino.github.io/library/
-copyright: 'Copyright &copy; 2018 - 2019 <a href="https://henduino.github.io/library/">Dede Hendriono</a>'
+copyright: 'Copyright &copy; 2018 - 2020 <a href="https://henduino.github.io/library/">Dede Hendriono</a>'
 
 # Configuration
 theme:
   name: 'material'
-  language: 'en'
+#  language: 'en'
   custom_dir: 'theme'
   language: 'id'
   palette:
@@ -73,6 +73,8 @@ extra_javascript:
 # Minify
 plugins:
   - search
+  - git-revision-date-localized:
+      type: datetime
   - minify:
       minify_html: true
 
@@ -130,6 +132,7 @@ nav:
       - Identifikasi Regulator Mekanik: ototronik/id-regulator-mekanik.md
       - Prinsip Regulator Mekanik: ototronik/prinsip-regulator-mekanik.md
       - Memeriksa Rectifier Alternator: ototronik/periksa-rectifier-alt.md
+#      - Pulser dan Reluctor: ototronik/pulser-reluctor.md
     - Mesin:
       - Overhead Valve: engine/overhead-valve.md
       - Overhead Cam: engine/overhead-cam.md
@@ -137,6 +140,8 @@ nav:
       - Memeriksa Tutup Radiator: engine/periksa-radiator-cap.md
       - Pehitungan Roda Gigi: engine/hitung-roda-gigi.md
       - Rasio Torsi dan Kecepatan: engine/grts-roda-gigi.md
+    - Soal:
+      - PAT XI TBSM: soal/pat-xi-tbsm.md
 
 # Google Analytics
 google_analytics:

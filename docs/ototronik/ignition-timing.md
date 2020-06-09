@@ -124,3 +124,7 @@ Kencangkan baut distributor jika waktu pengapian sudah tepat.
 [8]: http://www.cdxetextbook.com/electrical/ignition/ignition/igntime.html
 [9]: http://www.certifiedmastertech.com/wordpress/2010/08/18/improper-ignition-timing/
 [10]: http://msdignition.com
+
+***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

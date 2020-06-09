@@ -145,3 +145,5 @@ git submodule update --init --recursive
 [3]: https://www.vogella.com/tutorials/GitSubmodules/article.html
 [4]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [5]: https://git-scm.com/docs/git-filter-branch
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

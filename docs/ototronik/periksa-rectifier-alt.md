@@ -144,3 +144,7 @@ Ikuti langkah pemeriksaan dibawah ini:
 Teknik pemeriksaan ini berlaku untuk semua jenis rectifier pada alternator dengan regulator mekanik. Sedangkan untuk regulator elektronik proses pemeriksaan ada sedikit perbedaan karena jumlah diode yang digunakan lebih banyak. Diode yang digunakan pada alternator bisa kita hitung dengan melihat tonjolan bulat pada rectifier. Namun teknik pemeriksaannya sebenarnya hampir sama asalkan kita tahu ujung stator dan terminal yang menghasilkan positif negatif pada alternator. Pada artikel berikutnya akan dibahas pemeriksaan rectifier untuk jenis alternator yang menggunakan regulator elektronik serta proses pembongkaran alternator.
 
 Semoga artikel ini membantu mempercepat pekerjaan anda, dan jangan lupa selalu gunakan perlengkapan keselamatan kerja... Salam hangat dari Ciamis, Jawa Barat, Indonesia...
+
+***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

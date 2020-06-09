@@ -78,3 +78,5 @@ Semoga artikel diatas bermanfaat dan dapat mempercepat pekerjaan anda. Selamat b
 Salam hangat dari Ciamis, Jawa Barat, Indonesia...
 
 ***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

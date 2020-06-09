@@ -121,3 +121,5 @@ Demikianlah beberapa alasan penggunaan Starter Relay dan demikian pula bahasan t
 4. New Step I Training Manual, Toyota Astra Motor, 1995
 
 ***
+
+<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>

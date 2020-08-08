@@ -1,6 +1,6 @@
-title: Senyum Sejenak Volume 1
+title: Senyum Sejenak
 description: Saat tertawa, hormon endorfin akan dilepaskan sehingga Anda akan merasa lebih baik. Selain bermanfaat untuk kesehatan mental, tertawa juga berpengaruh positif terhadap banyak organ tubuh.
-hero: Senyum Sejenak Volume 1
+hero: Senyum Sejenak
 disqus: henduino
 
 # Senyum Sejenak
@@ -96,3 +96,30 @@ Eh, anaknya membalas surat itu beberapa minggu kemudian. "*Pak! Hasan mohon deng
 Rupanya surat itu disensor pihak rumah tahanan, maka keesokan harinya setelah si bapak terima surat, datang satu peleton tentara dari kota Medan. Tanpa banyak bicara mereka segera ke kebun jagung dan sibuk seharian mencangkul tanah di kebun tersebut. Setelah mereka pergi, kembali si bapak tulis surat ke anaknya. 
 "*Hasan, setelah bapak terima suratmu, datang satu peleton tentara mencari senjata di kebun jagung kita, namun tanpa hasil. Apa yang harus bapak lakukan sekarang?*" 
 Si anak kembali membalas surat tersebut, "*Sekarang bapak mulai tanam jagung, kan sudah dicangkul oleh tentara, dan jangan lupa ucapkan terima kasih kepada mereka*" Pihak rumah tahanan yang menyensor surat ini langsung klepek-klepek!!!
+
+***
+
+## Asuransi Trans Jakarta
+
+Baru saja saya mendapat telepon, ada suara merdu seorang wanita mengenalkan diri dari asuransi.
+
+* Sales : *Selamat siang pak, boleh mengganggu sebentar pak?*
+* Saya : Ada apa?
+* Sales : *Bapak pulang dan pergi kerja naik mobil?*
+* Saya : Iya jelas
+* Sales : *Bapak nyetir sendiri?*
+* Saya : Tidak, sopir yang bawa
+* Sales : *Apakah sudah masuk asuransi mobilnya?*
+* Saya : Saya kira sudah, coba nanti saya tanya
+* Sales : *Berapa nilai mobil bapak? Dibawah 1M atau 1M lebih?*
+* Saya : Sepertinya lebih dari 1M
+* Sales : *Mobil merk apa yang bapak pakai?*
+* Saya :  **Trans Jakarta**
+
+Tiba-tiba telepon di banting dan di tutup...
+
+*Salahku kih opoooooo!!!!*
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

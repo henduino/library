@@ -16,7 +16,7 @@ Soal dibuat dengan fasilitas [Google Form][1] sehingga ada beberapa hal yang har
 
 ***
 
-## Soal TBSM - Pemeliharaan Kelistrikan Sepeda Motor
+## Soal Teknik dan Bisnis Sepeda Motor
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDeGmgk2BiynA7_hLaUsGgru-oUi0He2j3QAtvc9xSx_7GLw/viewform?embedded=true" width="690" height="20770" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
 

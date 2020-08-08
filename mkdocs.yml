@@ -7,7 +7,7 @@ copyright: 'Copyright &copy; 2018 - 2020 <a href="https://henduino.github.io/lib
 
 # Configuration
 theme:
-  name: 'material'
+  name: null
 #  language: 'en'
   custom_dir: 'theme'
   language: 'id'
@@ -23,13 +23,18 @@ theme:
   feature:
     tabs: true
 
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
 # Repository
 # repo_name: 'Henduino Library'
 # repo_url: 'https://github.com/henduino/library'
 
 # Customization
 extra:
-  manifest: 'manifest.webmanifest'
+  manifest: manifest.webmanifest
   disqus: 'henduino'
   social:
     - type: 'github'
@@ -43,13 +48,20 @@ extra:
 
 # Extensions
 markdown_extensions:
-  - admonition
-  - codehilite:
-      linenums: true
-  - footnotes
-  - meta
-  - toc:
+  - markdown.extensions.admonition
+  - markdown.extensions.footnotes
+  - markdown.extensions.tables
+  - markdown.extensions.meta
+  - markdown.extensions.attr_list
+  - markdown.extensions.toc:
       permalink: true
+  - pymdownx.highlight:
+      use_pygments: true
+      # linenums: true
+      linenums_style: pymdownx.inline
+  - pymdownx.tabbed
+  - pymdownx.betterem
+  - pymdownx.superfences
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
@@ -61,14 +73,18 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.arithmatex
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 # Extra CSS & Javascript
-extra_css:
-  - 'assets/stylesheets/scrollProgress.css'
-  - 'assets/stylesheets/pinout.css'
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML'
-  - 'assets/javascripts/scrollProgress.min.js'
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML
+  - assets/javascripts/scrollProgress.min.js
+extra_css:
+  - assets/stylesheets/scrollProgress.css
+  - assets/stylesheets/pinout.css
 
 # Minify
 plugins:
@@ -84,22 +100,23 @@ nav:
   - Tentang: tentang.md
   - Artikel:
     - 2019:
-      - Senyum Sejenak Vol 1: blog/2019/senyum-sejenak-a.md
+      - Senyum Sejenak: blog/2019/senyum-sejenak-a.md
       - Prinsip ATM Belajar: blog/2019/prinsip-atm-belajar.md
       - Internet Sumber Belajar: blog/2019/internet-sumber-belajar.md
-    - Extensions:
-      - Admonition: blog/ext/admonition.md
-      - Codehilite: blog/ext/codehilite.md
-      - Footnotes: blog/ext/footnotes.md
-      - Metadata: blog/ext/metadata.md
-      - Permalink: blog/ext/permalinks.md
-      - Pymdown: blog/ext/pymdown.md
+    # - Extensions:
+    #   - Admonition: blog/ext/admonition.md
+    #   - Codehilite: blog/ext/codehilite.md
+    #   - Footnotes: blog/ext/footnotes.md
+    #   - Metadata: blog/ext/metadata.md
+    #   - Permalink: blog/ext/permalinks.md
+    #   - Pymdown: blog/ext/pymdown.md
   - IT:
     - Git:
       - Hapus Jejak File: it/untrack-files.md
       - Menggunakan Submodule Git: it/submodule-git.md
     - Network:
       - Bit v.s. Byte: it/bit-vs-byte.md
+      - Office Remote: it/office-remote.md
   - MCU:
     - Dasar:
       - Baterai: tnt/baterai.md
@@ -132,6 +149,7 @@ nav:
       - Identifikasi Regulator Mekanik: ototronik/id-regulator-mekanik.md
       - Prinsip Regulator Mekanik: ototronik/prinsip-regulator-mekanik.md
       - Memeriksa Rectifier Alternator: ototronik/periksa-rectifier-alt.md
+      - Bersihkan Terminal Baterai: ototronik/bersihkan-terminal-baterai.md
 #      - Pulser dan Reluctor: ototronik/pulser-reluctor.md
     - Mesin:
       - Overhead Valve: engine/overhead-valve.md
@@ -140,7 +158,7 @@ nav:
       - Memeriksa Tutup Radiator: engine/periksa-radiator-cap.md
       - Pehitungan Roda Gigi: engine/hitung-roda-gigi.md
       - Rasio Torsi dan Kecepatan: engine/grts-roda-gigi.md
-    - Soal:
+    - Bank Soal:
       - PAT XI TBSM: soal/pat-xi-tbsm.md
 
 # Google Analytics

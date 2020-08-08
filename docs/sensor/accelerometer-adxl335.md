@@ -44,7 +44,7 @@ For gaining proper result form ADXL 335 accelerometer, a controller is necessary
 
 Finding the roll and pitch of the device using analog voltages of accelerometer module and displaying them on serial monitor of Arduino.
 
-``` c
+``` c++ linenums="1"
 #include <math.h>
 const int x_out = A1; /* connect x_out of module to A1 of UNO board */
 const int y_out = A2; /* connect y_out of module to A2 of UNO board */

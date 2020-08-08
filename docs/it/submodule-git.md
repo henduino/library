@@ -16,7 +16,7 @@ Sebagai contoh Anda sedang mengerjakan proyek yang disebut `ketapel`. Didalam pr
 Disaat yang sama, di repositori yang lain, Anda punya proyek lain yang disebut `kerikil` dan itu hanya sebuah perpustakaan umum, tetapi Anda berpikir itu akan menjadi sempurna untuk proyek `ketapel`.
 
 Anda dapat menambahkan proyek `kerikil` sebagai submodule dari proyek `ketapel`. Gunakan perintah dibawah ini untuk menambahkan repositori proyek `kerikil` ke dalam repositori proyek `ketapel`:
-``` sh
+``` bash
 git submodule add https://github.com/<user>/kerikil.git kerikil
 ```
 Penggunaan perintah diatas ketika Anda berada di dalam repositori proyek `ketapel`.
@@ -27,7 +27,7 @@ Penggunaan perintah diatas ketika Anda berada di dalam repositori proyek `ketape
 Setelah perintah tersebut digunakan, Anda akan memiliki folder `kerikil` di dalam repositori `ketapel`, tetapi jika Anda membuka folder `kerikil`, tetapi juga tergantung pada versi Git Anda, Anda mungkin tidak akan menemukan apa-apa.
 
 Versi Git yang yang terbaru akan mengunduh dan menempatkan `kerikil` secara otomatis, tetapi versi yang lebih lama akan meminta Anda untuk secara eksplisit memberitahu Git agar mengunduh konten dari `kerikil`. Gunakan perintah ini jika Anda menggunakan Git versi lama:
-``` sh
+``` bash
 git submodule update --init --recursive
 ```
 Jika semuanya berjalan baik, Anda dapat menemukan perubahan dan Anda akan memiliki folder `kerikil` di dalam repositori `ketapel` dengan semua konten yang berasal dari repositori `kerikil`.

@@ -109,3 +109,5 @@ Untuk menggunakan fasilitas ini, silahkan telusuri lebih jauh dan sesuaikan deng
 ***
 
 [1]: https://drive.google.com/file/d/1_GfNIzNIVgJXCQ4pNkY10ytDsQa7LUJM/view?usp=sharing
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

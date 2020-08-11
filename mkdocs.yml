@@ -28,6 +28,7 @@ theme:
   include_search_page: false
   search_index_only: true
 
+
 # Repository
 # repo_name: 'Henduino Library'
 # repo_url: 'https://github.com/henduino/library'

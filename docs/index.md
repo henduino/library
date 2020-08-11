@@ -1,4 +1,4 @@
-title: Selamat Datang di Henduino Library
+title: Selamat Datang
 description: Halaman Situs Henduino yang membahas tentang Arduino dan ESP serta perpustakaan yang digunakannya.
 hero: Selamat Datang di Henduino Library
 disqus: 

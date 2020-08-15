@@ -155,3 +155,7 @@ Anda masih bingung antara Flash Memory dan System Memory... Tunggu ya... Insya A
 [7]: https://github.com/texane/stlink
 [8]: http://www.eugenesia.co.uk/2019/07/cs32-blue-pill-clone-connection-problems/
 [9]: https://www.electronicshub.org/getting-started-with-stm32f103c8t6-blue-pill/
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

@@ -194,4 +194,6 @@ Maksimum panjang dan lebar PCB Arduino Leonardo sama dengan Arduino Uno yaitu 2.
 [3]: http://arduino.cc/en/uploads/Main/arduino-leonardo-schematic_3b.pdf
 [4]: http://arduino.cc/en/Main/Software
 
-* * * 
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

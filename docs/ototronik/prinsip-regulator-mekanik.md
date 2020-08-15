@@ -181,4 +181,4 @@ Salam hangat dari Banjarsari - Ciamis - Jawa Barat - Indonesia - Bumi - Galaksi 
 
 ***
 
-<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

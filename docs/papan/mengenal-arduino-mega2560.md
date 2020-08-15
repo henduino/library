@@ -256,8 +256,6 @@ Maksimum panjang dan lebar PCB Mega2560 adalah 4 x 2.1 inch (10,16 x 5,3 cm), de
 
 * [Arduino Mega2560][8] (Halaman diakses pada tanggal 7 Agustus 2014, 0:01 AM)
 
-***
-
 [1]: http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 [2]: http://arduino.cc/en/uploads/Main/arduino-mega2560_R3-ref-design.zip
 [3]: http://arduino.cc/en/uploads/Main/arduino-mega2560_R3-sch.pdf
@@ -266,3 +264,7 @@ Maksimum panjang dan lebar PCB Mega2560 adalah 4 x 2.1 inch (10,16 x 5,3 cm), de
 [6]: https://www.microchip.com/developmenttools/ProductDetails/flip
 [7]: https://dfu-programmer.github.io/
 [8]: https://www.arduino.cc/en/Guide/ArduinoMega2560
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

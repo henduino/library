@@ -685,3 +685,7 @@ Page 34, ISBN-13: 978-0596510510 ISBN-10: 0596510519, [http://www.amazon.com/Mak
 [68]: http://www.amazon.com/Making-Things-Talk-Practical-Connecting/dp/0596510519/ref=sr_1_2?ie=UTF8&sr=8-2&keywords=Making+Things+Talk
 [69]: https://groups.google.com/a/arduino.cc/d/msg/developers/HEKecd0qhS4/nADS2jW6DgAJ
 [70]: http://arduinohistory.github.io
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

@@ -132,3 +132,7 @@ Dengan perangkat lunak ini proses ribet seperti metode diatas akan terhindari. U
 Sekarang, silahkan anda menginstal driver yang belum secara resmi ditandatangani oleh Microsoft. Semoga berhasil...
 
 [1]: https://www.softpedia.com/get/Tweak/Video-Tweak/Driver-Signature-Enforcement-Overrider.shtml
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

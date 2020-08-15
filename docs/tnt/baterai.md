@@ -431,3 +431,7 @@ Sekarang, kita telah memiliki pemahaman tentang bagaimana baterai diciptakan dan
 [37]: https://learn.sparkfun.com/tutorials/what-is-a-battery
 [38]: https://www.sparkfun.com/
 [39]: https://commons.wikimedia.org/
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

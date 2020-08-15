@@ -376,11 +376,13 @@ Nilai resistor pull-up biasanya tidak perlu nilai yang spesifik. Tapi harus cuku
 * [4 Band Resistor Color Code Calculator][5]
 * [What is Resistor][6]
 
-***
-
 [1]: http://www.moyerelectronics.com/FreeDownloads/ResistorColorCode24.zip
 [2]: https://en.wikipedia.org/wiki/Resistor
 [3]: https://learn.sparkfun.com/tutorials/resistors/all
 [4]: https://www.allaboutcircuits.com/tools/resistor-color-code-calculator/
 [5]: https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band
 [6]: https://www.rapidtables.com/electric/resistor.html
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

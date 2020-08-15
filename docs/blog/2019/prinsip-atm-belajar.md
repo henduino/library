@@ -41,3 +41,5 @@ Setelah melakukan pengamatan dan peniruan maka prinsip selanjutnya adalah prinsi
 Maka dari itu prinsip ATM janganlah berlaku sepihak hanya untuk siswa tetapi semua elemen yang terlibat dalam proses pembelajaran. Integrasi prinsip ATM pada pembelajaran akan mampu menciptakan proses belajar mengajar yang menyenangkan, dinamis, aktif dan kreatif bagi mereka yang terlibat, baik didalam maupun diluar sekolah sehingga proses transfer ilmu akan berjalan dengan waktu yang relatif singkat.
 
 ***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

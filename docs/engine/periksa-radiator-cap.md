@@ -98,3 +98,7 @@ Pemeriksaan menggunakan SST Universal Radiator Pressure Cooling System Leak Test
 [1]: https://www.freeasestudyguides.com/engine-radiator-cap.html
 [2]: https://www.yourmechanic.com/article/how-to-pressure-test-a-radiator-cap-by-robert-kulp
 [3]: https://www.wikihow.com/Check-and-Add-Radiator-Fluid
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

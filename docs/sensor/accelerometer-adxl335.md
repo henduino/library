@@ -90,3 +90,7 @@ void loop() {
   delay(1000);
 }
 ```
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

@@ -86,7 +86,9 @@ Pemeriksaan driven-belt (timing belt) harus dilakukan berkala, karena putusnya d
 * [Overhead Camshaft][1]
 * [OverHead Camshaft Engines][2]
 
-***
-
 [1]: https://en.wikipedia.org/wiki/Overhead_camshaft
 [2]: http://www.honda-engines-eu.com/ohc
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

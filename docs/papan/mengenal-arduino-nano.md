@@ -170,8 +170,6 @@ Pengaturan ini juga memiliki implikasi lain. Ketika Arduino Nano terhubung denga
 1. [Arduino Nano Board][10]
 2. [Arduino Nano 3.0 with ATmega328][11]
 
-* * *
-
 [1]: http://www.gravitech.us/
 [2]: http://arduino.cc/en/uploads/Main/ArduinoNano30Schematic.pdf
 [3]: http://site.gravitech.us/Arduino/NANO30/ArduinoNano3_0schematic.pdf
@@ -184,3 +182,7 @@ Pengaturan ini juga memiliki implikasi lain. Ketika Arduino Nano terhubung denga
 [10]: http://arduino.cc/en/Main/arduinoBoardNano
 [11]: http://www.gravitech.us/arna30wiatp.html
 [12]: https://henduino.github.io/library/papan/mengenal-arduino-uno/
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

@@ -140,3 +140,5 @@ Untuk memperlancar kemampuan anda membaca hasil pengukuran Vernier Caliper maka 
 * Alat-Alat Ukur Untuk Servis, Astra Honda Training Center
 
 ***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

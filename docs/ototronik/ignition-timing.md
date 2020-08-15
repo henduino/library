@@ -127,4 +127,4 @@ Kencangkan baut distributor jika waktu pengapian sudah tepat.
 
 ***
 
-<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

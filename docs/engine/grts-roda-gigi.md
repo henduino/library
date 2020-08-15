@@ -245,3 +245,7 @@ Ada beberapa hal yang harus diperhatikan dalam artikel ini, karena persepsi yang
 [1]: https://en.wikipedia.org/wiki/Circumference
 [2]: http://www.sci.brooklyn.cuny.edu/~kammet/gear_notes.pdf
 [3]: http://web.mit.edu/4.441/1_lectures/1_lecture5/1_lecture5.html
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

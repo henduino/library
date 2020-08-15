@@ -184,4 +184,6 @@ Penulis berharap sekarang anda mulai memahami tentang Arduino, keluarga Arduino,
 [14]: http://codeduino.com/tutorials/the-complete-arduino-guide-for-beginners/
 [15]: http://www.forefront.io/a/beginners-guide-to-arduino
 
-* * *
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

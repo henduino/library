@@ -162,11 +162,13 @@ Panjang dan lebar maksimum PCB Arduino Pro Mini adalah 0.7" x 1.3" (1.778 x 3,30
 * [Arduino Pro Mini][5], Arduino (Halaman diakses pada tanggal 20 September 2016, 0:01 AM)
 * [Arduino Pro Mini][6], Sparkfun (Halaman diakses pada tanggal 20 September 2016, 0:01 AM)
 
-***
-
 [1]: http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9365-Automotive-Microcontrollers-ATmega88-ATmega168_Datasheet.pdf
 [2]: http://arduino.cc/en/uploads/Main/arduino-pro-mini-reference-design.zip
 [3]: http://arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf
 [4]: https://www.arduino.cc/en/Main/Software
 [5]: http://arduino.cc/en/Main/ArduinoBoardProMini
 [6]: https://www.sparkfun.com/products/11113
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

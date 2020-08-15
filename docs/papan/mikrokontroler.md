@@ -235,4 +235,6 @@ Pada tahun 2012, menyusul krisis global - penurunan penjualan terburuk yang pern
 
 Pada tahun 2012, penjualan di seluruh dunia dari mikrokontroler 8-bit adalah sekitar $4 milyar karena mikrokontroler tipe ini begitu dibutuhkan untuk pengembangan teknologi yang lebih baik. Pada tahun 2012, mikrokontroler 4-bit juga mengalami penjualan yang signifikan. Pada 2015, mikrokontroler 8-bit dapat dibeli dengan harga $0,311 (1.000 unit),  16-bit seharga $0,385 (1.000 unit), dan 32-bit seharga $0,378 (1.000 unit tapi dapat juga seharga $ 0,35 untuk 5.000 unit).
 
-* * *
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

@@ -84,3 +84,5 @@ Ketiga generasi yang sudah disebutkan diatas dirasa masih terlalu ribet bagi mer
 *Gambar 6. SKS Generasi Ketiga dan Keempat*
 
 ***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

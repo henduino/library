@@ -138,7 +138,9 @@ tertutup.
 * [Overhead Valve][1]
 * [How Overhead Valve work?][2]
 
-***
-
 [1]: http://en.wikipedia.org/wiki/Overhead_valve
 [2]: http://auto.howstuffworks.com/camshaft.htm
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

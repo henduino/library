@@ -147,6 +147,7 @@ Panjang dan lebar maksimum PCB Arduino Uno adalah 2.7 x 2.1 inch (6,8 x 5,3 cm),
 * * *
 
 ## Daftar Pustaka
+
 1. [Arduino Uno][6] (Halaman diakses pada tanggal 5 Agustus 2014, 06:51 AM)
 
 [1]: http://www.atmel.com/dyn/resources/prod_documents/doc8161.pdf
@@ -157,4 +158,6 @@ Panjang dan lebar maksimum PCB Arduino Uno adalah 2.7 x 2.1 inch (6,8 x 5,3 cm),
 [6]: http://arduino.cc/en/Main/ArduinoBoardUno
 [7]: http://arduino.cc/en/Main/Software
 
-* * *
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

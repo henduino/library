@@ -195,4 +195,6 @@ Jika dana tidak mencukupi untuk membeli kualitas original sebenarnya kita masih 
 [4]: https://www.arduino.cc/en/Products/Counterfeit
 [5]: http://arduino.cc/en/Main/Buy
 
-* * *
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

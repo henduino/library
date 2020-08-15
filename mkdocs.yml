@@ -153,6 +153,7 @@ nav:
       - Bersihkan Terminal Baterai: ototronik/bersihkan-terminal-baterai.md
 #      - Pulser dan Reluctor: ototronik/pulser-reluctor.md
     - Mesin:
+      - Desmodromic: engine/desmodromic.md
       - Overhead Valve: engine/overhead-valve.md
       - Overhead Cam: engine/overhead-cam.md
       - Penyebab Overheating: engine/overheating-mesin.md

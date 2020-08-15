@@ -39,3 +39,5 @@ Dibawah ini beberapa tips bagi para pendidik agar tidak terjerumus dalam marakny
 Jadilah guru yang benar-benar profesional dengan mampu menggunakan berbagai fasilitas yang sudah tersedia seperti halnya internet sebagai sumber belajar sehingga proses transfer ilmu menjadi lebih efektif dan efesien tentunya dengan harapan tujuan mulia pendidikan akan tercapai dengan waktu relatif singkat tanpa harus mengeluarkan biaya yang mahal.
 
 ***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

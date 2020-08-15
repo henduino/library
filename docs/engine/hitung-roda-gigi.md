@@ -264,3 +264,7 @@ Salam hangat dari Banjarsari - Ciamis - Jawa Barat - Indonesia - Bumi - Galaksi 
 [3]: https://en.wikipedia.org/wiki/Gear_train
 [4]: https://www.smlease.com/entries/mechanism/gear-train-gear-ratio-torque-and-speed-calculation/
 [5]: http://www.sci.brooklyn.cuny.edu/~kammet/gear_notes.pdf
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

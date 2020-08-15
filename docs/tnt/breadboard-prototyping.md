@@ -238,3 +238,7 @@ Setelah membaca artikel panjang ini, penulis berharap bahwa artikel ini membantu
 [6]: https://learn.adafruit.com/adafruit-arduino-lesson-7-make-an-rgb-led-fader
 [7]: http://www.instructables.com/member/mischka/
 [8]: http://www.fritzing.org/
+
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

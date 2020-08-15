@@ -142,4 +142,4 @@ Demikian artikel yang cukup panjang membahas tentang dwell pada sistem pengapian
 
 ***
 
-<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

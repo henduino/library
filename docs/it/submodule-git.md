@@ -138,12 +138,12 @@ git submodule update --init --recursive
 3. [Git Tools - Submodules][4]
 4. [git-filter-branch][5]
 
-* * *
-
 [1]: https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/
 [2]: https://github.blog/2016-02-01-working-with-submodules/
 [3]: https://www.vogella.com/tutorials/GitSubmodules/article.html
 [4]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [5]: https://git-scm.com/docs/git-filter-branch
 
-<small>Artikel ditulis pada: {{ git_revision_date_localized }}</small>
+***
+
+<small>Artikel diperbarui pada: {{ git_revision_date_localized }}</small>

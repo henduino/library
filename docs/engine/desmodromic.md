@@ -67,7 +67,11 @@ Mengapa mekanisme katup yang tepat penting? Salah satunya adalah agar menghasilk
 
 Pada tahun 1956, Ducati di bawah bimbingan Fabio Taglioni, memutuskan untuk menghindari masalah pegas katup dengan memasang mekanisme katup desmodromik pada motor balap Grand Prix 125 miliknya. Sistem ini menjaga katup tetap terkendali pada putaran tinggi, Ducati memenangkan banyak balapan.
 
-Ducati dan desmo mungkin identik, tetapi Ducati tidak menemukan teknologinya. Norton menerapkannya sebelum Ducati, dan Mercedes serta pabrikan mobil lain juga mencobanya, tetapi Ducati adalah satu-satunya perusahaan yang menerapkan mekanisme katup desmodromic ke dalam produksi massal dan itu menjadi ciri khas Ducato. Kesalahpahaman umum lainnya adalah bahwa tidak ada pegas apa pun pada mekanisme desmo. Tidak ada pegas coil pada setiap katup seperti pada katup konvensional, tetapi ada pegas yang cukup besar pada rocker arm penutup yang membantu katup menutup dan memastikan "collar" penutup tetap di tempatnya.
+![Gambar 6. Cam Desmodromic](./images/08_desmodromic.jpg)
+
+*Gambar 6. 1 Opening Cam, 2 Closing Cam*
+
+Ducati dan desmo mungkin identik, tetapi Ducati bukan yang menemukan teknologinya. Norton menerapkannya sebelum Ducati, dan Mercedes serta pabrikan mobil lain juga mencobanya, tetapi Ducati adalah satu-satunya perusahaan yang menerapkan mekanisme katup desmodromic ke dalam produksi massal dan itu menjadi ciri khas Ducato. Kesalahpahaman umum lainnya adalah bahwa tidak ada pegas apa pun pada mekanisme desmo. Tidak ada pegas coil pada setiap katup seperti pada katup konvensional, tetapi ada pegas yang cukup besar pada rocker arm penutup yang membantu katup menutup dan memastikan "collar" penutup tetap di tempatnya.
 
 ***
 
@@ -75,15 +79,15 @@ Ducati dan desmo mungkin identik, tetapi Ducati tidak menemukan teknologinya. No
 
 Pada mesin modern, kegagalan pegas katup pada RPM tinggi sebagian besar telah diperbaiki. Manfaat utama dari sistem desmodromic adalah mencegah terjadinya *valve float* (katup mengambang) pada rpm tinggi.
 
-![Gambar 6. Single Overhead Cam](./images/05_sohc_valve.jpg)
+![Gambar 7. Single Overhead Cam](./images/05_sohc_valve.jpg)
 
-*Gambar 6. Single Overhead Cam*
+*Gambar 7. Single Overhead Cam*
 
 Pada mekanisme katup pegas tradisional, saat kecepatan mesin meningkat, gaya inersia pada katup akan menurunkan kemampuan pegas untuk menutup sepenuhnya sebelum piston mencapai TMA (Titik Mati Atas). Ini dapat menyebabkan beberapa masalah. ***Pertama***, yang paling merusak, piston bertabrakan dengan katup dan keduanya hancur. ***Kedua***, katup tidak sepenuhnya kembali ke tempatnya sebelum pembakaran dimulai. Hal ini memungkinkan gas pembakaran keluar sebelum waktunya, ini mengarah pada penurunan tekanan kompresi di dalam silinder yang menyebabkan penurunan kinerja mesin. Ini juga dapat membuat katup menjadi terlalu panas, bahkan bengkok dan menyebabkan kegagalan yang parah. Pada mesin dengan pegas katup, penanggulangan masalah secara tradisional untuk kasus valve float adalah dengan meningkatkan kekerasan pegas. Ini meningkatkan kemampuan penutupan katup pada dudukan katup (tekanan statis yang menahan katup tertutup). Ini bermanfaat pada kecepatan mesin yang lebih tinggi karena pengaruh valve float yang disebutkan di atas. Kekurangannya adalah mesin harus bekerja lebih keras untuk membuka katup pada semua putaran mesin. Tekanan pegas yang lebih tinggi menyebabkan gesekan yang lebih besar (tentunya meningkatkan suhu dan keausan) pada seluruh bagian penggerak katup.
 
-![Gambar 7. Kegagalan Mekanisme Katup](./images/06_katup_hancur.jpg)
+![Gambar 8. Kegagalan Mekanisme Katup](./images/06_katup_hancur.jpg)
 
-*Gambar 7. Kegagalan Mekanisme Katup*
+*Gambar 8. Kegagalan Mekanisme Katup*
 
 Sistem desmodromik menghindari masalah tersebut, karena penggerak katup tidak harus melawan gaya pegas. Untuk mengatasi inersia pembukaan dan penutupan katup, itu sangat tergantung pada massa efektif dari bagian yang bergerak. Massa efektif katup tradisional dengan pegas termasuk didalamnya setengah dari massa pegas katup dan semua massa penahan pegas katup. Sedangkan, sistem desmodromic harus mampu menangani inersia dari dua rocker arm pada setiap katup, jadi keuntungan ini sangat bergantung pada keterampilan perancang. Kerugian lain yang harus diperhatikan adalah titik kontak antara cam dan rocker arm. Sebenarnya relatif mudah menggunakan tapet roller pada mekanisme katup konvensional, meskipun ia menambah massa bergerak yang cukup besar. Pada sistem desmodromic, roller akan dibutuhkan di setiap ujung rocker arm, yang akan mampu meningkatkan momen inersia dan menghilangkan "massa efektif". Dengan demikian, sistem desmo umumnya diperlukan untuk menangani gesekan antara cam dan rocker arm dan oleh karena itu desmo memiliki keausan yang lebih besar. Titik kontak pada sebagian besar rocker arm Ducati diperkeras untuk mengurangi keausan. Kerugian lain yang mungkin terjadi adalah akan sangat sulit untuk menggabungkan "*hydraulic valve lash adjuster*" (mekanisme penyetel celah katup hidrolik) dalam sistem desmodromic, sehingga katup harus distel secara berkala, tetapi ini hanya dilakukan untuk sepeda motor yang berorientasi pada kinerja karena penyetel celah katup biasanya disetel menggunakan shim di bawah "*cam follower*". 
 
@@ -95,9 +99,9 @@ Meskipun mekanisme katup desmodromic tidak ideal dalam dunia mekanika praktis, i
 
 Sementara yang lebih baru, sistem pneumatik performa tinggi mungkin mengikuti spesifikasi desain dan teknik yang lebih spesifik (dengan bantuan komputer), sistem ini biasanya terbatas pada aplikasi balap (Formula 1, Moto GP, dan lain sebagainya). Saat ini, tidak ada metode untuk menentukan keawetan atau memperpanjang interval perawatan pada sistem praktis, sehari-hari, seperti halnya mobil.
 
-![Gambar 8. Bagian Mekanisme Katup Desmo](./images/07_desmo_parts.jpg)
+![Gambar 9. Bagian Mekanisme Katup Desmo](./images/07_desmo_parts.jpg)
 
-*Gambar 8. Bagian Mekanisme Katup Desmo*
+*Gambar 9. Bagian Mekanisme Katup Desmo*
 
 Meski desain desmodromic bisa lebih berisik, namun biasanya tertutup oleh kebisingan angin dan komponen mesin lainnya seperti saat proses pemasukan udara dan proses pembuangan sisa pembakaran. Meskipun suaranya *sangat keras sehingga tidak nyaman di mesin dengan empat silinder atau lebih*, jika benar, mungkin mesin akan dibuat terbatas (dalam hal ini Ducati) hanya untuk MotoGP, motor Replika Balap MotoGP, dan Ducati Panigale V4 2018, yang merupakan satu-satunya mesin desmodromic produksi saat ini yang menyuguhkan mesin empat silinder. (Namun demikian tingkat kebisingan knalpot dapat melebihi 110 dB pada sistem balapan penuh yang ini bisa menutup total kebisingan yang dihasilkan oleh desmodromic.)
 

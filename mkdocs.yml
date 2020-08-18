@@ -120,6 +120,7 @@ nav:
       - Office Remote: it/office-remote.md
   - MCU:
     - Dasar:
+      - Reference Designator: tnt/refdes.md
       - Baterai: tnt/baterai.md
       - Resistor: tnt/resistor.md
       - Breadboard: tnt/breadboard-prototyping.md

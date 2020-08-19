@@ -113,6 +113,7 @@ nav:
     #   - Pymdown: blog/ext/pymdown.md
   - IT:
     - Git:
+      - Fungsi gitignore: it/gitignore.md
       - Hapus Jejak File: it/untrack-files.md
       - Menggunakan Submodule Git: it/submodule-git.md
     - Network:

@@ -145,6 +145,8 @@ nav:
       - Secure Key Shutter: tools/secure-key-shutter.md
     - Ototronik:
       - Pendahuluan: ototronik/pendahuluan-ototronik.md
+      - Mengenal OBD: ototronik/EOBD2-OBDII.md
+      - OBD-II Pinout: ototronik/OBDII-Pinout.md
       - Kedipan MIL Honda PGM-FI: ototronik/mil-pgmfi.md
       - Sistem Starter Sepeda Motor: ototronik/starter-sepeda-motor.md
       - Dwell Sistem Pengapian: ototronik/dwell.md

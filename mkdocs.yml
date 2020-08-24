@@ -119,7 +119,7 @@ nav:
     - Network:
       - Bit v.s. Byte: it/bit-vs-byte.md
       - Office Remote: it/office-remote.md
-  - MCU:
+  - Elektronika:
     - Dasar:
       - Reference Designator: tnt/refdes.md
       - Baterai: tnt/baterai.md
@@ -148,6 +148,7 @@ nav:
       - Mengenal OBD: ototronik/EOBD2-OBDII.md
       - OBD-II Pinout: ototronik/OBDII-Pinout.md
       - Kedipan MIL Honda PGM-FI: ototronik/mil-pgmfi.md
+      - DLC Honda PGM-FI: ototronik/dlc-honda.md
       - Sistem Starter Sepeda Motor: ototronik/starter-sepeda-motor.md
       - Dwell Sistem Pengapian: ototronik/dwell.md
       - Menyetel Waktu Pengapian: ototronik/ignition-timing.md

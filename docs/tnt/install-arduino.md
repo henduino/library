@@ -5,7 +5,7 @@ disqus: henduino
 
 # Install Arduino IDE di MX Linux
 
-Arduino IDE (Integrated Development Environment) adalah perangkat lunak lintas platform (Windows, Linux, Mac-OS) yang digunakan untuk menuliskan fungsi-fungsi dari bahasa C dan C++. Selain digunakan untuk menulis fungsi-fungsi, Arduino IDE juga terintegrasi dengan program pengungah (upload program) ke papan yang kompatibel dengan Arduino, tetapi dapat juga digunakan untuk pengembangan papan dari vendor lain dengan bantuan inti (core) dari pihak ketiga (misal; STM32). 
+Arduino IDE (Integrated Development Environment) adalah perangkat lunak lintas platform (Windows, Linux, Mac-OS) yang digunakan untuk menuliskan fungsi-fungsi dari bahasa C dan C++. Selain digunakan untuk menulis fungsi-fungsi, Arduino IDE juga terintegrasi dengan program pengunggah (upload program) ke papan yang kompatibel dengan Arduino, tetapi dapat juga digunakan untuk pengembangan papan dari vendor lain dengan bantuan inti (core) dari pihak ketiga (misal; STM32). 
 
 Bagi para pemula yang ingin mempelajari tentang mikrokontroler, maka sangat disarankan menggunakan Arduino IDE untuk memulai pembelajaran. Namun jelas, jangan berharap lebih bagi mereka yang sudah mahir meracik mikrokontroler, karena memang Arduino IDE diciptakan untuk memudahkan pembelajaran, memulai untuk memahami apa itu mikrokontroller dan membuat proyek-proyek sederhana, namun tidak untuk kelas profesional. Arduino IDE merupakan perangkat lunak cross-platform yang mampu bekerja pada berbagai sistem operasi. Arduino IDE bekerja dengan baik pada sistem operasi Microsoft Windows, Linux dan turunannya, dan tentunya Mac-OS. Untuk installasi Arduino IDE pada sistem operasi Microsoft Windows dan Mac-OS tidak ada kendala yang rumit, namun berbeda dengan sistem operasi Linux dan turunannya. Bagi para pemula Linux, memasang Arduino IDE itu sangat membingungkan.
 
@@ -27,13 +27,13 @@ Dibawah ini, cara untuk melakukan pemasangan Arduino IDE melalui Terminal MX Lin
 Ctrl + Alt + T
 ```
 
-**==Langkah 2==**. Setelah terminal terbuka, maka kita berada pada folder Home, untuk memindahkannya gunakan perintah. Misal kita akan menyimpannya pada folder `Downloads`
+**==Langkah 2==**. Setelah terminal terbuka, maka kita berada pada folder Home, untuk berpindah folder gunakan perintah dibawah ini. Misal kita akan menyimpannya pada folder `Downloads`
 
 ```
 cd Downloads
 ```
 
-**==Langkah 3==**. Ketikan perintah dibawah ini untuk mengunduh perangkat lunak Arduino IDE
+**==Langkah 3==**. Ketikkan perintah dibawah ini untuk mengunduh perangkat lunak Arduino IDE
 
 ```
 $ wget https://downloads.arduino.cc/arduino-1.8.13-linux64.tar.xz
@@ -54,7 +54,7 @@ arduino-1.8.12-linux64.t 100%[==================================>] 122.74M  1.17
 2020-08-27 15:10:30 (1.13 MB/s) - ‘arduino-1.8.13-linux64.tar.xz’ saved [128701172/128701172]
 ```
 
-**==Langkah 4==**. Ekstrak file hasil unduhan dengan mengetikan perintah dibawah ini. Tunggu proses ekstraksi hingga selesai
+**==Langkah 4==**. Ekstrak file hasil unduhan dengan mengetikkan perintah dibawah ini. Tunggu proses ekstraksi hingga selesai
 
 ```
 $ tar -xvf arduino-1.8.13-linux64.tar.xz
@@ -66,13 +66,13 @@ $ tar -xvf arduino-1.8.13-linux64.tar.xz
 $ cd arduino-1.8.13
 ```
 
-**==Langkah 6==**. Install Arduino IDE dengan mengetikan perintah dibawah ini, kemudian tunggu proses installasi selesai.
+**==Langkah 6==**. Install Arduino IDE dengan mengetikkan perintah dibawah ini, kemudian tunggu proses installasi selesai.
 
 ```
 $ sudo ./install.sh
 ```
 
-**==Langkah 7==**. Proses installasi selesai. Silahkah di coba dengan mengetikan perintah `arduino` pada Terminal atau buka di Start Menu > Development
+**==Langkah 7==**. Proses installasi selesai. Silahkah di coba dengan mengetikan perintah `arduino` pada Terminal atau buka di `Start Menu > Development`
 
 ***
 
@@ -93,7 +93,7 @@ $ sudo usermod -a -G dialout henduino
 !!! warning "PERHATIKAN!"
 	Ganti kata `henduino` pada perintah diatas sesuai akun login MX Linux yang anda gunakan.
 
-Setelah prosedur ini, seharusnya kita dapat melanjutkan proses upload sketsa secara normal ke papan Arduino atau menggunakan Monitor Serial dengan lancar.
+Setelah prosedur ini, seharusnya kita dapat melanjutkan proses upload sketsa secara normal ke papan Arduino atau menggunakan Serial Monitor dengan lancar.
 
 Selamat mencoba!!!
 

@@ -5,7 +5,7 @@ disqus: henduino
 
 # Kedipan MIL Honda PGM-FI
 
-*Malfunction Indicator Light* atau disingkat **MIL** adalah lampu indikator dasbor yang berfungsi untuk memberitahu kepada pengguna atau mekanik tentang keadaan sepeda motor. MIL juga dikenal dengan istilah lain yaitu **CEL** atau *Check Engine Lamp*. Kedipan atau blink MIL dengan pola tertentu menunjukan kegagalan fungsi suatu input/sensor dan atau suatu output/aktuator. MIL merupakan bagian tak terpisahkan dari teknologi PGM-FI (*Programmed Fuel Injection*). Sedangkan Engine Control Module atau ECM adalah otak pengendali semua data yang masuk dari sensor, pengolah data, pengatur, hingga pengambil keputusan pada sepeda motor.
+*Malfunction Indicator Light* atau disingkat **MIL** adalah lampu indikator dasbor yang berfungsi untuk memberitahu kepada pengguna atau mekanik tentang keadaan sepeda motor. MIL juga dikenal dengan istilah lain yaitu **CEL** atau *Check Engine Lamp*. Kedipan atau blink MIL dengan pola tertentu menunjukan kegagalan fungsi suatu [input/sensor](sensor-pgmfi.md) dan atau suatu output/aktuator. MIL merupakan bagian tak terpisahkan dari teknologi PGM-FI (*Programmed Fuel Injection*). Sedangkan Engine Control Module atau ECM adalah otak pengendali semua data yang masuk dari sensor, pengolah data, pengatur, hingga pengambil keputusan pada sepeda motor.
 
 ***
 
@@ -135,6 +135,8 @@ Dibawah ini adalah tabel indeks DTC yang digunakan sebagai acuan untuk mengambil
 |    33   |     EEPROM     | Mesin beroperasi normal atau bahkan mesin mati              |
 |    52   |   Sensor CKP   | Mesin tidak dapat dihidupkan                                |
 |    54   |   Sensor BAS   | Mesin beroperasi normal atau bahkan mesin mati              |
+|    57   |Engine Overheat | Mesin dimatikan dan tidak bisa dihidupkan                   |
+|    91   | Ignition Coil  | Mesin tidak dapat dihidupkan                                |
 
 ***
 

@@ -1,15 +1,15 @@
-title: Memahami Bit dan Byte
-description: 
-hero: Memahami Bit dan Byte
+title: Mengenal Resistor
+description: Resistor adalah komponen listrik pasif dua terminal yang menerapkan hambatan listrik sebagai elemen sirkuit
+hero: Mengenal Resistor
 disqus: henduino
 
 # Resistor
 
-Resistor merupakan komponen elektronik yang paling sering ditemukan dalam berbagai peralatan elektronik. Resistor merupakan bagian penting dihampir setiap sirkuit elektronika, dan memainkan peranan utama dalam berbagai rangkaian elektronik.
+Resistor adalah komponen listrik pasif dua terminal yang menerapkan hambatan listrik sebagai elemen sirkuit. Di sirkuit elektronik, resistor digunakan untuk mengurangi aliran arus, menyesuaikan level sinyal, untuk membagi tegangan, elemen bias aktif, dan mengakhiri saluran transmisi, serta penggunaan lainnya. Resistor berdaya tinggi dapat menghilangkan banyak daya listrik menjadi panas, dapat digunakan sebagai bagian dari kontrol motor, sistem distribusi daya, atau sebagai beban uji untuk generator. Resistor tetap memiliki resistansi yang sedikit sekali perubahan nilainya akibat pengaruh suhu, waktu atau tegangan operasi. Resistor variabel dapat digunakan untuk menyesuaikan elemen sirkuit (seperti kontrol volume atau peredup lampu), atau sebagai perangkat penginderaan panas, cahaya, kelembapan, gaya, atau aktivitas kimia.
 
 ## Dasar Resistor
 
-Resistor adalah komponen elektronik yang spesifik, hambatan listrik yang tidak berubah. Resistansi resistor membatasi aliran elektron yang mengalir didalam sirkuit. Resistor merupakan komponen fasif yang berarti bahwa resistor hanya mengkonsumsi daya dan tidak dapat menghasilkannya. Resistor biasanya ditambahkan ke dalam sirkuit untuk melengkapi komponen aktif seperti halnya op-amp, mikrokontroler, dan sirkuit terpadu (IC) lainnya. Umumnya resistor digunakan untuk membatasi arus (limit current), membagi tegangan (voltage divider), dan sebagai pull-up I/O.
+Resistor merupakan komponen elektronik yang spesifik, yang memiliki nilai hambatan listrik yang tidak berubah. Resistansi resistor membatasi aliran elektron yang mengalir didalam sirkuit. Resistor merupakan komponen fasif yang berarti bahwa resistor hanya mengkonsumsi daya dan tidak dapat menghasilkannya. Resistor biasanya ditambahkan ke dalam sirkuit untuk melengkapi komponen aktif seperti halnya op-amp, mikrokontroler, dan sirkuit terpadu (IC) lainnya. Umumnya resistor digunakan untuk membatasi arus (limit current), membagi tegangan (voltage divider), dan sebagai pull-up I/O.
 
 ***
 

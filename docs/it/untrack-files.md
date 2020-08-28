@@ -16,6 +16,7 @@ Untuk membersihkan repositori Anda, gunakan perintah:
 ``` sh
 git rm -r --cached .
 ```
+
 * `rm` adalah perintah penghapusan
 * `-r` memungkinkan penghapusan secara rekursif (menyeluruh)
 * `–cached` hanya akan menghapus file dari indeks. Tetapi sebenarnya File Anda tetap ada di sana.

@@ -127,6 +127,7 @@ nav:
       - Breadboard: tnt/breadboard-prototyping.md
       - Memilih Arduino Uno: tnt/memilih-arduino.md
       - Install Arduino di MX Linux: tnt/install-arduino.md
+      - ATiny85 Arduino IDE: tnt/attiny85-arduino.md
       - Driver Signature Enforcement: tnt/dse.md
       - Blue Pill Unknown Device: tnt/bluepill-unknown-device.md
       - The Untold History of Arduino: tnt/the-untold-history-of-arduino.md

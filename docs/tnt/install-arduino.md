@@ -60,19 +60,34 @@ arduino-1.8.12-linux64.t 100%[==================================>] 122.74M  1.17
 $ tar -xvf arduino-1.8.13-linux64.tar.xz
 ```
 
-**==Langkah 5==**. Folder baru bernama `arduino-1.8.13` akan dibuat di dalam folder `Downloads`. Ketikan perintah dibawah ini untuk berpindah ke folder `arduino-1.8.13`
+**==Langkah 5==**. Folder baru bernama `arduino-1.8.13` akan dibuat di dalam folder `Downloads`. Pindahkah folder `arduino-1.8.13` ke dalam folder sistem `opt` dengan perintah dibawah ini
 
 ```
-$ cd arduino-1.8.13
+$ sudo mv arduino-1.8.13 /opt/
 ```
 
-**==Langkah 6==**. Install Arduino IDE dengan mengetikkan perintah dibawah ini, kemudian tunggu proses installasi selesai.
+**==Langkah 6==**. Ketikan perintah dibawah ini untuk berpindah ke dalam folder `arduino-1.8.13` yang ada di dalam folder sistem `opt`
+
+```
+cd /opt/arduino-1.8.13
+
+```
+
+**==Langkah 7==**. Install Arduino IDE dengan mengetikkan perintah dibawah ini, kemudian tunggu proses installasi selesai.
 
 ```
 $ sudo ./install.sh
 ```
+Tunggu proses installasi hingga keluar informasi seperti dibawah ini
 
-**==Langkah 7==**. Proses installasi selesai. Silahkah di coba dengan mengetikan perintah `arduino` pada Terminal atau buka di `Start Menu > Development`
+```
+Adding desktop shortcut, menu item and file associations for Arduino IDE...
+
+
+ done!
+```
+
+**==Langkah 8==**. Proses installasi selesai. Silahkah di coba dengan mengetikan perintah `arduino` pada Terminal atau buka di `Start Menu > Development`
 
 ***
 

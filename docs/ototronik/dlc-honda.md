@@ -1,7 +1,7 @@
 title: DLC Honda PGM-FI
 description: Data Link Connector atau DLC adalah jalur koneksi diagnostik untuk kendaraan yang digunakan untuk komunikasi antarmuka alat pemindai (scanner) dengan modul pengendali pada kendaraan tertentu dan akses ke on-board diagnostic serta live data stream.
 hero: DLC Honda PGM-FI
-disqus: henduino
+disqus:
 
 # Tentang DLC
 

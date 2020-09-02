@@ -1,7 +1,7 @@
 title: Sensor Honda PGM-FI
 description: Sensor pada sistem injeksi berfungsi memberikan informasi atau data ke modul pengendali sebagai masukan yang kemudian akan diproses menjadi suatu kondisi yang harus dilakukan oleh aktuator.
 hero: Sensor Honda PGM-FI
-disqus: henduino
+disqus: 
 
 # Sensor Sistem Injeksi Bahan Bakar
 

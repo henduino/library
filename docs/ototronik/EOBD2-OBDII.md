@@ -1,7 +1,7 @@
 title: Mengenal EOBD EOBD2 dan OBDII
 description: OBD digunakan untuk memantau dan mengurangi emisi kendaraan. Semua kendaraan juga harus memiliki soket standar diagnostik EOBD yang disediakan untuk mengakes ke sistem kendaraan tersebut.
 hero: Mengenal EOBD EOBD2 dan OBDII
-disqus: henduino
+disqus: 
 
 # Apa EOBD, EOBD2 dan OBDII?
 

@@ -1,7 +1,7 @@
 title: Kedipan MIL Honda PGM-FI
 description: Malfunction Indicator Light atau disingkat MIL adalah lampu indikator dasbor yang berfungsi untuk memberitahu kepada pengguna atau mekanik tentang keadaan sepeda motor. MIL juga dikenal dengan istilah lain yaitu CEL atau Check Engine Lamp.
 hero: Kedipan MIL Honda PGM-FI
-disqus: henduino
+disqus: 
 
 # Kedipan MIL Honda PGM-FI
 

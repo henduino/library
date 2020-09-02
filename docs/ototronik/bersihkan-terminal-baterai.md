@@ -1,7 +1,7 @@
 title: Bersihkan Terminal Baterai
 description: Baterai kendaraan terutama tipe lead acid atau asam timbal harus mendapatkan perawatan khusus. Salah satunya pada bagian terminal baterainya, karena hasil reaksi oksidasi asam akan memicu penumpukan korosi pada terminal baterai. Bagaimana cara membersihkan terminal aki kendaraan.
 hero: Bersihkan Terminal Baterai
-disqus: henduino
+disqus: 
 
 # Bersihkan Terminal Baterai Kendaraan
 

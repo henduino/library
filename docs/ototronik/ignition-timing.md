@@ -1,7 +1,7 @@
 title: Menyetel Waktu Pengapian
 description: Waktu pengapian pada mesin pembakaran dalam Internal Combustion Engine adalah proses pengaturan sudut relatif posisi piston dan sudut kecepatan angular velocity poros engkol untuk memicu pembakaran yang terjadi didalam ruang bakar sebelum akhir langkah kompresi.
 hero: Menyetel Waktu Pengapian
-disqus: henduino
+disqus: 
 
 # Menyetel Waktu Pengapian Mesin
 

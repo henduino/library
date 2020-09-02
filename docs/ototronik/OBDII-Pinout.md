@@ -1,7 +1,7 @@
 title: Konektor OBD-II dan Pinout
 description: Konektor OBD-II yang terpasang pada kendaraan memiliki 16 Pinout yang masing-masing pin memiliki fungsi tersendiri, baik fungsi umum yang terstandarisasi internasional maupun fungsi khusus sesuai keinginan pabrikan kendaraan.
 hero: Konektor OBD-II dan Pinout
-disqus: henduino
+disqus: 
 
 # Konektor OBD-II dan Pinout
 

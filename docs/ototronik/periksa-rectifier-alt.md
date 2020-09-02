@@ -1,7 +1,7 @@
 title: Memeriksa Rectifier Alternator
 description: 
 hero: Memeriksa Rectifier Alternator
-disqus: henduino
+disqus: 
 
 # Memeriksa Rectifier Alternator
 

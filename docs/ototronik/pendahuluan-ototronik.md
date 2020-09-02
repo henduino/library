@@ -1,7 +1,7 @@
 title: Pendahuluan Ototronik
 description: Pendahuluan Ototronik
 hero: Pendahuluan Ototronik
-disqus: henduino
+disqus: 
 
 # Engine Management System (EMS)
 

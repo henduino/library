@@ -1,6 +1,6 @@
 # Project information
 site_name: Henduino Library
-site_description: Libraries for Henduino Board Projects with core of Atmel and Espressif
+site_description: Libraries for Henduino Board Projects with core of Atmel and Espressif. Eletronic, automotive and technology information.
 site_author: Dede Hendriono
 site_url: https://henduino.github.io/library/
 copyright: 'Copyright &copy; 2018 - 2020 <a href="https://henduino.github.io/library/">Dede Hendriono</a>'
@@ -152,13 +152,14 @@ nav:
       - Kedipan MIL Honda PGM-FI: ototronik/mil-pgmfi.md
       - DLC Honda PGM-FI: ototronik/dlc-honda.md
       - Sensor Honda PGM-FI: ototronik/sensor-pgmfi.md
+      - Parasit Penguras Arus: ototronik/parasit-baterai.md
+      - Bersihkan Terminal Baterai: ototronik/bersihkan-terminal-baterai.md
       - Sistem Starter Sepeda Motor: ototronik/starter-sepeda-motor.md
       - Dwell Sistem Pengapian: ototronik/dwell.md
       - Menyetel Waktu Pengapian: ototronik/ignition-timing.md
       - Identifikasi Regulator Mekanik: ototronik/id-regulator-mekanik.md
       - Prinsip Regulator Mekanik: ototronik/prinsip-regulator-mekanik.md
       - Memeriksa Rectifier Alternator: ototronik/periksa-rectifier-alt.md
-      - Bersihkan Terminal Baterai: ototronik/bersihkan-terminal-baterai.md
 #      - Pulser dan Reluctor: ototronik/pulser-reluctor.md
     - Mesin:
       - Desmodromic: engine/desmodromic.md

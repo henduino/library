@@ -147,6 +147,7 @@ nav:
       - Secure Key Shutter: tools/secure-key-shutter.md
     - Ototronik:
       - Pendahuluan: ototronik/pendahuluan-ototronik.md
+      - Standar DIN 72552: ototronik/din-72552.md
       - Mengenal OBD: ototronik/EOBD2-OBDII.md
       - OBD-II Pinout: ototronik/OBDII-Pinout.md
       - Kedipan MIL Honda PGM-FI: ototronik/mil-pgmfi.md

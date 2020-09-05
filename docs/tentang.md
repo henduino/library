@@ -27,9 +27,43 @@ Berapakah tim Henduino? Tim Henduino hanya satu dan sampai hari ini juga masih s
 
 Pertanyaan tentang situs sebenarnya tidak terlalu penting untuk ditulis, namun tetap saja ada yang penasaran. Artikel pada situs ini ditulis dengan bahasa [Markdown][1] sehingga menjadi situs dengan tipe *static page* atau halaman statis yang disimpan pada penyedia repository [GitHub][2]. Sedangkan *tool* yang digunakan untuk meng-*generate*-nya adalah [MkDocs][3]. Pilihan jatuh pada halaman statis karena jika suatu hari penyedia layanan tutup, tim masih memiliki salinannya dalam format [HTML][4] yang masih bisa dibaca secara luring (*offline*) tanpa bantuan alat yang rumit.
 
+* * *
+
+## Tentang Penulis
+
+| Pertanyaan                | Jawaban                                                                       |
+|---------------------------|-------------------------------------------------------------------------------|
+| Nama                      | Dede Hendriono                                                                |
+| Alias                     | Dede atau Hendriono                                                           |
+| Bahasa Ibu                | Jawa & Sunda                                                                  |
+| Tanggal Lahir             | XX                                                                            |
+| Bulan Lahir               | Juli                                                                          |
+| Tahun Lahir               | 19XX                                                                          |
+| Dusun Kelahiran           | Bunisinga                                                                     |
+| Desa Kelahiran            | Sukamaju                                                                      |
+| Kecamatan Kelahiran       | Mangunjaya                                                                    |
+| Kabupaten Kelahiran       | Pangandaran                                                                   |
+| Provinsi Kelahiran        | Jawa Barat                                                                    |
+| Negara Kelahiran          | Indonesia                                                                     |
+| Planet Kelahiran          | Bumi                                                                          |
+| Galaksi Kelahiran         | Bima Sakti                                                                    |
+| Sekolah Dasar             | SD Negeri Inpres Sukamaju                                                     |
+| Sekolah Menengah Pertama  | SMP Negeri Mangunjaya                                                         |
+| Sekolah Menengah Lanjutan | STM Negeri Ciamis                                                             |
+| Sekolah Tinggi            | Sekolah Tinggi "*Blas Ora Penting*"                                           |
+| Tempat Tinggal            | Masih di Blue Planet                                                          |
+| Bidang Pekerjaan          | Otomotif, Elektronik, IT, Pendidikan                                          |
+| Hobi                      | Membaca, *Mbongkar* permesinan, nyolder, nulis kode, *ndopok*, ngopi ireng      |
+| Spesialis "MBanget"       | Autotronic, Microcontroller, Programming, Read & Write, Everything About Tech |
+| Link Twitter              | [Dede Hendriono][5]                                                                |
+| Link Facebook             | [Hendriono][6]                                                                     |
+| Link GitHub               | [Dede Hendriono][7]                                                                |
 [1]: https://daringfireball.net/projects/markdown/syntax
 [2]: https://github.com
 [3]: https://www.mkdocs.org/
 [4]: https://id.wikipedia.org/wiki/HTML
+[5]: https://twitter.com/dedehendriono
+[6]: https://www.facebook.com/hendriono
+[7]: https://github.com/hendriono
 
 * * *

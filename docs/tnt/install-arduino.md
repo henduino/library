@@ -23,9 +23,7 @@ Dibawah ini, cara untuk melakukan pemasangan Arduino IDE melalui Terminal MX Lin
 
 **==Langkah 1==**. Buka Terminal melalui Start Menu atau menggunakan Shortcut dengan kombinasi tombol
 
-```
-Ctrl + Alt + T
-```
+++ctrl+alt+t++
 
 **==Langkah 2==**. Setelah terminal terbuka, maka kita berada pada folder Home, untuk berpindah folder gunakan perintah dibawah ini. Misal kita akan menyimpannya pada folder `Downloads`
 

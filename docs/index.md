@@ -63,5 +63,3 @@ Sudah dijelaskan diawal bahwa Henduino mengambil semangat Arduino sehingga kami 
 
 [7]: https://opensource.com
 [8]: https://www.oshwa.org/
-
-* * *

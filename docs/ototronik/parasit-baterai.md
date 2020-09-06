@@ -122,9 +122,9 @@ Jadi sebelum memulai pengujian sirkuit, persiapkan kendaraan dengan membuka semu
 
 ![Panas pada Sekring](./images/00_thermal_fuse.jpg)
 
-*Gambar 2. Panas pada Sekring*
+*Gambar 2. Panas pada [Sekring][15]*
 
-Gambar di atas diambil menggunakan kamera thermal pada kotak sekring yang menunjukkan terjadinya penurunan tegangan yang parah. Sekring menyala merah terang sebagai akibat dari panas berlebih yang dihasilkan oleh hambatan listrik yang tinggi terhadap aliran arus, inilah yang menjadi dasar pengukuran *penurunan tegangan* (*drop voltage*).
+Gambar di atas diambil menggunakan kamera thermal pada kotak [sekring][15] yang menunjukkan terjadinya penurunan tegangan yang parah. [Sekring][15] menyala merah terang sebagai akibat dari panas berlebih yang dihasilkan oleh hambatan listrik yang tinggi terhadap aliran arus, inilah yang menjadi dasar pengukuran *penurunan tegangan* (*drop voltage*).
 
 Cara termudah untuk menjelaskan cara kerja pengukuran penurunan tegangan adalah dengan mengutip Hukum Ohm, yang menyatakan bahwa tegangan sama dengan arus dikalikan dengan resistansi (`V = I * R`). Dinyatakan secara berbeda bahwa arus sama dengan tegangan dibagi dengan resistansi, yang dinyatakan dengan rumus (`I = V / R`). Jika kita menerapkan hukum ini pada diagnostik otomotif, tegangan biasanya konstan 12 volt, sedangkan konsumsi listrik memiliki resistansi integral terhadap arus yang mengalir, dan kombinasi dari kedua faktor inilah yang menentukan kekuatan atau intensitas arus yang mengalir melalui sebuah sirkuit. Anggaplah bahwa resistansi kabel diabaikan karena nilai ini biasanya dapat diabaikan.
 
@@ -134,44 +134,44 @@ Saat arus mengalir melalui suatu rangkaian, resistansi konduktor (kabel) yang di
 
 ## Pemeriksaan Penurunan Tegangan pada Sekring
 
-Anda mungkin pernah mendengar bahwa mencabut sekring satu per satu dilakukan untuk menemukan sirkuit yang aktif padahal seharusnya tidak boleh. Meskipun hal ini benar, mencabut sekring pada kendaraan modern menjadikan metode ini hanya berfungsi jika beruntung dan itu juga jika mencabut sekring pada sirkuit yang rusak. Mencabut sekring secara acak cenderung membangunkan modul pengendali, yang berarti harus menunggu lagi selama satu jam atau lebih agar seluruh kendaraan kembali ke mode tidur, bagaimana jika menunggu itu harus dilakukan setiap kali kita mencabut sekring? Ini jelas tidak praktis, lalu bagaimana cara terbaik?
+Anda mungkin pernah mendengar bahwa mencabut [sekring][15] satu per satu dilakukan untuk menemukan sirkuit yang aktif padahal seharusnya tidak boleh. Meskipun hal ini benar, mencabut [sekring][15] pada kendaraan modern menjadikan metode ini hanya berfungsi jika beruntung dan itu juga jika mencabut [sekring][15] pada sirkuit yang rusak. Mencabut [sekring][15] secara acak cenderung membangunkan modul pengendali, yang berarti harus menunggu lagi selama satu jam atau lebih agar seluruh kendaraan kembali ke mode tidur, bagaimana jika menunggu itu harus dilakukan setiap kali kita mencabut [sekring][15]? Ini jelas tidak praktis, lalu bagaimana cara terbaik?
 
 ![Memeriksa Penurunan Tegangan pada Sekring](./images/01_pemeriksaan_parasit_arus.jpg)
 
-*Gambar 3. Memeriksa Penurunan Tegangan pada Sekring*
+*Gambar 3. Memeriksa Penurunan Tegangan pada [Sekring][15]*
 
 Ikuti langkah dibawah ini untuk melakukan pengujian parasit penguras arus pada kendaraan.
 
 1. Sebelum memulai pengujian, ingatlah bahwa pada tahap ini bukanlah untuk menentukan kekuatan atau intensitas pengurasan arus. Apa yang dilakukan adalah mengidentifikasi sirkuit di mana terdapat parasit penguras arus, jadi siapkan pena kertas untuk mencatat nilai pengukuran dan label sekering yang menunjukan nilai.
 
-2. Hasil pengujian yang paling akurat diperoleh dengan menggunakan multimeter digital berkualitas baik dan putar multimeter ke *==skala milivolt==*. Gunakan probe yang memiliki ujung tajam karena probe tumpul biasanya agak sulit melakukan kontak yang tepat dengan filamen sekring, oleh karena itu perlu memiliki probe dengan ujung tipis dan tajam.
+2. Hasil pengujian yang paling akurat diperoleh dengan menggunakan multimeter digital berkualitas baik dan putar multimeter ke *==skala milivolt==*. Gunakan probe yang memiliki ujung tajam karena probe tumpul biasanya agak sulit melakukan kontak yang tepat dengan filamen [sekring][15], oleh karena itu perlu memiliki probe dengan ujung tipis dan tajam.
 
-3. Ketika sudah siap untuk memulai pengujian, cari kotak sekring di dalam kendaraan. Mulailah menguji sekring dengan menempatkan satu probe di salah satu ujung filamen sekring, dan probe lainnya di ujung filamen sekring pada sekring yang sama (*lihat gambar 2 diatas*), tetapi harus diingat bahwa hal ini dilakukan saat kendaraan dalam mode tidur, itu berarti seharusnya tidak ada penggunaan listrik. Pada saat pengujian ini tidak akan ditemukan tegangan sebesar tegangan sumber listrik (12 Volt).
+3. Ketika sudah siap untuk memulai pengujian, cari kotak [sekring][15] di dalam kendaraan. Mulailah menguji [sekring][15] dengan menempatkan satu probe di salah satu ujung filamen [sekring][15], dan probe lainnya di ujung filamen [sekring][15] pada [sekring][15] yang sama (*lihat gambar 2 diatas*), tetapi harus diingat bahwa hal ini dilakukan saat kendaraan dalam mode tidur, itu berarti seharusnya tidak ada penggunaan listrik. Pada saat pengujian ini tidak akan ditemukan tegangan sebesar tegangan sumber listrik (12 Volt).
 
-Pastikan probe multimeter tajam dan terjadi kontak yang baik antara sekring dan probe, Jika ditemukan tegangan pada sekring, nilai yang terbaca ada dalam kisaran milivolt. Jika hasil pembacaan yang berfluktuasi dengan cepat, dapat dipastikan bahwa probe tidak terhubung dengan baik, ubah posisi probe dan tunggu pembacaan nilai hingga stabil.Jika tidak mendapatkan pembacaan sama sekali atau nilainya nol, rangkaian kelistrikan yang ada dalam jalur sekring tersebut dapat dipastikan dalam keadaan baik.
+Pastikan probe multimeter tajam dan terjadi kontak yang baik antara [sekring][15] dan probe, Jika ditemukan tegangan pada [sekring][15], nilai yang terbaca ada dalam kisaran milivolt. Jika hasil pembacaan yang berfluktuasi dengan cepat, dapat dipastikan bahwa probe tidak terhubung dengan baik, ubah posisi probe dan tunggu pembacaan nilai hingga stabil.Jika tidak mendapatkan pembacaan sama sekali atau nilainya nol, rangkaian kelistrikan yang ada dalam jalur [sekring][15] tersebut dapat dipastikan dalam keadaan baik.
 
-Lanjutkan pengujian pada semua sekring, sekering utama (fusible link), dan relay dengan cara ini, catat hasil pembacaan pada nomor/label sekering yang di periksa jika ditemukan nilai pada multimeter. Setelah semua sekring, sekering utama (fusible link) dan relay sudah diperiksa dan ditemukan nilai tertentu yang melebihi spesifikasi, lakukan pemeriksaan jalur kelistrikan. Untuk mengetahui nilai hasil pemeriksaan melebihi spesifikasi atau masih aman, gunakan tabel konversi dibawah untuk mengubah nilai hasil pemeriksaan dalam milivolt ke nilai miliampere. Lalu ambil kesimpulan dari hasil pembacaaan, apakah rangkaian kelistrikan dalam keadaan baik atau ditemukan parasit penguras arus yang melebihi spesifikasi.
+Lanjutkan pengujian pada semua [sekring][15], sekering utama (fusible link), dan relay dengan cara ini, catat hasil pembacaan pada nomor/label sekering yang di periksa jika ditemukan nilai pada multimeter. Setelah semua [sekring][15], sekering utama (fusible link) dan relay sudah diperiksa dan ditemukan nilai tertentu yang melebihi spesifikasi, lakukan pemeriksaan jalur kelistrikan. Untuk mengetahui nilai hasil pemeriksaan melebihi spesifikasi atau masih aman, gunakan tabel konversi dibawah untuk mengubah nilai hasil pemeriksaan dalam milivolt ke nilai miliampere. Lalu ambil kesimpulan dari hasil pembacaaan, apakah rangkaian kelistrikan dalam keadaan baik atau ditemukan parasit penguras arus yang melebihi spesifikasi.
 
 ***
 
-## Bagan Konversi Sekring
+## Bagan Konversi [Sekring][15]
 
-Dengan grafik ini Anda akan dapat mengubah bacaan milivolt menjadi angka miliamp yang mewakili arus yang mengalir melalui sekring.
+Dengan grafik ini Anda akan dapat mengubah bacaan milivolt menjadi angka miliamp yang mewakili arus yang mengalir melalui [sekring][15].
 
-1. Pilih tabel yang benar untuk sekring yang sedang diuji ([Mini][11], [Maxi][12], [Standar][13], [Kartrid][14])
+1. Pilih tabel yang benar untuk [sekring][15] yang sedang diuji ([Mini][11], [Maxi][12], [Standar][13], [Kartrid][14])
 2. Temukan kolom yang cocok dengan pembacaan amp yang sedang diuji
 3. Temukan baris yang cocok dengan nilai milivolt (pencocokan pembacaan multimeter)
 4. Perhatikan baris dan kolom berpotongan, itu adalah nilai tertinggi yang akan menjadi bahan pertimbangan pengambilan keputusan, nilai tertulis dalam satuan miliamp
 
-![Membaca Tabel Konversi Sekring](./images/02_tabel_sekring.jpg)
+![Membaca Tabel Konversi [Sekring][15]](./images/02_tabel_[sekring][15].jpg)
 
-*Gambar 4. Membaca Tabel Konversi Sekring*
+*Gambar 4. Membaca Tabel Konversi [Sekring][15]*
 
 Klik tautan di bawah untuk mengunduh bagan sekering:
 
-* [Sekring Mini (Mini Fuses)][11]
+* [[Sekring][15] Mini (Mini Fuses)][11]
 * [Sekering Maxi (Maxi Fuses)][12]
-* [Sekring Standar (Standard Fuses)][13]
+* [[Sekring][15] Standar (Standard Fuses)][13]
 * [Sekering Kartrid (Cartridge Fuses)][14]
 
 ***
@@ -213,6 +213,7 @@ Selamat mencoba! Salam hangat dari Banjarsari, Ciamis, Jawa Barat, Indonesia, Bu
 [12]: ./pdf/Maxi_Fuse_Chart.pdf
 [13]: ./pdf/Standard_ATC_Chart.pdf
 [14]: ./pdf/Cartridge_Fuse_Chart.pdf
+[15]: fuse.md
 
 ***
 

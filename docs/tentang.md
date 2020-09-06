@@ -65,5 +65,3 @@ Pertanyaan tentang situs sebenarnya tidak terlalu penting untuk ditulis, namun t
 [5]: https://twitter.com/dedehendriono
 [6]: https://www.facebook.com/hendriono
 [7]: https://github.com/hendriono
-
-* * *

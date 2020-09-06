@@ -9,7 +9,7 @@ copyright: 'Copyright &copy; 2018 - 2020 <a href="https://henduino.github.io/lib
 theme:
   name: null
 #  language: 'en'
-  custom_dir: 'theme'
+  custom_dir: 'material'
   language: 'id'
   palette:
     primary: 'indigo'
@@ -18,10 +18,13 @@ theme:
     text: 'Roboto'
     code: 'Roboto Mono'
   favicon: 'img/favicon.ico'
-  logo:
-    icon: 'local_library'
-  feature:
-    tabs: true
+  icon:
+    logo: octicons/tools-24
+  features:
+    - tabs
+    - instant
+  static_templates:
+    - 404.html
 
 
   # Don't include MkDocs' JavaScript
@@ -35,16 +38,15 @@ theme:
 
 # Customization
 extra:
-  manifest: manifest.webmanifest
   disqus: 'henduino'
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github-alt'
       link: 'https://github.com/henduino'
-    - type: 'twitter'
+    - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/hendriono'
-    - type: 'linkedin'
+    - icon: 'fontawesome/brands/linkedin'
       link: 'https://linkedin.com/in/hendriono'
-    - type: 'facebook'
+    - icon: 'fontawesome/brands/facebook'
       link: 'https://www.facebook.com/hendriono'
 
 # Extensions
@@ -73,7 +75,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.keys
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -81,10 +84,11 @@ markdown_extensions:
 
 # Extra CSS & Javascript
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML
-  - assets/javascripts/scrollProgress.min.js
+  - assets/javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
-  - assets/stylesheets/scrollProgress.css
+  - assets/stylesheets/404.css
   - assets/stylesheets/pinout.css
 
 # Minify
@@ -148,6 +152,7 @@ nav:
     - Ototronik:
       - Pendahuluan: ototronik/pendahuluan-ototronik.md
       - Standar DIN 72552: ototronik/din-72552.md
+      - Mengenal Sekring: ototronik/fuse.md
       - Mengenal OBD: ototronik/EOBD2-OBDII.md
       - OBD-II Pinout: ototronik/OBDII-Pinout.md
       - Kedipan MIL Honda PGM-FI: ototronik/mil-pgmfi.md

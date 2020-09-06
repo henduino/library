@@ -1,6 +1,7 @@
-site/
-theme/
+docs/
 material/
-unpublish/
+site/
 tema/
+theme/
+unpublish/
 mkdocs.yml
